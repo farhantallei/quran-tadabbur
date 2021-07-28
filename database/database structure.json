@@ -1,0 +1,31 @@
+{
+    "_id": 3,
+    "arabic_name": "العمران",
+    "latin_name": "Al Imran",
+    "literal": "Keluarga 'Imran",
+    "aliases": ["Az Zahrawan"],
+    "classification": "Madaniyah",
+    "mysterious_letters": true,
+    "avail": ["Dua penerang di Hari Kiamat"],
+    "position": [
+        [{
+            "theme": "",
+            "ruku": [
+                [{
+                    "subject": "Perintah hanya menyembah Allah Yang Maha Esa",
+                    "ayat": [{
+                        "text": [{
+                            "arabic": "الٓمٓ",
+                            "latin": "alif lām mīm",
+                            "translation": "Alif Lam Mim"
+                        }],
+                        "tafsir": [{
+                            "name": "Tafsir Al-Muyassar / Kementerian Agama Saudi Arabia",
+                            "text": "(alif lam mim), keterangan tentang huruf-huruf yang terputusnya telah berlalu dimuka pada permulaan surat al-baqarah."
+                        }]
+                    }]
+                }]
+            ]
+        }]
+    ]
+}
