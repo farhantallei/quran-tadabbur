@@ -1,3 +1,5 @@
+import mongoose from 'mongoose';
+
 import Quran from '../models/quran.js';
 
 export const getData = async (req, res) => {
@@ -22,4 +24,15 @@ export const createData = async (req, res) => {
     } catch (error) {
         res.status(409).json({ message: error });
     }
+};
+
+export const updateData = async (req, res) => {
+    const { id: _id } = req.params;
+    const data = req.body;
+
+    if (!mongoose.Types.ObjectId.isValid(_id)) return res.status(404).send('No data with that id');
+
+    const updatedData = await Quran.findByIdAndUpdate(_id, { ...data, _id }, { new: true });
+
+    res.json(updatedData);
 };

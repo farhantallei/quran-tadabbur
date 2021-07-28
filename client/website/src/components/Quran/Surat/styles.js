@@ -41,12 +41,18 @@ export default makeStyles(() => ({
         justifyContent: 'space-between',
         margin: '20px',
     },
+    arabic: {
+        padding: '0 16px',
+        textAlign: 'center',
+        fontSize: '2.6em'
+    },
     title: {
         padding: '0 16px',
+        textAlign: 'center',
     },
     cardActions: {
         padding: '0 16px 8px 16px',
         display: 'flex',
         justifyContent: 'space-between',
     },
-}));
+}))
