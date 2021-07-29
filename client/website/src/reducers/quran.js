@@ -7,7 +7,7 @@ const quran = (quran = [], action) => {
         case CREATE:
             return [...quran, action.payload]
         case UPDATE:
-            return [quran.map((surah) => surah._id === action.payload._id ? action.payload : surah)]
+            return quran.map((surah) => surah._id === action.payload._id ? action.payload : surah)
         default:
             return quran
     }

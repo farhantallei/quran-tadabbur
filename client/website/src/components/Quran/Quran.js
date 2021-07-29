@@ -12,9 +12,9 @@ const Quran = ({ setCurrentId }) => {
     return (
         !quran.length ? <CircularProgress /> : (
             <Grid className={classes.mainContainer} container alignItems="stretch" spacing={3}>
-                {quran.map((quran) => (
-                    <Grid key={quran._id} item xs={12} sm={6}>
-                        <Surat quran={quran} setCurrentId={setCurrentId} />
+                {quran.map((surat) => (
+                    <Grid key={surat._id} item xs={12} sm={6} md={6}>
+                        <Surat surat={surat} setCurrentId={setCurrentId} />
                     </Grid>
                 ))}
             </Grid>
