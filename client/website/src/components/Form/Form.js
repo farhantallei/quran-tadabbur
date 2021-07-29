@@ -38,7 +38,7 @@ const Form = ({ currentId, setCurrentId }) => {
                 <TextField name="literal" variant="outlined" label="Arti Surah" fullWidth required value={quranData.literal} onChange={(e) => setQuranData({ ...quranData, literal: e.target.value })} />
                 <TextField name="aliases" variant="outlined" label="Nama Lain dari Surah (koma tanpa spasi)" fullWidth value={quranData.aliases} onChange={(e) => setQuranData({ ...quranData, aliases: e.target.value.split(',') })} />
                 <TextField name="classification" variant="outlined" label="Tempat turunnya Surah" fullWidth required select value={quranData.classification} onChange={(e) => setQuranData({ ...quranData, classification: e.target.value })}>
-                    <MenuItem value="Makiyah">Makiyah</MenuItem>
+                    <MenuItem value="Makkiyah">Makkiyah</MenuItem>
                     <MenuItem value="Madaniyah">Madaniyah</MenuItem>
                 </TextField>
                 <TextField name="mysterious_letters" variant="outlined" label="Ada huruf Muqatta'at?" fullWidth required select value={quranData.mysterious_letters} onChange={(e) => setQuranData({ ...quranData, mysterious_letters: e.target.value })}>
