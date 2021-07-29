@@ -27,12 +27,22 @@ export const createData = async (req, res) => {
 };
 
 export const updateData = async (req, res) => {
-    const { id: _id } = req.params;
+    const { id } = req.params;
     const data = req.body;
 
-    if (!mongoose.Types.ObjectId.isValid(_id)) return res.status(404).send('No data with that id');
+    if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No data with id: ${id}`);
 
-    const updatedData = await Quran.findByIdAndUpdate(_id, { ...data, _id }, { new: true });
+    const updatedData = await Quran.findByIdAndUpdate(id, { ...data, _id: id }, { new: true });
 
     res.json(updatedData);
+};
+
+export const deleteData = async (req, res) => {
+    const { id } = req.params;
+
+    if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No data with id: ${id}`);
+
+    await Quran.findByIdAndDelete(id);
+
+    res.json({ message: 'Data deleted successfully.' });
 };

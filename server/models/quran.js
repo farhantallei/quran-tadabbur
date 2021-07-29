@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 
 const quranSchema = mongoose.Schema({
+    test_id: { type: Number },
     arabic_name: { type: String, required: true },
     latin_name: { type: String, required: true },
     literal: { type: String, required: true },
