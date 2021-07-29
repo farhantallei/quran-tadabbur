@@ -1,13 +1,10 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
 import { Button, Card, CardActions, CardContent, Typography } from '@material-ui/core'
 
-import { deleteData } from '../../../actions/quran'
 import useStyles from './styles'
 
 const Surat = ({ surat, setCurrentId }) => {
     const classes = useStyles()
-    const dispatch = useDispatch()
     
     return (
         <Card className={classes.card}>
@@ -25,7 +22,6 @@ const Surat = ({ surat, setCurrentId }) => {
             </CardContent>
             <CardActions className={classes.cardActions}>
                 <Button size="small" color="primary" onClick={() => setCurrentId(surat._id)}>Edit</Button>
-                <Button size="small" color="secondary" onClick={() => dispatch(deleteData(surat._id))}>Delete</Button>
             </CardActions>
         </Card>
     )

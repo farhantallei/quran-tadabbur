@@ -36,13 +36,3 @@ export const updateData = async (req, res) => {
 
     res.json(updatedData)
 }
-
-export const deleteData = async (req, res) => {
-    const { id } = req.params
-
-    if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No data with id: ${id}`)
-
-    await Quran.findByIdAndDelete(id)
-
-    res.json({ message: 'Data deleted successfully.' })
-}

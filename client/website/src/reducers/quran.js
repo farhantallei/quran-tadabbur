@@ -1,4 +1,4 @@
-import { CREATE, DELETE, FETCH_ALL, UPDATE } from "../constant/actionTypes"
+import { CREATE, FETCH_ALL, UPDATE } from "../constant/actionTypes"
 
 const quran = (quran = [], action) => {
     switch (action.type) {
@@ -8,8 +8,6 @@ const quran = (quran = [], action) => {
             return [...quran, action.payload]
         case UPDATE:
             return quran.map((surah) => surah._id === action.payload._id ? action.payload : surah)
-        case DELETE:
-            return quran.filter((surah) => surah._id !== action.payload)
         default:
             return quran
     }
