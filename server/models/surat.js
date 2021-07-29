@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from 'mongoose'
 
 const suratSchema = mongoose.Schema({
     position: [[{
@@ -18,6 +18,6 @@ const suratSchema = mongoose.Schema({
             }],
         }]],
     }]]
-});
+})
 
-export default mongoose.model('Quran', suratSchema);
+export default mongoose.model('Quran', suratSchema)
