@@ -1,24 +1,22 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { CircularProgress, Grid } from '@material-ui/core'
 
 import Surat from './Surat/Surat'
 import useStyles from './styles'
+import './Quran.css'
 
 const Quran = ({ setCurrentId }) => {
-    const classes = useStyles()
     const quran = useSelector((state) => state.quran)
+
+    quran.sort((a, b) => parseFloat(a.surah_id) - parseFloat(b.surah_id))
+    // quran.sort((a, b) => (a.literal > b.literal) ? 1 : ((b.literal > a.literal) ? -1 : 0))
     
     return (
-        !quran.length ? <CircularProgress /> : (
-            <Grid className={classes.mainContainer} container alignItems="stretch" spacing={3}>
-                {quran.map((surat) => (
-                    <Grid key={surat._id} item xs={12} sm={6} md={6}>
-                        <Surat surat={surat} setCurrentId={setCurrentId} />
-                    </Grid>
-                ))}
-            </Grid>
-        )
+        !quran.length ? <div>LOADING</div> : quran.map((surat) => (
+            <div key={surat._id} className='item'>
+                <Surat surat={surat} setCurrentId={setCurrentId} />
+            </div>
+        ))
     )
 }
 

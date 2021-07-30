@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import { AppBar, Button, Container, Grid, Grow, InputBase, Toolbar, Typography } from '@material-ui/core'
 import { useDispatch } from 'react-redux'
 
 import { getData } from './actions/quran'
 import Form from './components/Form/Form'
 import Quran from './components/Quran/Quran'
-import useStyles from './styles'
 
 const App = () => {
-    const classes = useStyles()
     const dispatch = useDispatch()
     const [currentId, setCurrentId] = useState(0)
 
@@ -18,29 +15,18 @@ const App = () => {
 
     return (
         <>
-        <AppBar position="static">
-            <Toolbar>
-                <Typography className={classes.title} variant="h6" align="center">Quran Data</Typography>
-                <div className={classes.search}>
-                    <InputBase placeholder="Search" classes={{ root: classes.inputRoot, input: classes.inputInput }} inputProps={{ 'aria-label': 'search' }} />
+        <div className='container'>
+            <div className='layout'>
+                <div className='menu'>
+                    <div className='menu-content'>
+                        <Quran setCurrentId={setCurrentId} />
+                    </div>
                 </div>
-                <Button color="inherit">Login</Button>
-            </Toolbar>
-        </AppBar>
-        <Container maxWidth="lg">
-            <Grow in>
-                <Container>
-                    <Grid container justifyContent="space-between" alignItems="stretch" spacing={3}>
-                        <Grid item xs={12} sm={7}>
-                            <Quran setCurrentId={setCurrentId} />
-                        </Grid>
-                        <Grid item xs={12} sm={4}>
-                            <Form currentId={currentId} setCurrentId={setCurrentId} />
-                        </Grid>
-                    </Grid>
-                </Container>
-            </Grow>
-        </Container>
+            </div>
+        </div>
+        <aside className='side'>
+            <Form currentId={currentId} setCurrentId={setCurrentId} />
+        </aside>
         </>
     )
 }

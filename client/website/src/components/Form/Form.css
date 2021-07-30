@@ -1,0 +1,227 @@
+/*==============================================================================
+/* Form
+/*==============================================================================*/
+
+/* Title */
+.form-title {
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    margin: 0 0 24px;
+}
+
+/* Form */
+.form-layout {
+    border: .5px solid;
+    border-color: rgba(0,0,0,.1);
+    border-radius: 15px;
+    padding: 24px 12px;
+    height: 100%;
+    overflow: auto;
+}
+
+.form-scroll {
+	overflow-x: hidden;
+	overflow-y: auto;
+    height: 100%;
+}
+
+.form-content {
+    padding: 0 24px;
+    width: calc(100% + 7px);
+}
+
+.label {
+    display: block;
+    font-size: 16px;
+    margin: 0 0 10px 8px;
+}
+
+.field {
+    min-height: 50px;
+}
+
+.text-area {
+    padding: 12px;
+    min-height: 100px;
+}
+
+.field, .text-area {
+    display: block;
+    margin: 0 0 16px;
+
+    background-color: #f2f2f7;
+
+    color: #48484a;
+
+    transition: background-color .4s;
+}
+
+.field:hover, .text-area:hover {
+    background-color: #e5e5ea;
+}
+
+.field, .submit, .reset {
+    padding: 8px 12px;
+}
+
+.field, .text-area, .submit, .reset {
+    width: 100%;
+
+    font-size: 20px;
+    
+    border: none;
+    border-radius: 15px;
+}
+
+.radio {
+    margin: 18px 0 32px 16px;
+}
+
+.radio label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    font-size: 22px;
+
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #48484a;
+}
+
+.radio label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.toggle-radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #f2f2f7;
+    border-radius: 50%;
+    -webkit-transition: opacity .3s ease-in-out, background-color .4s;
+    transition: opacity .3s ease-in-out, background-color .4s;
+
+}
+
+.radio label:hover input ~ .toggle-radio {
+    background-color: #e5e5ea;
+}
+
+/* .radio label input:checked ~ .toggle-radio {
+    border: 5px #007aff solid;
+} */
+
+.toggle-radio:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+
+.radio label input:checked ~ .toggle-radio:after {
+    opacity: 100;
+}
+
+.radio label .toggle-radio:after {
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #007aff;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-switch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px;
+    background-color: #f2f2f7;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle-switch:hover {
+    background-color: #e5e5ea;
+}
+
+.toggle-switch:before {
+    position: absolute;
+    content: '';
+    height: 24px;
+    width: 24px;
+    left: 6px;
+    bottom: 5px;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.switch input:checked + .toggle-switch {
+    background-color: #007aff;
+}
+
+.switch input:checked + .toggle-switch:before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}
+
+.submit {
+    background-color: #007aff;
+    color: white;
+}
+
+.submit:hover {
+    background-color: #0f6ed7;
+}
+
+.reset {
+    background-color: #d1d1d6;
+    color: #8e8e93;
+}
+
+.reset:hover {
+    background-color: #c7c7cc;
+}
+
+.submit, .reset {
+    display: inline-block;
+    margin: 12px 0 0;
+    padding: 10px 12px;
+
+    font-family: CircularStd, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    transition: background-color .4s;
+}
+
+.form-title span, .label span {
+    font-weight: 500;
+}

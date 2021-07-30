@@ -1,0 +1,386 @@
+/*==============================================================================
+/* AirbnbCereal
+/*==============================================================================*/
+
+@font-face {
+    font-family: 'AirbnbCereal';
+    src: url(./fonts/AirbnbCereal-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AirbnbCereal';
+    src: url(./fonts/AirbnbCereal-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AirbnbCereal';
+    src: url(./fonts/AirbnbCereal-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AirbnbCereal';
+    src: url(./fonts/AirbnbCereal-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AirbnbCereal';
+    src: url(./fonts/AirbnbCereal-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AirbnbCereal';
+    src: url(./fonts/AirbnbCereal-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*==============================================================================
+/* CircularStd
+/*==============================================================================*/
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url(./fonts/CircularStd-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url(./fonts/CircularStd-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url(./fonts/CircularStd-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url(./fonts/CircularStd-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url(./fonts/CircularStd-BookItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url(./fonts/CircularStd-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url(./fonts/CircularStd-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url(./fonts/CircularStd-BlackItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/*==============================================================================
+/* Dubai
+/*==============================================================================*/
+
+@font-face {
+    font-family: 'Dubai';
+    src: url(./fonts/Dubai-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dubai';
+    src: url(./fonts/Dubai-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dubai';
+    src: url(./fonts/Dubai-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dubai';
+    src: url(./fonts/Dubai-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*==============================================================================
+/* ReemKufi
+/*==============================================================================*/
+
+@font-face {
+    font-family: 'ReemKufi';
+    src: url(./fonts/ReemKufi-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ReemKufi';
+    src: url(./fonts/ReemKufi-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ReemKufi';
+    src: url(./fonts/ReemKufi-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ReemKufi';
+    src: url(./fonts/ReemKufi-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*==============================================================================
+/* Index
+/*==============================================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:focus, *:hover {
+    outline: none;
+}
+
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+body, input, textarea, code {
+    font-family: AirbnbCereal, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+code {
+    padding: 2px 4px;
+    background-color: #eee;
+    border-radius: 3px;
+    white-space: pre-wrap;
+}
+
+.arabic {
+    font-family: Dubai, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Open Sans", Arial, sans-serif;
+    font-weight: 500;
+    direction: rtl;
+    unicode-bidi: isolate;
+}
+
+#root {
+    /* Auto Layout */
+    display: grid;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    background: #FFFFFF;
+
+    /* Inside Auto Layout */
+    grid-auto-columns: 100%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: 1fr 540px;
+    grid-template-columns: 1fr 540px;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+/* Container */
+.container {
+    /* Auto Layout */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 80px 0 0 80px;
+
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+/* Menu */
+.layout {
+    /* Auto Layout */
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 49px 54px 16px;
+
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+
+    background: #F2F2F7;
+    border-radius: 50px 50px 0px 0px;
+
+    /* Inside Auto Layout */
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.menu {
+    /* Auto Layout */
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 32px;
+
+	overflow-x: hidden;
+	overflow-y: auto;
+    height: 100%;
+
+    /* Inside Auto Layout */
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+.menu::-webkit-scrollbar, .form-scroll::-webkit-scrollbar {
+    width: 7px;
+}
+
+.menu::-webkit-scrollbar-thumb, .form-scroll::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.0);
+	border-radius: 10px;
+	box-shadow: rgba(255,255,255,0.3) 0 0 0 1px;
+}
+
+.menu:hover::-webkit-scrollbar-thumb, .form-scroll:hover::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.15);
+}
+
+.menu::-webkit-scrollbar-thumb:hover, .form-scroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.25);
+}
+
+.menu-content {
+    /* Auto Layout */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 0 32px;
+
+    width: calc(100% + 7px);
+
+    /* Inside Auto Layout */
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+/* Aside */
+.side {
+    /* Auto Layout */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 108px 36px 24px;
+
+    overflow: auto;
+    height: 100%;
+
+    /* Inside Auto Layout */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
