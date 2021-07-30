@@ -2,7 +2,6 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 import Surat from './Surat/Surat'
-import useStyles from './styles'
 import './Quran.css'
 
 const Quran = ({ setCurrentId }) => {
