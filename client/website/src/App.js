@@ -19,7 +19,7 @@ const App = () => {
             <div className='layout'>
                 <div className='menu'>
                     <div className='menu-content'>
-                        <Quran setCurrentId={setCurrentId} />
+                        <Quran currentId={currentId} setCurrentId={setCurrentId} />
                     </div>
                 </div>
             </div>

@@ -24,6 +24,18 @@
     grid-template-rows: auto;
 }
 
+.card-active {
+    background-color: #ffcc00;
+}
+
+.card-active .title, .card-active .latin, .card-active .literal {
+    color: white;
+}
+
+.card-active .index {
+    background-color: white;
+}
+
 /*==============================================================================
 /* Card Action
 /*==============================================================================*/

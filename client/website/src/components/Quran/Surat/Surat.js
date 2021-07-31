@@ -1,14 +1,14 @@
 import React from 'react'
 
 import './Surat.css'
-import { ReactComponent as MoreHorizIcon } from '../../../assets/icons/MoreHoriz-01.svg'
+// import { ReactComponent as MoreHorizIcon } from '../../../assets/icons/MoreHoriz-01.svg'
 
-const Surat = ({ surat, setCurrentId }) => {
+const Surat = ({ surat, currentId, setCurrentId }) => {
     return (
-        <div className='card'>
+        <div className={currentId === surat._id ? 'card card-active' : 'card'}>
             <div className='action'>
                 <div className='index'>{surat.surah_id}</div>
-                <button className='editBtn' onClick={() => setCurrentId(surat._id)}><MoreHorizIcon /></button>
+                <button className='editBtn' onClick={() => setCurrentId(surat._id)}><svg xmlns="http://www.w3.org/2000/svg" fill={currentId === surat._id ? 'white' : '#c7c7cc'} viewBox="0 0 30 12"><circle class="cls-1" cx="3.5" cy="6" r="3.5"/><circle class="cls-1" cx="26.5" cy="6" r="3.5"/><circle class="cls-1" cx="15" cy="6" r="3.5"/></svg></button>
             </div>
             <div className='content'>
                 <div className='arabic title'>{surat.arabic_name}</div>

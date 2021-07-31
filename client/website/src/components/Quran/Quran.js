@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import Surat from './Surat/Surat'
 import './Quran.css'
 
-const Quran = ({ setCurrentId }) => {
+const Quran = ({ currentId, setCurrentId }) => {
     const quran = useSelector((state) => state.quran)
 
     quran.sort((a, b) => parseFloat(a.surah_id) - parseFloat(b.surah_id))
@@ -13,7 +13,7 @@ const Quran = ({ setCurrentId }) => {
     return (
         !quran.length ? <div>LOADING</div> : quran.map((surat) => (
             <div key={surat._id} className='item'>
-                <Surat surat={surat} setCurrentId={setCurrentId} />
+                <Surat surat={surat} currentId={currentId} setCurrentId={setCurrentId} />
             </div>
         ))
     )

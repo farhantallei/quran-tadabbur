@@ -32,7 +32,7 @@ const Form = ({ currentId, setCurrentId }) => {
     
     return (
         <>
-        <h2 className='form-title'>{currentId ? 'Edit' : 'Tambahkan'} informasi <span>data Surah</span></h2>
+        <h2 className='form-title'>{currentId ? <>Edit Surah <span>{quranData.latin_name}</span></> : <>Tambahkan informasi <span>data Surah</span></>}</h2>
         <div className='form-layout'>
             <div className='form-scroll'>
                 <div className='form-content'>
