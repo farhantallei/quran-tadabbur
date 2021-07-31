@@ -1,0 +1,1866 @@
+[
+    {
+        "aliases": [
+            "Fatihatul Kitab",
+            "Ummul Qur'an",
+            "Ummul Kitab",
+            "As Sab'ul Masani",
+            "Al Kanz",
+            "Al Wafiyah",
+            "Al Kafiyah",
+            "Al Asas",
+            "Asy Syafiyah",
+            "Al Hamd",
+            "As Shalah",
+            "Al Ruqyah",
+            "Asy Syukru",
+            "Ad Du'au",
+            "Asy Syifa",
+            "Al Waqiyah"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "610236ddbd9691186c109d55",
+        "arabic_name": "الفاتحة",
+        "latin_name": "Al Fātiḥah",
+        "literal": "Pembukaan",
+        "classification": "Makkiyah",
+        "surah_id": 1,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Fustatul Qur'an",
+            "Alif Lam Mim",
+            "Az Zahrawan",
+            "As Sinam"
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            "Mengusir setan dari rumah",
+            "Dua penerang di Hari Kiamat"
+        ],
+        "_id": "61023883bd9691186c109d63",
+        "arabic_name": "البقرة",
+        "latin_name": "Al Baqarah",
+        "literal": "Sapi Betina",
+        "classification": "Madaniyah",
+        "surah_id": 2,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Az Zahrawan"
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            "Dua penerang di Hari Kiamat"
+        ],
+        "_id": "61023a56bd9691186c109d66",
+        "arabic_name": "آل عمران",
+        "latin_name": "Āl ʻImrān",
+        "literal": "Keluarga 'Imran",
+        "classification": "Madaniyah",
+        "surah_id": 3,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "An Nisa Al Kubra"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61023b16bd9691186c109d69",
+        "arabic_name": "النساء",
+        "latin_name": "An Nisā'",
+        "literal": "Wanita",
+        "classification": "Madaniyah",
+        "surah_id": 4,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Al 'Uqud",
+            "Al Munqiz"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61023bf7bd9691186c109d6e",
+        "arabic_name": "المائدة",
+        "latin_name": "Al Mā'idah",
+        "literal": "Hidangan",
+        "classification": "Madaniyah",
+        "surah_id": 5,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61023c4abd9691186c109d71",
+        "arabic_name": "الأنعام",
+        "latin_name": "Al Anʻām",
+        "literal": "Binatang Ternak",
+        "classification": "Makkiyah",
+        "surah_id": 6,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "61023ce5bd9691186c109d74",
+        "arabic_name": "الأعراف",
+        "latin_name": "Al Aʻrāf",
+        "literal": "Tempat Tertinggi",
+        "classification": "Makkiyah",
+        "surah_id": 7,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61023d7abd9691186c109d89",
+        "arabic_name": "الأنفال",
+        "latin_name": "Al Anfāl",
+        "literal": "Jarahan",
+        "classification": "Madaniyah",
+        "surah_id": 8,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Bara'ah",
+            "Al Mukshziyah",
+            "Al Fadikhah",
+            "Al Muqasyqisyah"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61023e1abd9691186c109d8c",
+        "arabic_name": "التوبة",
+        "latin_name": "At Taubah",
+        "literal": "Pengampunan",
+        "classification": "Madaniyah",
+        "surah_id": 9,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "61023e82bd9691186c109d8f",
+        "arabic_name": "يونس",
+        "latin_name": "Yūnus",
+        "literal": "Yunus",
+        "classification": "Makkiyah",
+        "surah_id": 10,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "61023eb2bd9691186c109d92",
+        "arabic_name": "هود",
+        "latin_name": "Hūd",
+        "literal": "Hud",
+        "classification": "Makkiyah",
+        "surah_id": 11,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "61023ef4bd9691186c109d95",
+        "arabic_name": "يوسف",
+        "latin_name": "Yūsuf",
+        "literal": "Yusuf",
+        "classification": "Makkiyah",
+        "surah_id": 12,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "61023f88bd9691186c109d98",
+        "arabic_name": "الرعد",
+        "latin_name": "Ar Raʻd",
+        "literal": "Guruh",
+        "classification": "Madaniyah",
+        "surah_id": 13,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "61023fc3bd9691186c109d9b",
+        "arabic_name": "إبراهيم",
+        "latin_name": "Ibrāhīm",
+        "literal": "Ibrahim",
+        "classification": "Makkiyah",
+        "surah_id": 14,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "610240bdbd9691186c109da0",
+        "arabic_name": "الحجر",
+        "latin_name": "Al Ḥijr",
+        "literal": "Al-Hijr",
+        "classification": "Makkiyah",
+        "surah_id": 15,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "An Ni'am"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6102412dbd9691186c109da3",
+        "arabic_name": "النحل",
+        "latin_name": "An Naḥl",
+        "literal": "Lebah",
+        "classification": "Makkiyah",
+        "surah_id": 16,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Bani Isra'il"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "610241ddbd9691186c109daf",
+        "arabic_name": "الإسراء",
+        "latin_name": "Al Isrā'",
+        "literal": "Perjalanan Malam",
+        "classification": "Makkiyah",
+        "surah_id": 17,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Ashabul Kahf"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "610242d4bd9691186c109db2",
+        "arabic_name": "الكهف",
+        "latin_name": "Al Kahf",
+        "literal": "Gua",
+        "classification": "Makkiyah",
+        "surah_id": 18,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103efa7bb02a921cc00368d",
+        "arabic_name": "مريم",
+        "latin_name": "Maryam",
+        "literal": "Maryam",
+        "classification": "Makkiyah",
+        "surah_id": 19,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f0c6bb02a921cc003698",
+        "arabic_name": "طه",
+        "latin_name": "Ṭā Hā",
+        "literal": "Tha Ha",
+        "classification": "Makkiyah",
+        "surah_id": 20,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f351bb02a921cc00369c",
+        "arabic_name": "الأنبياء",
+        "latin_name": "Al Anbiyā'",
+        "literal": "Para Nabi",
+        "classification": "Makkiyah",
+        "surah_id": 21,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f3a1bb02a921cc00369f",
+        "arabic_name": "الحج",
+        "latin_name": "Al Ḥajj",
+        "literal": "Haji",
+        "classification": "Madaniyah",
+        "surah_id": 22,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f3f2bb02a921cc0036a2",
+        "arabic_name": "المؤمنون",
+        "latin_name": "Al Mu'minūn",
+        "literal": "Orang-Orang Yang Beriman",
+        "classification": "Makkiyah",
+        "surah_id": 23,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f452bb02a921cc0036ab",
+        "arabic_name": "النور",
+        "latin_name": "An Nūr",
+        "literal": "Cahaya",
+        "classification": "Madaniyah",
+        "surah_id": 24,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f4b8bb02a921cc0036ae",
+        "arabic_name": "الفرقان",
+        "latin_name": "Al Furqān",
+        "literal": "Pembeda",
+        "classification": "Makkiyah",
+        "surah_id": 25,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f510bb02a921cc0036b1",
+        "arabic_name": "الشعراء",
+        "latin_name": "Ash Shuʻarā'",
+        "literal": "Para Penyair",
+        "classification": "Makkiyah",
+        "surah_id": 26,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f5a1bb02a921cc0036c1",
+        "arabic_name": "النمل",
+        "latin_name": "An Naml",
+        "literal": "Semut",
+        "classification": "Makkiyah",
+        "surah_id": 27,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Musa"
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f62dbb02a921cc0036c7",
+        "arabic_name": "القصص",
+        "latin_name": "Al Qaṣaṣ",
+        "literal": "Cerita-Cerita",
+        "classification": "Makkiyah",
+        "surah_id": 28,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f66fbb02a921cc0036cf",
+        "arabic_name": "العنكبوت",
+        "latin_name": "Al ‘Ankabūt",
+        "literal": "Laba-Laba",
+        "classification": "Makkiyah",
+        "surah_id": 29,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f697bb02a921cc0036d2",
+        "arabic_name": "الروم",
+        "latin_name": "Ar Rūm",
+        "literal": "Bangsa Romawi",
+        "classification": "Makkiyah",
+        "surah_id": 30,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f6bdbb02a921cc0036d5",
+        "arabic_name": "لقمان",
+        "latin_name": "Luqmān",
+        "literal": "Luqman",
+        "classification": "Makkiyah",
+        "surah_id": 31,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f6edbb02a921cc0036d8",
+        "arabic_name": "السجدة",
+        "latin_name": "As Sajdah",
+        "literal": "Sujud",
+        "classification": "Makkiyah",
+        "surah_id": 32,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f743bb02a921cc0036db",
+        "arabic_name": "الأحزاب",
+        "latin_name": "Al Aḥzāb",
+        "literal": "Golongan Yang Bersekutu",
+        "classification": "Madaniyah",
+        "surah_id": 33,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f7d8bb02a921cc0036df",
+        "arabic_name": "سبأ",
+        "latin_name": "Saba'",
+        "literal": "Kaum Saba'",
+        "classification": "Makkiyah",
+        "surah_id": 34,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Al Mala'ikah"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f835bb02a921cc0036e5",
+        "arabic_name": "فاطر",
+        "latin_name": "Fāṭir",
+        "literal": "Pencipta",
+        "classification": "Makkiyah",
+        "surah_id": 35,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Man'amah",
+            "Rafi'ah Khafizah"
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f880bb02a921cc0036ea",
+        "arabic_name": "يس",
+        "latin_name": "Yā Sīn",
+        "literal": "Ya Sin",
+        "classification": "Makkiyah",
+        "surah_id": 36,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f8bfbb02a921cc0036ef",
+        "arabic_name": "الصافات",
+        "latin_name": "Aṣ Ṣāffāt",
+        "literal": "Yang Bersaf-Saf",
+        "classification": "Makkiyah",
+        "surah_id": 37,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f902bb02a921cc0036f2",
+        "arabic_name": "ص",
+        "latin_name": "Ṣād",
+        "literal": "Shad",
+        "classification": "Makkiyah",
+        "surah_id": 38,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Al Guraf"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f931bb02a921cc0036f5",
+        "arabic_name": "الزمر",
+        "latin_name": "Az Zumar",
+        "literal": "Rombongan-Rombongan",
+        "classification": "Makkiyah",
+        "surah_id": 39,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Al Mu'min",
+            "At-Tawl",
+            "Ha Mim Al Mu'min"
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103f9c3bb02a921cc0036f8",
+        "arabic_name": "غافر",
+        "latin_name": "Ghāfir",
+        "literal": "Pengampun",
+        "classification": "Makkiyah",
+        "surah_id": 40,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Ha Mim as-Sadjah"
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fa06bb02a921cc0036fb",
+        "arabic_name": "فصلت",
+        "latin_name": "Fuṣṣilat",
+        "literal": "Yang Dijelaskan",
+        "classification": "Makkiyah",
+        "surah_id": 41,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Ha Mim 'Ain Sin Qaf"
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fa37bb02a921cc0036fe",
+        "arabic_name": "الشورى",
+        "latin_name": "Ash Shūrā",
+        "literal": "Musyawarah",
+        "classification": "Makkiyah",
+        "surah_id": 42,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fa6dbb02a921cc003701",
+        "arabic_name": "الزخرف",
+        "latin_name": "Az Zukhruf",
+        "literal": "Perhiasan",
+        "classification": "Makkiyah",
+        "surah_id": 43,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fa91bb02a921cc003704",
+        "arabic_name": "الدخان",
+        "latin_name": "Ad Dukhān",
+        "literal": "Kabut",
+        "classification": "Makkiyah",
+        "surah_id": 44,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Asy Syari'ah"
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fac1bb02a921cc003707",
+        "arabic_name": "الجاثية",
+        "latin_name": "Al Jāthiyah",
+        "literal": "Yang Berlutut",
+        "classification": "Makkiyah",
+        "surah_id": 45,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fae5bb02a921cc00370a",
+        "arabic_name": "الأحقاف",
+        "latin_name": "Al Aḥqāf",
+        "literal": "Bukit-Bukit Pasir",
+        "classification": "Makkiyah",
+        "surah_id": 46,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Al Qital"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fb2cbb02a921cc00370d",
+        "arabic_name": "محمد",
+        "latin_name": "Muḥammad",
+        "literal": "Muhammad",
+        "classification": "Madaniyah",
+        "surah_id": 47,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fb5ebb02a921cc003710",
+        "arabic_name": "الفتح",
+        "latin_name": "Al Fatḥ",
+        "literal": "Kemenangan",
+        "classification": "Madaniyah",
+        "surah_id": 48,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fb7cbb02a921cc003713",
+        "arabic_name": "الحجرات",
+        "latin_name": "Al Ḥujurāt",
+        "literal": "Kamar-Kamar",
+        "classification": "Madaniyah",
+        "surah_id": 49,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Al Basiqat"
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fba4bb02a921cc003716",
+        "arabic_name": "ق",
+        "latin_name": "Qāf",
+        "literal": "Qaf",
+        "classification": "Makkiyah",
+        "surah_id": 50,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fbdfbb02a921cc003719",
+        "arabic_name": "الذاريات",
+        "latin_name": "Adh Dhāriyāt",
+        "literal": "Angin Yang Menerbangkan",
+        "classification": "Makkiyah",
+        "surah_id": 51,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fc05bb02a921cc00371c",
+        "arabic_name": "الطور",
+        "latin_name": "Aṭ Ṭūr",
+        "literal": "Bukit",
+        "classification": "Makkiyah",
+        "surah_id": 52,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fc20bb02a921cc00371f",
+        "arabic_name": "النجم",
+        "latin_name": "An Najm",
+        "literal": "Bintang",
+        "classification": "Makkiyah",
+        "surah_id": 53,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Iqtarabat"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fc48bb02a921cc003722",
+        "arabic_name": "القمر",
+        "latin_name": "Al Qamar",
+        "literal": "Bulan",
+        "classification": "Makkiyah",
+        "surah_id": 54,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fc66bb02a921cc003725",
+        "arabic_name": "الرحمن",
+        "latin_name": "Ar Raḥmān",
+        "literal": "Yang Maha Pemurah",
+        "classification": "Madaniyah",
+        "surah_id": 55,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Idza waqa'at"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fc8ebb02a921cc003728",
+        "arabic_name": "الواقعة",
+        "latin_name": "Al Wāqiʻah",
+        "literal": "Hari Kiamat",
+        "classification": "Makkiyah",
+        "surah_id": 56,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fcb6bb02a921cc00372b",
+        "arabic_name": "الحديد",
+        "latin_name": "Al Ḥadīd",
+        "literal": "Besi",
+        "classification": "Madaniyah",
+        "surah_id": 57,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Al Mujadalah"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fd3dbb02a921cc00372e",
+        "arabic_name": "المجادلة",
+        "latin_name": "Al Mujādilah",
+        "literal": "Wanita Yang Mengajukan Gugatan",
+        "classification": "Madaniyah",
+        "surah_id": 58,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fdc3bb02a921cc003731",
+        "arabic_name": "الحشر",
+        "latin_name": "Al Ḥashr",
+        "literal": "Pengusiran",
+        "classification": "Madaniyah",
+        "surah_id": 59,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fdfabb02a921cc003734",
+        "arabic_name": "الممتحنة",
+        "latin_name": "Al Mumtaḥanah",
+        "literal": "Perempuan Yang Diuji",
+        "classification": "Madaniyah",
+        "surah_id": 60,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fe12bb02a921cc003737",
+        "arabic_name": "الصف",
+        "latin_name": "Aṣ Ṣaff",
+        "literal": "Barisan",
+        "classification": "Madaniyah",
+        "surah_id": 61,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fe53bb02a921cc00373a",
+        "arabic_name": "الجمعة",
+        "latin_name": "Al Jumuʿah",
+        "literal": "Hari Jumat",
+        "classification": "Madaniyah",
+        "surah_id": 62,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fe69bb02a921cc00373d",
+        "arabic_name": "المنافقون",
+        "latin_name": "Al Munāfiqūn",
+        "literal": "Orang-Orang Munafik",
+        "classification": "Madaniyah",
+        "surah_id": 63,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fe8dbb02a921cc003740",
+        "arabic_name": "التغابن",
+        "latin_name": "At Taghābun",
+        "literal": "Hari Ditampakkan Segala Kesalahan",
+        "classification": "Madaniyah",
+        "surah_id": 64,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "An Nisa'us Sugra"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103fec4bb02a921cc003743",
+        "arabic_name": "الطلاق",
+        "latin_name": "Aṭ Ṭalāq",
+        "literal": "Talak",
+        "classification": "Madaniyah",
+        "surah_id": 65,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6103ff13bb02a921cc003747",
+        "arabic_name": "التحريم",
+        "latin_name": "At Taḥrīm",
+        "literal": "Mengharamkan",
+        "classification": "Madaniyah",
+        "surah_id": 66,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Tabarak"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6104882efb7d052900dbd58e",
+        "arabic_name": "الملك",
+        "latin_name": "Al Mulk",
+        "literal": "Kerajaan",
+        "classification": "Makkiyah",
+        "surah_id": 67,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": true,
+        "avail": [
+            ""
+        ],
+        "_id": "61048858fb7d052900dbd591",
+        "arabic_name": "القلم",
+        "latin_name": "Al Qalam",
+        "literal": "Pena",
+        "classification": "Makkiyah",
+        "surah_id": 68,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048889fb7d052900dbd594",
+        "arabic_name": "الحاقة",
+        "latin_name": "Al Ḥāqqah",
+        "literal": "Hari Kiamat",
+        "classification": "Makkiyah",
+        "surah_id": 69,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Sa'ala sailun"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048912fb7d052900dbd597",
+        "arabic_name": "المعارج",
+        "latin_name": "Al Maʻārij",
+        "literal": "Tempat-Tempat Naik",
+        "classification": "Makkiyah",
+        "surah_id": 70,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048941fb7d052900dbd59a",
+        "arabic_name": "نوح",
+        "latin_name": "Nūḥ",
+        "literal": "Nuh",
+        "classification": "Makkiyah",
+        "surah_id": 71,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048967fb7d052900dbd59d",
+        "arabic_name": "الجن",
+        "latin_name": "Al Jinn",
+        "literal": "Jin",
+        "classification": "Makkiyah",
+        "surah_id": 72,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "6104898ffb7d052900dbd5a3",
+        "arabic_name": "المزمل",
+        "latin_name": "Al Muzzammil",
+        "literal": "Orang Yang Berselimut",
+        "classification": "Makkiyah",
+        "surah_id": 73,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "610489b0fb7d052900dbd5a6",
+        "arabic_name": "المدثر",
+        "latin_name": "Al Muddaththir",
+        "literal": "Orang Yang Berkemul",
+        "classification": "Makkiyah",
+        "surah_id": 74,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "La uqsimu bi yaumil qiyamah"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "610489d1fb7d052900dbd5a9",
+        "arabic_name": "القيامة",
+        "latin_name": "Al Qiyāmah",
+        "literal": "Hari Kiamat",
+        "classification": "Makkiyah",
+        "surah_id": 75,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Ad Dahr",
+            "Hal ata"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048a05fb7d052900dbd5ac",
+        "arabic_name": "الإنسان",
+        "latin_name": "Al Insān",
+        "literal": "Manusia",
+        "classification": "Madaniyah",
+        "surah_id": 76,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048a78fb7d052900dbd5af",
+        "arabic_name": "المرسلات",
+        "latin_name": "Al Mursalāt",
+        "literal": "Yang Diutus",
+        "classification": "Makkiyah",
+        "surah_id": 77,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "'Amma Yatasa'alun"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048a9cfb7d052900dbd5b2",
+        "arabic_name": "النبأ",
+        "latin_name": "An Naba'",
+        "literal": "Berita Besar",
+        "classification": "Makkiyah",
+        "surah_id": 78,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "As Sahirah",
+            "At Tammah"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048afffb7d052900dbd5b7",
+        "arabic_name": "النازعات",
+        "latin_name": "An Nāziʻāt",
+        "literal": "Yang Mencabut",
+        "classification": "Makkiyah",
+        "surah_id": 79,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048b37fb7d052900dbd5ba",
+        "arabic_name": "عبس",
+        "latin_name": "ʻAbasa",
+        "literal": "Ia Bermuka Masam",
+        "classification": "Makkiyah",
+        "surah_id": 80,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Idzasy syamsu kuwwirat"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048b51fb7d052900dbd5bd",
+        "arabic_name": "التكوير",
+        "latin_name": "At Takwīr",
+        "literal": "Menggulung",
+        "classification": "Makkiyah",
+        "surah_id": 81,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048b6dfb7d052900dbd5c0",
+        "arabic_name": "الانفطار",
+        "latin_name": "Al Infiṭār",
+        "literal": "Terbelah",
+        "classification": "Makkiyah",
+        "surah_id": 82,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048b88fb7d052900dbd5c3",
+        "arabic_name": "المطففين",
+        "latin_name": "Al Muṭaffifīn",
+        "literal": "Kecurangan",
+        "classification": "Makkiyah",
+        "surah_id": 83,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048baafb7d052900dbd5c6",
+        "arabic_name": "الانشقاق",
+        "latin_name": "Al Inshiqāq",
+        "literal": "Terbelah",
+        "classification": "Makkiyah",
+        "surah_id": 84,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048bc2fb7d052900dbd5c9",
+        "arabic_name": "البروج",
+        "latin_name": "Al Burūj",
+        "literal": "Gugusan Bintang",
+        "classification": "Makkiyah",
+        "surah_id": 85,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048bd9fb7d052900dbd5cc",
+        "arabic_name": "الطارق",
+        "latin_name": "Aṭ Ṭāriq",
+        "literal": "Yang Datang di Malam Hari",
+        "classification": "Makkiyah",
+        "surah_id": 86,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048bf3fb7d052900dbd5cf",
+        "arabic_name": "الأعلى",
+        "latin_name": "Al Aʻlā",
+        "literal": "Yang Paling Tinggi",
+        "classification": "Makkiyah",
+        "surah_id": 87,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048c0bfb7d052900dbd5d2",
+        "arabic_name": "الغاشية",
+        "latin_name": "Al Ghāshiyah",
+        "literal": "Hari Pembalasan",
+        "classification": "Makkiyah",
+        "surah_id": 88,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048c21fb7d052900dbd5d5",
+        "arabic_name": "الفجر",
+        "latin_name": "Al Fajr",
+        "literal": "Fajar",
+        "classification": "Makkiyah",
+        "surah_id": 89,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048c34fb7d052900dbd5d8",
+        "arabic_name": "البلد",
+        "latin_name": "Al-Balad",
+        "literal": "Negeri",
+        "classification": "Makkiyah",
+        "surah_id": 90,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048c4afb7d052900dbd5db",
+        "arabic_name": "الشمس",
+        "latin_name": "Ash Shams",
+        "literal": "Matahari",
+        "classification": "Makkiyah",
+        "surah_id": 91,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048ca3fb7d052900dbd5de",
+        "arabic_name": "الليل",
+        "latin_name": "Al Lail",
+        "literal": "Malam",
+        "classification": "Makkiyah",
+        "surah_id": 92,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048d33fb7d052900dbd5e1",
+        "arabic_name": "الضحى",
+        "latin_name": "Aḍ Ḍuḥā",
+        "literal": "Waktu Dhuha",
+        "classification": "Makkiyah",
+        "surah_id": 93,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Alam Nasyrah"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048d54fb7d052900dbd5e4",
+        "arabic_name": "الشرح",
+        "latin_name": "Al Inshirāḥ",
+        "literal": "Kelapangan",
+        "classification": "Makkiyah",
+        "surah_id": 94,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048d68fb7d052900dbd5e7",
+        "arabic_name": "التين",
+        "latin_name": "At Tīn",
+        "literal": "Buah Tin",
+        "classification": "Makkiyah",
+        "surah_id": 95,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Iqra'",
+            "Al Qalam",
+            "Iqra' Bismi Rabbika"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048d9efb7d052900dbd5ea",
+        "arabic_name": "العلق",
+        "latin_name": "Al ʻAlaq",
+        "literal": "Segumpal Darah",
+        "classification": "Makkiyah",
+        "surah_id": 96,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Inna Anzalnahu"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048dc1fb7d052900dbd5ed",
+        "arabic_name": "القدر",
+        "latin_name": "Al Qadr",
+        "literal": "Kemuliaan",
+        "classification": "Makkiyah",
+        "surah_id": 97,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048dd4fb7d052900dbd5f0",
+        "arabic_name": "البينة",
+        "latin_name": "Al Bayyinah",
+        "literal": "Pembuktian",
+        "classification": "Madaniyah",
+        "surah_id": 98,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048e2efb7d052900dbd5f3",
+        "arabic_name": "الزلزلة",
+        "latin_name": "Al Zalzalah",
+        "literal": "Kegoncangan",
+        "classification": "Madaniyah",
+        "surah_id": 99,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048e5afb7d052900dbd5f6",
+        "arabic_name": "العاديات",
+        "latin_name": "Al ʻĀdiyāt",
+        "literal": "Kuda Perang Yang Berlari Kencang",
+        "classification": "Makkiyah",
+        "surah_id": 100,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048e89fb7d052900dbd5f9",
+        "arabic_name": "القارعة",
+        "latin_name": "Al Qāriʻah",
+        "literal": "Hari Kiamat",
+        "classification": "Makkiyah",
+        "surah_id": 101,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048eadfb7d052900dbd5ff",
+        "arabic_name": "التكاثر",
+        "latin_name": "At Takāthur",
+        "literal": "Bermegah-Megahan",
+        "classification": "Makkiyah",
+        "surah_id": 102,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048ecffb7d052900dbd602",
+        "arabic_name": "العصر",
+        "latin_name": "Al ʻAṣr",
+        "literal": "Masa",
+        "classification": "Makkiyah",
+        "surah_id": 103,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048ef6fb7d052900dbd609",
+        "arabic_name": "الهمزة",
+        "latin_name": "Al Humazah",
+        "literal": "Pengumpat",
+        "classification": "Makkiyah",
+        "surah_id": 104,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048f11fb7d052900dbd60c",
+        "arabic_name": "الفيل",
+        "latin_name": "Al Fīl",
+        "literal": "Gajah",
+        "classification": "Makkiyah",
+        "surah_id": 105,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048f62fb7d052900dbd60f",
+        "arabic_name": "قريش",
+        "latin_name": "Quraysh",
+        "literal": "Kaum Quraisy",
+        "classification": "Makkiyah",
+        "surah_id": 106,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048f8afb7d052900dbd612",
+        "arabic_name": "الماعون",
+        "latin_name": "Al Māʻūn",
+        "literal": "Barang-Barang Yang Berguna",
+        "classification": "Makkiyah",
+        "surah_id": 107,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048fa6fb7d052900dbd615",
+        "arabic_name": "الكوثر",
+        "latin_name": "Al Kauthar",
+        "literal": "Nikmat Yang Berlimpah",
+        "classification": "Makkiyah",
+        "surah_id": 108,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048fbffb7d052900dbd618",
+        "arabic_name": "الكافرون",
+        "latin_name": "Al Kāfirūn",
+        "literal": "Orang-Orang Kafir",
+        "classification": "Makkiyah",
+        "surah_id": 109,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61048fdbfb7d052900dbd61b",
+        "arabic_name": "النصر",
+        "latin_name": "An Naṣr",
+        "literal": "Pertolongan",
+        "classification": "Madaniyah",
+        "surah_id": 110,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Al Massad"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61049156fb7d052900dbd61e",
+        "arabic_name": "اللهب",
+        "latin_name": "Al Lahab",
+        "literal": "Gejolak Api",
+        "classification": "Makkiyah",
+        "surah_id": 111,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            "Qul Huwallah",
+            "Nisbatur Rabbi",
+            "At Tafrid",
+            "At Tajrid",
+            "Al Wilayah",
+            "Al Ma'arifah",
+            "Al Jamal",
+            "Qasyqasy",
+            "Al Mudzakkirah",
+            "As Shamad",
+            "Al Amin"
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "610491dbfb7d052900dbd621",
+        "arabic_name": "الإخلاص",
+        "latin_name": "Al Ikhlāṣ",
+        "literal": "Memurnikan Keesaan Allah",
+        "classification": "Makkiyah",
+        "surah_id": 112,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61049208fb7d052900dbd624",
+        "arabic_name": "الفلق",
+        "latin_name": "Al Falaq",
+        "literal": "Waktu Subuh",
+        "classification": "Makkiyah",
+        "surah_id": 113,
+        "__v": 0
+    },
+    {
+        "aliases": [
+            ""
+        ],
+        "mysterious_letters": false,
+        "avail": [
+            ""
+        ],
+        "_id": "61049241fb7d052900dbd627",
+        "arabic_name": "الناس",
+        "latin_name": "An Nās",
+        "literal": "Manusia",
+        "classification": "Makkiyah",
+        "surah_id": 114,
+        "__v": 0
+    }
+]
