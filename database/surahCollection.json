@@ -27,8 +27,9 @@
         "latin_name": "Al Fātiḥah",
         "literal": "Pembukaan",
         "classification": "Makkiyah",
-        "surah_id": 1,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 1,
+        "surah_id": "al-fatihah"
     },
     {
         "aliases": [
@@ -47,8 +48,9 @@
         "latin_name": "Al Baqarah",
         "literal": "Sapi Betina",
         "classification": "Madaniyah",
-        "surah_id": 2,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 2,
+        "surah_id": "al-baqarah"
     },
     {
         "aliases": [
@@ -63,8 +65,9 @@
         "latin_name": "Āl ʻImrān",
         "literal": "Keluarga 'Imran",
         "classification": "Madaniyah",
-        "surah_id": 3,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 3,
+        "surah_id": "al-imran"
     },
     {
         "aliases": [
@@ -79,8 +82,9 @@
         "latin_name": "An Nisā'",
         "literal": "Wanita",
         "classification": "Madaniyah",
-        "surah_id": 4,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 4,
+        "surah_id": "an-nisa"
     },
     {
         "aliases": [
@@ -96,8 +100,9 @@
         "latin_name": "Al Mā'idah",
         "literal": "Hidangan",
         "classification": "Madaniyah",
-        "surah_id": 5,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 5,
+        "surah_id": "al-maidah"
     },
     {
         "aliases": [
@@ -112,8 +117,9 @@
         "latin_name": "Al Anʻām",
         "literal": "Binatang Ternak",
         "classification": "Makkiyah",
-        "surah_id": 6,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 6,
+        "surah_id": "al-anam"
     },
     {
         "aliases": [
@@ -128,8 +134,9 @@
         "latin_name": "Al Aʻrāf",
         "literal": "Tempat Tertinggi",
         "classification": "Makkiyah",
-        "surah_id": 7,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 7,
+        "surah_id": "al-araf"
     },
     {
         "aliases": [
@@ -144,8 +151,9 @@
         "latin_name": "Al Anfāl",
         "literal": "Jarahan",
         "classification": "Madaniyah",
-        "surah_id": 8,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 8,
+        "surah_id": "al-anfal"
     },
     {
         "aliases": [
@@ -163,8 +171,9 @@
         "latin_name": "At Taubah",
         "literal": "Pengampunan",
         "classification": "Madaniyah",
-        "surah_id": 9,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 9,
+        "surah_id": "at-taubah"
     },
     {
         "aliases": [
@@ -179,8 +188,9 @@
         "latin_name": "Yūnus",
         "literal": "Yunus",
         "classification": "Makkiyah",
-        "surah_id": 10,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 10,
+        "surah_id": "yunus"
     },
     {
         "aliases": [
@@ -195,8 +205,9 @@
         "latin_name": "Hūd",
         "literal": "Hud",
         "classification": "Makkiyah",
-        "surah_id": 11,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 11,
+        "surah_id": "hud"
     },
     {
         "aliases": [
@@ -211,8 +222,9 @@
         "latin_name": "Yūsuf",
         "literal": "Yusuf",
         "classification": "Makkiyah",
-        "surah_id": 12,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 12,
+        "surah_id": "yusuf"
     },
     {
         "aliases": [
@@ -227,8 +239,9 @@
         "latin_name": "Ar Raʻd",
         "literal": "Guruh",
         "classification": "Madaniyah",
-        "surah_id": 13,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 13,
+        "surah_id": "ar-rad"
     },
     {
         "aliases": [
@@ -243,8 +256,9 @@
         "latin_name": "Ibrāhīm",
         "literal": "Ibrahim",
         "classification": "Makkiyah",
-        "surah_id": 14,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 14,
+        "surah_id": "ibrahim"
     },
     {
         "aliases": [
@@ -259,8 +273,9 @@
         "latin_name": "Al Ḥijr",
         "literal": "Al-Hijr",
         "classification": "Makkiyah",
-        "surah_id": 15,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 15,
+        "surah_id": "al-hijr"
     },
     {
         "aliases": [
@@ -275,8 +290,9 @@
         "latin_name": "An Naḥl",
         "literal": "Lebah",
         "classification": "Makkiyah",
-        "surah_id": 16,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 16,
+        "surah_id": "an-nahl"
     },
     {
         "aliases": [
@@ -291,8 +307,9 @@
         "latin_name": "Al Isrā'",
         "literal": "Perjalanan Malam",
         "classification": "Makkiyah",
-        "surah_id": 17,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 17,
+        "surah_id": "al-isra"
     },
     {
         "aliases": [
@@ -307,8 +324,9 @@
         "latin_name": "Al Kahf",
         "literal": "Gua",
         "classification": "Makkiyah",
-        "surah_id": 18,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 18,
+        "surah_id": "al-kahf"
     },
     {
         "aliases": [
@@ -323,8 +341,9 @@
         "latin_name": "Maryam",
         "literal": "Maryam",
         "classification": "Makkiyah",
-        "surah_id": 19,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 19,
+        "surah_id": "maryam"
     },
     {
         "aliases": [
@@ -339,8 +358,9 @@
         "latin_name": "Ṭā Hā",
         "literal": "Tha Ha",
         "classification": "Makkiyah",
-        "surah_id": 20,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 20,
+        "surah_id": "taha"
     },
     {
         "aliases": [
@@ -355,8 +375,9 @@
         "latin_name": "Al Anbiyā'",
         "literal": "Para Nabi",
         "classification": "Makkiyah",
-        "surah_id": 21,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 21,
+        "surah_id": "al-anbiya"
     },
     {
         "aliases": [
@@ -371,8 +392,9 @@
         "latin_name": "Al Ḥajj",
         "literal": "Haji",
         "classification": "Madaniyah",
-        "surah_id": 22,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 22,
+        "surah_id": "al-hajj"
     },
     {
         "aliases": [
@@ -387,8 +409,9 @@
         "latin_name": "Al Mu'minūn",
         "literal": "Orang-Orang Yang Beriman",
         "classification": "Makkiyah",
-        "surah_id": 23,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 23,
+        "surah_id": "al-muminun"
     },
     {
         "aliases": [
@@ -403,8 +426,9 @@
         "latin_name": "An Nūr",
         "literal": "Cahaya",
         "classification": "Madaniyah",
-        "surah_id": 24,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 24,
+        "surah_id": "an-nur"
     },
     {
         "aliases": [
@@ -419,8 +443,9 @@
         "latin_name": "Al Furqān",
         "literal": "Pembeda",
         "classification": "Makkiyah",
-        "surah_id": 25,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 25,
+        "surah_id": "al-furqan"
     },
     {
         "aliases": [
@@ -435,8 +460,9 @@
         "latin_name": "Ash Shuʻarā'",
         "literal": "Para Penyair",
         "classification": "Makkiyah",
-        "surah_id": 26,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 26,
+        "surah_id": "ash-shuara"
     },
     {
         "aliases": [
@@ -451,8 +477,9 @@
         "latin_name": "An Naml",
         "literal": "Semut",
         "classification": "Makkiyah",
-        "surah_id": 27,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 27,
+        "surah_id": "an-naml"
     },
     {
         "aliases": [
@@ -467,8 +494,9 @@
         "latin_name": "Al Qaṣaṣ",
         "literal": "Cerita-Cerita",
         "classification": "Makkiyah",
-        "surah_id": 28,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 28,
+        "surah_id": "al-qasas"
     },
     {
         "aliases": [
@@ -483,8 +511,9 @@
         "latin_name": "Al ‘Ankabūt",
         "literal": "Laba-Laba",
         "classification": "Makkiyah",
-        "surah_id": 29,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 29,
+        "surah_id": "al-ankabut"
     },
     {
         "aliases": [
@@ -499,8 +528,9 @@
         "latin_name": "Ar Rūm",
         "literal": "Bangsa Romawi",
         "classification": "Makkiyah",
-        "surah_id": 30,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 30,
+        "surah_id": "ar-rum"
     },
     {
         "aliases": [
@@ -515,8 +545,9 @@
         "latin_name": "Luqmān",
         "literal": "Luqman",
         "classification": "Makkiyah",
-        "surah_id": 31,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 31,
+        "surah_id": "luqman"
     },
     {
         "aliases": [
@@ -531,8 +562,9 @@
         "latin_name": "As Sajdah",
         "literal": "Sujud",
         "classification": "Makkiyah",
-        "surah_id": 32,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 32,
+        "surah_id": "as-sajdah"
     },
     {
         "aliases": [
@@ -547,8 +579,9 @@
         "latin_name": "Al Aḥzāb",
         "literal": "Golongan Yang Bersekutu",
         "classification": "Madaniyah",
-        "surah_id": 33,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 33,
+        "surah_id": "al-ahzab"
     },
     {
         "aliases": [
@@ -563,8 +596,9 @@
         "latin_name": "Saba'",
         "literal": "Kaum Saba'",
         "classification": "Makkiyah",
-        "surah_id": 34,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 34,
+        "surah_id": "saba"
     },
     {
         "aliases": [
@@ -579,8 +613,9 @@
         "latin_name": "Fāṭir",
         "literal": "Pencipta",
         "classification": "Makkiyah",
-        "surah_id": 35,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 35,
+        "surah_id": "fatir"
     },
     {
         "aliases": [
@@ -596,8 +631,9 @@
         "latin_name": "Yā Sīn",
         "literal": "Ya Sin",
         "classification": "Makkiyah",
-        "surah_id": 36,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 36,
+        "surah_id": "yasin"
     },
     {
         "aliases": [
@@ -612,8 +648,9 @@
         "latin_name": "Aṣ Ṣāffāt",
         "literal": "Yang Bersaf-Saf",
         "classification": "Makkiyah",
-        "surah_id": 37,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 37,
+        "surah_id": "as-saffat"
     },
     {
         "aliases": [
@@ -628,8 +665,9 @@
         "latin_name": "Ṣād",
         "literal": "Shad",
         "classification": "Makkiyah",
-        "surah_id": 38,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 38,
+        "surah_id": "sad"
     },
     {
         "aliases": [
@@ -644,8 +682,9 @@
         "latin_name": "Az Zumar",
         "literal": "Rombongan-Rombongan",
         "classification": "Makkiyah",
-        "surah_id": 39,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 39,
+        "surah_id": "az-zumar"
     },
     {
         "aliases": [
@@ -662,8 +701,9 @@
         "latin_name": "Ghāfir",
         "literal": "Pengampun",
         "classification": "Makkiyah",
-        "surah_id": 40,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 40,
+        "surah_id": "ghafir"
     },
     {
         "aliases": [
@@ -678,8 +718,9 @@
         "latin_name": "Fuṣṣilat",
         "literal": "Yang Dijelaskan",
         "classification": "Makkiyah",
-        "surah_id": 41,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 41,
+        "surah_id": "fussilat"
     },
     {
         "aliases": [
@@ -694,8 +735,9 @@
         "latin_name": "Ash Shūrā",
         "literal": "Musyawarah",
         "classification": "Makkiyah",
-        "surah_id": 42,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 42,
+        "surah_id": "ash-shura"
     },
     {
         "aliases": [
@@ -710,8 +752,9 @@
         "latin_name": "Az Zukhruf",
         "literal": "Perhiasan",
         "classification": "Makkiyah",
-        "surah_id": 43,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 43,
+        "surah_id": "az-zukhruf"
     },
     {
         "aliases": [
@@ -726,8 +769,9 @@
         "latin_name": "Ad Dukhān",
         "literal": "Kabut",
         "classification": "Makkiyah",
-        "surah_id": 44,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 44,
+        "surah_id": "ad-dukhan"
     },
     {
         "aliases": [
@@ -742,8 +786,9 @@
         "latin_name": "Al Jāthiyah",
         "literal": "Yang Berlutut",
         "classification": "Makkiyah",
-        "surah_id": 45,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 45,
+        "surah_id": "al-jathiyah"
     },
     {
         "aliases": [
@@ -758,8 +803,9 @@
         "latin_name": "Al Aḥqāf",
         "literal": "Bukit-Bukit Pasir",
         "classification": "Makkiyah",
-        "surah_id": 46,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 46,
+        "surah_id": "al-ahqaf"
     },
     {
         "aliases": [
@@ -774,8 +820,9 @@
         "latin_name": "Muḥammad",
         "literal": "Muhammad",
         "classification": "Madaniyah",
-        "surah_id": 47,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 47,
+        "surah_id": "muhammad"
     },
     {
         "aliases": [
@@ -790,8 +837,9 @@
         "latin_name": "Al Fatḥ",
         "literal": "Kemenangan",
         "classification": "Madaniyah",
-        "surah_id": 48,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 48,
+        "surah_id": "al-fath"
     },
     {
         "aliases": [
@@ -806,8 +854,9 @@
         "latin_name": "Al Ḥujurāt",
         "literal": "Kamar-Kamar",
         "classification": "Madaniyah",
-        "surah_id": 49,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 49,
+        "surah_id": "al-hujurat"
     },
     {
         "aliases": [
@@ -822,8 +871,9 @@
         "latin_name": "Qāf",
         "literal": "Qaf",
         "classification": "Makkiyah",
-        "surah_id": 50,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 50,
+        "surah_id": "qaf"
     },
     {
         "aliases": [
@@ -838,8 +888,9 @@
         "latin_name": "Adh Dhāriyāt",
         "literal": "Angin Yang Menerbangkan",
         "classification": "Makkiyah",
-        "surah_id": 51,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 51,
+        "surah_id": "adh-dhariyat"
     },
     {
         "aliases": [
@@ -854,8 +905,9 @@
         "latin_name": "Aṭ Ṭūr",
         "literal": "Bukit",
         "classification": "Makkiyah",
-        "surah_id": 52,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 52,
+        "surah_id": "at-tur"
     },
     {
         "aliases": [
@@ -870,8 +922,9 @@
         "latin_name": "An Najm",
         "literal": "Bintang",
         "classification": "Makkiyah",
-        "surah_id": 53,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 53,
+        "surah_id": "an-najm"
     },
     {
         "aliases": [
@@ -886,8 +939,9 @@
         "latin_name": "Al Qamar",
         "literal": "Bulan",
         "classification": "Makkiyah",
-        "surah_id": 54,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 54,
+        "surah_id": "al-qamar"
     },
     {
         "aliases": [
@@ -902,8 +956,9 @@
         "latin_name": "Ar Raḥmān",
         "literal": "Yang Maha Pemurah",
         "classification": "Madaniyah",
-        "surah_id": 55,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 55,
+        "surah_id": "ar-rahman"
     },
     {
         "aliases": [
@@ -918,8 +973,9 @@
         "latin_name": "Al Wāqiʻah",
         "literal": "Hari Kiamat",
         "classification": "Makkiyah",
-        "surah_id": 56,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 56,
+        "surah_id": "al-waqiah"
     },
     {
         "aliases": [
@@ -934,8 +990,9 @@
         "latin_name": "Al Ḥadīd",
         "literal": "Besi",
         "classification": "Madaniyah",
-        "surah_id": 57,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 57,
+        "surah_id": "al-hadid"
     },
     {
         "aliases": [
@@ -950,8 +1007,9 @@
         "latin_name": "Al Mujādilah",
         "literal": "Wanita Yang Mengajukan Gugatan",
         "classification": "Madaniyah",
-        "surah_id": 58,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 58,
+        "surah_id": "al-mujadilah"
     },
     {
         "aliases": [
@@ -966,8 +1024,9 @@
         "latin_name": "Al Ḥashr",
         "literal": "Pengusiran",
         "classification": "Madaniyah",
-        "surah_id": 59,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 59,
+        "surah_id": "al-hashr"
     },
     {
         "aliases": [
@@ -982,8 +1041,9 @@
         "latin_name": "Al Mumtaḥanah",
         "literal": "Perempuan Yang Diuji",
         "classification": "Madaniyah",
-        "surah_id": 60,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 60,
+        "surah_id": "al-mumtahanah"
     },
     {
         "aliases": [
@@ -998,8 +1058,9 @@
         "latin_name": "Aṣ Ṣaff",
         "literal": "Barisan",
         "classification": "Madaniyah",
-        "surah_id": 61,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 61,
+        "surah_id": "as-saff"
     },
     {
         "aliases": [
@@ -1014,8 +1075,9 @@
         "latin_name": "Al Jumuʿah",
         "literal": "Hari Jumat",
         "classification": "Madaniyah",
-        "surah_id": 62,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 62,
+        "surah_id": "al-jumuah"
     },
     {
         "aliases": [
@@ -1030,8 +1092,9 @@
         "latin_name": "Al Munāfiqūn",
         "literal": "Orang-Orang Munafik",
         "classification": "Madaniyah",
-        "surah_id": 63,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 63,
+        "surah_id": "al-munafiqun"
     },
     {
         "aliases": [
@@ -1046,8 +1109,9 @@
         "latin_name": "At Taghābun",
         "literal": "Hari Ditampakkan Segala Kesalahan",
         "classification": "Madaniyah",
-        "surah_id": 64,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 64,
+        "surah_id": "at-taghabun"
     },
     {
         "aliases": [
@@ -1062,8 +1126,9 @@
         "latin_name": "Aṭ Ṭalāq",
         "literal": "Talak",
         "classification": "Madaniyah",
-        "surah_id": 65,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 65,
+        "surah_id": "at-talaq"
     },
     {
         "aliases": [
@@ -1078,8 +1143,9 @@
         "latin_name": "At Taḥrīm",
         "literal": "Mengharamkan",
         "classification": "Madaniyah",
-        "surah_id": 66,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 66,
+        "surah_id": "at-tahrim"
     },
     {
         "aliases": [
@@ -1094,8 +1160,9 @@
         "latin_name": "Al Mulk",
         "literal": "Kerajaan",
         "classification": "Makkiyah",
-        "surah_id": 67,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 67,
+        "surah_id": "al-mulk"
     },
     {
         "aliases": [
@@ -1110,8 +1177,9 @@
         "latin_name": "Al Qalam",
         "literal": "Pena",
         "classification": "Makkiyah",
-        "surah_id": 68,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 68,
+        "surah_id": "al-qalam"
     },
     {
         "aliases": [
@@ -1126,8 +1194,9 @@
         "latin_name": "Al Ḥāqqah",
         "literal": "Hari Kiamat",
         "classification": "Makkiyah",
-        "surah_id": 69,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 69,
+        "surah_id": "al-haqqah"
     },
     {
         "aliases": [
@@ -1142,8 +1211,9 @@
         "latin_name": "Al Maʻārij",
         "literal": "Tempat-Tempat Naik",
         "classification": "Makkiyah",
-        "surah_id": 70,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 70,
+        "surah_id": "al-maarij"
     },
     {
         "aliases": [
@@ -1158,8 +1228,9 @@
         "latin_name": "Nūḥ",
         "literal": "Nuh",
         "classification": "Makkiyah",
-        "surah_id": 71,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 71,
+        "surah_id": "nuh"
     },
     {
         "aliases": [
@@ -1174,8 +1245,9 @@
         "latin_name": "Al Jinn",
         "literal": "Jin",
         "classification": "Makkiyah",
-        "surah_id": 72,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 72,
+        "surah_id": "al-jinn"
     },
     {
         "aliases": [
@@ -1190,8 +1262,9 @@
         "latin_name": "Al Muzzammil",
         "literal": "Orang Yang Berselimut",
         "classification": "Makkiyah",
-        "surah_id": 73,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 73,
+        "surah_id": "al-muzzammil"
     },
     {
         "aliases": [
@@ -1206,8 +1279,9 @@
         "latin_name": "Al Muddaththir",
         "literal": "Orang Yang Berkemul",
         "classification": "Makkiyah",
-        "surah_id": 74,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 74,
+        "surah_id": "al-muddaththir"
     },
     {
         "aliases": [
@@ -1222,8 +1296,9 @@
         "latin_name": "Al Qiyāmah",
         "literal": "Hari Kiamat",
         "classification": "Makkiyah",
-        "surah_id": 75,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 75,
+        "surah_id": "al-qiyamah"
     },
     {
         "aliases": [
@@ -1239,8 +1314,9 @@
         "latin_name": "Al Insān",
         "literal": "Manusia",
         "classification": "Madaniyah",
-        "surah_id": 76,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 76,
+        "surah_id": "al-insan"
     },
     {
         "aliases": [
@@ -1255,8 +1331,9 @@
         "latin_name": "Al Mursalāt",
         "literal": "Yang Diutus",
         "classification": "Makkiyah",
-        "surah_id": 77,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 77,
+        "surah_id": "al-mursalat"
     },
     {
         "aliases": [
@@ -1271,8 +1348,9 @@
         "latin_name": "An Naba'",
         "literal": "Berita Besar",
         "classification": "Makkiyah",
-        "surah_id": 78,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 78,
+        "surah_id": "an-naba"
     },
     {
         "aliases": [
@@ -1288,8 +1366,9 @@
         "latin_name": "An Nāziʻāt",
         "literal": "Yang Mencabut",
         "classification": "Makkiyah",
-        "surah_id": 79,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 79,
+        "surah_id": "an-naziat"
     },
     {
         "aliases": [
@@ -1304,8 +1383,9 @@
         "latin_name": "ʻAbasa",
         "literal": "Ia Bermuka Masam",
         "classification": "Makkiyah",
-        "surah_id": 80,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 80,
+        "surah_id": "abasa"
     },
     {
         "aliases": [
@@ -1320,8 +1400,9 @@
         "latin_name": "At Takwīr",
         "literal": "Menggulung",
         "classification": "Makkiyah",
-        "surah_id": 81,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 81,
+        "surah_id": "at-takwir"
     },
     {
         "aliases": [
@@ -1336,8 +1417,9 @@
         "latin_name": "Al Infiṭār",
         "literal": "Terbelah",
         "classification": "Makkiyah",
-        "surah_id": 82,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 82,
+        "surah_id": "al-infitar"
     },
     {
         "aliases": [
@@ -1352,8 +1434,9 @@
         "latin_name": "Al Muṭaffifīn",
         "literal": "Kecurangan",
         "classification": "Makkiyah",
-        "surah_id": 83,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 83,
+        "surah_id": "al-mutaffifin"
     },
     {
         "aliases": [
@@ -1368,8 +1451,9 @@
         "latin_name": "Al Inshiqāq",
         "literal": "Terbelah",
         "classification": "Makkiyah",
-        "surah_id": 84,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 84,
+        "surah_id": "al-inshiqaq"
     },
     {
         "aliases": [
@@ -1384,8 +1468,9 @@
         "latin_name": "Al Burūj",
         "literal": "Gugusan Bintang",
         "classification": "Makkiyah",
-        "surah_id": 85,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 85,
+        "surah_id": "al-buruj"
     },
     {
         "aliases": [
@@ -1400,8 +1485,9 @@
         "latin_name": "Aṭ Ṭāriq",
         "literal": "Yang Datang di Malam Hari",
         "classification": "Makkiyah",
-        "surah_id": 86,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 86,
+        "surah_id": "at-tariq"
     },
     {
         "aliases": [
@@ -1416,8 +1502,9 @@
         "latin_name": "Al Aʻlā",
         "literal": "Yang Paling Tinggi",
         "classification": "Makkiyah",
-        "surah_id": 87,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 87,
+        "surah_id": "al-ala"
     },
     {
         "aliases": [
@@ -1432,8 +1519,9 @@
         "latin_name": "Al Ghāshiyah",
         "literal": "Hari Pembalasan",
         "classification": "Makkiyah",
-        "surah_id": 88,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 88,
+        "surah_id": "al-ghashiyah"
     },
     {
         "aliases": [
@@ -1448,8 +1536,9 @@
         "latin_name": "Al Fajr",
         "literal": "Fajar",
         "classification": "Makkiyah",
-        "surah_id": 89,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 89,
+        "surah_id": "al-fajr"
     },
     {
         "aliases": [
@@ -1464,8 +1553,9 @@
         "latin_name": "Al-Balad",
         "literal": "Negeri",
         "classification": "Makkiyah",
-        "surah_id": 90,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 90,
+        "surah_id": "al-balad"
     },
     {
         "aliases": [
@@ -1480,8 +1570,9 @@
         "latin_name": "Ash Shams",
         "literal": "Matahari",
         "classification": "Makkiyah",
-        "surah_id": 91,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 91,
+        "surah_id": "ash-shams"
     },
     {
         "aliases": [
@@ -1496,8 +1587,9 @@
         "latin_name": "Al Lail",
         "literal": "Malam",
         "classification": "Makkiyah",
-        "surah_id": 92,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 92,
+        "surah_id": "al-lail"
     },
     {
         "aliases": [
@@ -1512,8 +1604,9 @@
         "latin_name": "Aḍ Ḍuḥā",
         "literal": "Waktu Dhuha",
         "classification": "Makkiyah",
-        "surah_id": 93,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 93,
+        "surah_id": "ad-duha"
     },
     {
         "aliases": [
@@ -1525,11 +1618,12 @@
         ],
         "_id": "61048d54fb7d052900dbd5e4",
         "arabic_name": "الشرح",
-        "latin_name": "Al Inshirāḥ",
+        "latin_name": "Ash Sharḥ",
         "literal": "Kelapangan",
         "classification": "Makkiyah",
-        "surah_id": 94,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 94,
+        "surah_id": "ash-sharh"
     },
     {
         "aliases": [
@@ -1544,8 +1638,9 @@
         "latin_name": "At Tīn",
         "literal": "Buah Tin",
         "classification": "Makkiyah",
-        "surah_id": 95,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 95,
+        "surah_id": "at-tin"
     },
     {
         "aliases": [
@@ -1562,8 +1657,9 @@
         "latin_name": "Al ʻAlaq",
         "literal": "Segumpal Darah",
         "classification": "Makkiyah",
-        "surah_id": 96,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 96,
+        "surah_id": "al-alaq"
     },
     {
         "aliases": [
@@ -1578,8 +1674,9 @@
         "latin_name": "Al Qadr",
         "literal": "Kemuliaan",
         "classification": "Makkiyah",
-        "surah_id": 97,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 97,
+        "surah_id": "al-qadr"
     },
     {
         "aliases": [
@@ -1594,8 +1691,9 @@
         "latin_name": "Al Bayyinah",
         "literal": "Pembuktian",
         "classification": "Madaniyah",
-        "surah_id": 98,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 98,
+        "surah_id": "al-bayyinah"
     },
     {
         "aliases": [
@@ -1610,8 +1708,9 @@
         "latin_name": "Al Zalzalah",
         "literal": "Kegoncangan",
         "classification": "Madaniyah",
-        "surah_id": 99,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 99,
+        "surah_id": "al-zalzalah"
     },
     {
         "aliases": [
@@ -1626,8 +1725,9 @@
         "latin_name": "Al ʻĀdiyāt",
         "literal": "Kuda Perang Yang Berlari Kencang",
         "classification": "Makkiyah",
-        "surah_id": 100,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 100,
+        "surah_id": "al-adiyat"
     },
     {
         "aliases": [
@@ -1642,8 +1742,9 @@
         "latin_name": "Al Qāriʻah",
         "literal": "Hari Kiamat",
         "classification": "Makkiyah",
-        "surah_id": 101,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 101,
+        "surah_id": "al-qariah"
     },
     {
         "aliases": [
@@ -1658,8 +1759,9 @@
         "latin_name": "At Takāthur",
         "literal": "Bermegah-Megahan",
         "classification": "Makkiyah",
-        "surah_id": 102,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 102,
+        "surah_id": "at-takathur"
     },
     {
         "aliases": [
@@ -1674,8 +1776,9 @@
         "latin_name": "Al ʻAṣr",
         "literal": "Masa",
         "classification": "Makkiyah",
-        "surah_id": 103,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 103,
+        "surah_id": "al-asr"
     },
     {
         "aliases": [
@@ -1690,8 +1793,9 @@
         "latin_name": "Al Humazah",
         "literal": "Pengumpat",
         "classification": "Makkiyah",
-        "surah_id": 104,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 104,
+        "surah_id": "al-humazah"
     },
     {
         "aliases": [
@@ -1706,8 +1810,9 @@
         "latin_name": "Al Fīl",
         "literal": "Gajah",
         "classification": "Makkiyah",
-        "surah_id": 105,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 105,
+        "surah_id": "al-fil"
     },
     {
         "aliases": [
@@ -1722,8 +1827,9 @@
         "latin_name": "Quraysh",
         "literal": "Kaum Quraisy",
         "classification": "Makkiyah",
-        "surah_id": 106,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 106,
+        "surah_id": "quraysh"
     },
     {
         "aliases": [
@@ -1738,8 +1844,9 @@
         "latin_name": "Al Māʻūn",
         "literal": "Barang-Barang Yang Berguna",
         "classification": "Makkiyah",
-        "surah_id": 107,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 107,
+        "surah_id": "al-maun"
     },
     {
         "aliases": [
@@ -1754,8 +1861,9 @@
         "latin_name": "Al Kauthar",
         "literal": "Nikmat Yang Berlimpah",
         "classification": "Makkiyah",
-        "surah_id": 108,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 108,
+        "surah_id": "al-kauthar"
     },
     {
         "aliases": [
@@ -1770,8 +1878,9 @@
         "latin_name": "Al Kāfirūn",
         "literal": "Orang-Orang Kafir",
         "classification": "Makkiyah",
-        "surah_id": 109,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 109,
+        "surah_id": "al-kafirun"
     },
     {
         "aliases": [
@@ -1786,8 +1895,9 @@
         "latin_name": "An Naṣr",
         "literal": "Pertolongan",
         "classification": "Madaniyah",
-        "surah_id": 110,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 110,
+        "surah_id": "an-nasr"
     },
     {
         "aliases": [
@@ -1802,8 +1912,9 @@
         "latin_name": "Al Lahab",
         "literal": "Gejolak Api",
         "classification": "Makkiyah",
-        "surah_id": 111,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 111,
+        "surah_id": "al-lahab"
     },
     {
         "aliases": [
@@ -1828,8 +1939,9 @@
         "latin_name": "Al Ikhlāṣ",
         "literal": "Memurnikan Keesaan Allah",
         "classification": "Makkiyah",
-        "surah_id": 112,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 112,
+        "surah_id": "al-ikhlas"
     },
     {
         "aliases": [
@@ -1844,8 +1956,9 @@
         "latin_name": "Al Falaq",
         "literal": "Waktu Subuh",
         "classification": "Makkiyah",
-        "surah_id": 113,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 113,
+        "surah_id": "al-falaq"
     },
     {
         "aliases": [
@@ -1860,7 +1973,8 @@
         "latin_name": "An Nās",
         "literal": "Manusia",
         "classification": "Makkiyah",
-        "surah_id": 114,
-        "__v": 0
+        "__v": 0,
+        "surah_index": 114,
+        "surah_id": "an-nas"
     }
 ]
