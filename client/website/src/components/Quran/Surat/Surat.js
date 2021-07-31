@@ -1,7 +1,6 @@
 import React from 'react'
 
 import './Surat.css'
-// import { ReactComponent as MoreHorizIcon } from '../../../assets/icons/MoreHoriz-01.svg'
 
 const Surat = ({ surat, currentId, setCurrentId }) => {
     return (
