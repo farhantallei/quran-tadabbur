@@ -15,7 +15,7 @@ app.use(cors())
 app.use('/quran', quranRoutes)
 
 app.get('/', (req, res) => {
-    res.send('Ngafalin data API')
+    res.send('Quran Tadabbur data API')
 })
 
 const PORT = process.env.PORT

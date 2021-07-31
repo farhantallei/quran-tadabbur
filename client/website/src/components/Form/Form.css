@@ -196,8 +196,8 @@
     color: white;
 }
 
-.submit:hover {
-    background-color: #0f6ed7;
+.submit-edit {
+    background-color: #ffcc00;
 }
 
 .reset {
@@ -205,8 +205,8 @@
     color: #8e8e93;
 }
 
-.reset:hover {
-    background-color: #c7c7cc;
+.submit:hover, .reset:hover {
+    filter: brightness(0.9);
 }
 
 .submit, .reset {
@@ -219,7 +219,7 @@
     font-size: 16px;
     text-transform: uppercase;
 
-    transition: background-color .4s;
+    transition: filter .4s;
 }
 
 .form-title span, .label span {

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import { createData, updateData } from '../../actions/quran'
@@ -6,18 +6,22 @@ import './Form.css'
 
 const Form = ({ currentId, setCurrentId }) => {
     const dispatch = useDispatch()
-    const [quranData, setQuranData] = useState({ arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: false, avail: '' })
+    const [quranData, setQuranData] = useState({ surah_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: false, avail: '' })
     const quran = useSelector(state => currentId ? state.quran.find((surah) => surah._id === currentId) : null)
+    const formScroll = useRef()
 
     useEffect(() => {
-        if (quran) setQuranData(quran)
+        if (quran) {
+            setQuranData(quran)
+            formScroll.current.scrollTo({ top: 0, behavior: 'smooth'})
+        }
     }, [quran])
 
     const handleSubmit = (e) => {
         e.preventDefault()
 
         if (currentId === 0) dispatch(createData(quranData))
-        else dispatch(updateData(currentId, quranData))
+        else dispatch(updateData(currentId, { ...quranData, surah_id: quranData.surah_id.replace(/\s+/g, '-').toLowerCase()}))
         
         clear()
     }
@@ -27,16 +31,20 @@ const Form = ({ currentId, setCurrentId }) => {
         for (let i = 0; i < input.length; i++) input[i].checked = false
 
         setCurrentId(0)
-        setQuranData({ arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: false, avail: '' })
+        setQuranData({ surah_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: false, avail: '' })
+
+        formScroll.current.scrollTo({ top: 0, behavior: 'smooth'})
     }
     
     return (
         <>
-        <h2 className='form-title'>{currentId ? <>Edit Surah <span>{quranData.latin_name}</span></> : <>Tambahkan informasi <span>data Surah</span></>}</h2>
+        <h2 className='form-title'>{currentId ? <>Edit Surah <span>{quran.latin_name}</span></> : <>Tambahkan informasi <span>data Surah</span></>}</h2>
         <div className='form-layout'>
-            <div className='form-scroll'>
+            <div className='form-scroll' ref={formScroll}>
                 <div className='form-content'>
                     <form className='form' id='form' autoComplete="off" onSubmit={handleSubmit}>
+                        <label className='label'><span>Id</span> Surah</label>
+                        <input className='field' name='surah_id' type='text' required value={quranData.surah_id} onChange={(e) => setQuranData({ ...quranData, surah_id: e.target.value })} />
 
                         <label className='label'>Nama Surah dalam <span>Arabic</span></label>
                         <input className='arabic field' name='arabic_name' type='text' required value={quranData.arabic_name} onChange={(e) => setQuranData({ ...quranData, arabic_name: e.target.value })} />
@@ -72,7 +80,7 @@ const Form = ({ currentId, setCurrentId }) => {
                             <input id='mysterious_letters' name='mysterious_letters' type="checkbox" checked={quranData.mysterious_letters} onChange={(e) => setQuranData({ ...quranData, mysterious_letters: e.target.checked })} />
                             <span className="toggle-switch"></span>
                         </label>
-                        <input className='submit' type='submit' value='Tambahkan!' />
+                        <input className={currentId ? 'submit submit-edit' : 'submit'} type='submit' value={currentId ? 'Edit' : 'Tambahkan!'} />
                     </form>
                     <button className='reset' onClick={clear}>Reset</button>
                     <div></div>
