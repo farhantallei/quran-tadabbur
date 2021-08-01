@@ -2,7 +2,8 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useHistory, useParams } from 'react-router-dom'
 
-import { getSelectedData } from '../actions/quran'
+import { getDataBySearch, getSelectedData } from '../actions/quran'
+import NotFound from './NotFound'
 
 const Surah = () => {
     const { surah, quran, isLoading } = useSelector((state) => state.quran)
@@ -14,20 +15,56 @@ const Surah = () => {
         dispatch(getSelectedData(id))
     }, [id])
 
-    if (!surah) return null
+    useEffect(() => {
+        if (surah) {
+            dispatch(getDataBySearch({ search: 'none', index: [surah.surah_index-1, surah.surah_index+1] }))
+        }
+    }, [surah])
+
+    if (!surah && !isLoading) return (<NotFound />)
+
     if (isLoading) {
         return (<div>Loading</div>)
     }
 
     return (
-        <div>
-            <h1 dir='rtl' style={{textAlign: 'left'}}>{surah.arabic_name}</h1>
+        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', position: 'absolute', left: 0, top: 0, height: '100%', width: '100%'}} >
+            <h1>Surah ke {surah.surah_index}</h1>
+            <h1 dir='rtl'>{surah.arabic_name}</h1>
             <h1>{surah.latin_name}</h1>
             <h1>{surah.literal}</h1>
             <h1>{surah.classification}</h1>
             <h1>{surah.aliases.length > 1 ? surah.aliases.map((aliases) => `${aliases}, `) : surah.aliases}</h1>
             <h1>{surah.avail.length > 1 ? surah.avail.map((avail) => `${avail}, `) : surah.avail}</h1>
-            <h1>{surah.mysterious_letters ? 'ada' : 'tidak ada'}</h1>
+            <h1>Muqata'at: {surah.mysterious_letters ? 'ada' : 'tidak ada'}</h1>
+            <div className='item'>
+                <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => history.push(`/${quran[0].surah_id}`)}>
+                    <div className='action'>
+                        <div className='index' style={{ backgroundColor: 'white' }}>{quran[0].surah_index}</div>
+                    </div>
+                    <div className='content'>
+                        <div className='arabic title' style={{ color: 'white' }}>{quran[0].arabic_name}</div>
+                        <div className='info'>
+                            <div className='latin' style={{ color: 'white' }}>{quran[0].latin_name}</div>
+                            <div className='literal' style={{ color: 'white' }}>{quran[0].literal}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='item'>
+                <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => history.push(`/${quran[1].surah_id}`)}>
+                    <div className='action'>
+                        <div className='index' style={{ backgroundColor: 'white' }}>{quran[1].surah_index}</div>
+                    </div>
+                    <div className='content'>
+                        <div className='arabic title' style={{ color: 'white' }}>{quran[1].arabic_name}</div>
+                        <div className='info'>
+                            <div className='latin' style={{ color: 'white' }}>{quran[1].latin_name}</div>
+                            <div className='literal' style={{ color: 'white' }}>{quran[1].literal}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

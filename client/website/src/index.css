@@ -386,6 +386,10 @@ code {
     align-content: flex-start;
 }
 
+.search {
+    width: 100%;
+}
+
 /* Aside */
 .side {
     /* Auto Layout */

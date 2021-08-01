@@ -14,18 +14,20 @@ const Home = () => {
     const dispatch = useDispatch()
     const query = useQuery()
     const history = useHistory()
-    const search = query.get('search')
+    const searchQuery = query.get('q')
 
     const [currentId, setCurrentId] = useState(0)
     const [searchTerm, setSearchTerm] = useState('')
 
     useEffect(() => {
-        searchSurah()
+        if (searchQuery) dispatch(getDataBySearch({ search: searchQuery, index: '' }))
+        else dispatch(getData())
     }, [dispatch])
 
     const searchSurah = () => {
+        setCurrentId(0)
         if (searchTerm.trim()) {
-            dispatch(getDataBySearch(searchTerm))
+            dispatch(getDataBySearch({ search: searchTerm, index: '' }))
             history.push(`/search?q=${searchTerm}`)
         } else {
             dispatch(getData())
@@ -42,7 +44,6 @@ const Home = () => {
             <div className='container'>
                 <div className='layout'>
                     <input className='search' name='search' type='text' value={searchTerm} onKeyDown={handleKeyPress} onChange={(e) => setSearchTerm(e.target.value)}  />
-                    <button onClick={searchSurah}>Search</button>
                     <div className='menu'>
                         <div className='menu-content'>
                             <Quran currentId={currentId} setCurrentId={setCurrentId} />

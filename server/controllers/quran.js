@@ -25,16 +25,12 @@ export const getData = async (req, res) => {
 }
 
 export const getDataBySearch = async (req, res) => {
-    const { q } = req.query
-
-    console.log('halo pak: ' + q)
+    const { q, i } = req.query
 
     try {
         const searchTerm = new RegExp(q, 'i')
 
-        const quran = await Quran.find({ $or: [ { arabic_name: searchTerm }, { latin_name: searchTerm }, { literal: searchTerm}, { surah_id: searchTerm }]})
-        
-        console.log(quran);
+        const quran = await Quran.find({ $or: [ { arabic_name: searchTerm }, { latin_name: searchTerm }, { literal: searchTerm}, { surah_id: searchTerm }, { surah_index: { $in: i.split(',') } }]})
 
         res.json({ data: quran })
     } catch (error) {

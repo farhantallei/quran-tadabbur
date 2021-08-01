@@ -15,7 +15,9 @@ const Form = ({ currentId, setCurrentId }) => {
             setQuranData(quran)
             formScroll.current.scrollTo({ top: 0, behavior: 'smooth'})
         }
-    }, [quran])
+
+        if (!currentId) clear()
+    }, [currentId, quran])
 
     const handleSubmit = (e) => {
         e.preventDefault()
