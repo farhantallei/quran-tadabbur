@@ -13,8 +13,6 @@ const App = () => {
                 <Route path="/" exact component={Home} />
                 <Route path="/search" exact component={Home} />
                 <Route path="/:id" component={Surah} />
-
-                <Route path="" component={NotFound} />
             </Switch>
         </BrowserRouter>
     )

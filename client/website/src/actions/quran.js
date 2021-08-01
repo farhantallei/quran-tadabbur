@@ -1,6 +1,6 @@
 import * as api from '../api'
 
-import { CREATE, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, START_LOADING, UPDATE } from '../constant/actionTypes'
+import { CREATE, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE } from '../constant/actionTypes'
 
 export const getData = () => async (dispatch) => {
     try {
@@ -19,7 +19,21 @@ export const getDataBySearch = (search) => async (dispatch) => {
         dispatch({ type: START_LOADING })
         const { data: { data } } = await api.fetchDataBySearch(search)
 
+        console.log(data)
+
         dispatch({ type: FETCH_BY_SEARCH, payload: data })
+        dispatch({ type: END_LOADING })
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+export const getSelectedData = (id) => async (dispatch) => {
+    try {
+        dispatch({ type: START_LOADING })
+        const { data } = await api.fetchSelectedData(id)
+        
+        dispatch({ type: FETCH_DATA, payload: data })
         dispatch({ type: END_LOADING })
     } catch (error) {
         console.log(error)

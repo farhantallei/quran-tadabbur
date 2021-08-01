@@ -1,4 +1,4 @@
-import { CREATE, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, START_LOADING, UPDATE } from "../constant/actionTypes"
+import { CREATE, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE } from "../constant/actionTypes"
 
 const quran = (state = { isLoading: true, quran: []}, action) => {
     switch (action.type) {
@@ -6,6 +6,8 @@ const quran = (state = { isLoading: true, quran: []}, action) => {
             return { ...state, quran: action.payload.data }
         case FETCH_BY_SEARCH:
             return { ...state, quran: action.payload }
+        case FETCH_DATA:
+            return { ...state, surah: action.payload }
         case CREATE:
             return { ...state, quran: [...state.quran, action.payload] }
         case UPDATE:

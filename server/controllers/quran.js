@@ -2,6 +2,18 @@ import mongoose from 'mongoose'
 
 import Quran from '../models/quran.js'
 
+export const getSelectedData = async (req, res) => {
+    const { id } = req.params
+
+    try {
+        const surah = await Quran.findOne({ surah_id: id })
+
+        res.status(200).json(surah)
+    } catch (error) {
+        res.status(404).json({ message: error })
+    }
+}
+
 export const getData = async (req, res) => {
     try {
         const quran = await Quran.find()
@@ -15,11 +27,15 @@ export const getData = async (req, res) => {
 export const getDataBySearch = async (req, res) => {
     const { q } = req.query
 
+    console.log('halo pak: ' + q)
+
     try {
         const searchTerm = new RegExp(q, 'i')
 
         const quran = await Quran.find({ $or: [ { arabic_name: searchTerm }, { latin_name: searchTerm }, { literal: searchTerm}, { surah_id: searchTerm }]})
         
+        console.log(quran);
+
         res.json({ data: quran })
     } catch (error) {
         res.status(404).json({ message: error })
