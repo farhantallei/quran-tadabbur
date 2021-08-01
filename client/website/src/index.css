@@ -209,7 +209,28 @@ code {
     unicode-bidi: isolate;
 }
 
-#root {
+.main-404 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.message-404 h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.collage-404 h1 {
+    font-size: 20vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.home-grid {
     /* Auto Layout */
     display: grid;
     -webkit-flex-direction: column;
@@ -305,7 +326,7 @@ code {
 
 	overflow-x: hidden;
 	overflow-y: auto;
-    height: 100%;
+    height: calc(100% - 21px);
 
     /* Inside Auto Layout */
     -webkit-flex-wrap: wrap;

@@ -1,10 +1,15 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom'
 
 import './Surat.css'
 
 const Surat = ({ surat, currentId, setCurrentId }) => {
+    const history = useHistory()
+
+    const openSurah = () => history.push(`/${surat.surah_id}`)
+
     return (
-        <div className={currentId === surat._id ? 'card card-active' : 'card'}>
+        <div className={currentId === surat._id ? 'card card-active' : 'card'} onDoubleClick={openSurah}>
             <div className='action'>
                 <div className='index'>{surat.surah_index}</div>
                 <button className='editBtn' onClick={() => setCurrentId(surat._id)}><svg xmlns="http://www.w3.org/2000/svg" fill={currentId === surat._id ? 'white' : '#c7c7cc'} viewBox="0 0 30 12"><circle cx="3.5" cy="6" r="3.5"/><circle cx="26.5" cy="6" r="3.5"/><circle cx="15" cy="6" r="3.5"/></svg></button>
