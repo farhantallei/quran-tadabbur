@@ -32,7 +32,8 @@ export const getSelectedData = async (req, res) => {
     try {
         const surah = await Quran.findOne({ surah_id: id })
 
-        res.status(200).json(surah)
+        if (surah) res.status(200).json(surah)
+        else res.status(404).json({ message: `Data ${id} not found` })
     } catch (error) {
         res.status(404).json({ message: error })
     }

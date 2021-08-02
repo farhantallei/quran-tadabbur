@@ -6,7 +6,7 @@ import './Surat.css'
 const Surat = ({ surat, currentId, setCurrentId }) => {
     const history = useHistory()
 
-    const openSurah = () => history.push(`/${surat.surah_id}`)
+    const openSurah = () => history.push(`/surah/${surat.surah_id}`)
 
     return (
         <div className={currentId === surat._id ? 'card card-active' : 'card'} onDoubleClick={openSurah}>

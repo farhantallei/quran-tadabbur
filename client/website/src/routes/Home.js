@@ -22,7 +22,7 @@ const Home = () => {
     useEffect(() => {
         if (searchQuery) dispatch(getDataBySearch({ search: searchQuery, index: '' }))
         else dispatch(getData())
-    }, [dispatch])
+    }, [dispatch, searchQuery])
 
     const searchSurah = () => {
         setCurrentId(0)

@@ -11,6 +11,7 @@ export const getData = () => async (dispatch) => {
         dispatch({ type: END_LOADING })
     } catch (error) {
         console.log(error)
+        dispatch({ type: END_LOADING })
     }
 }
 
@@ -23,6 +24,7 @@ export const getDataBySearch = (search) => async (dispatch) => {
         dispatch({ type: END_LOADING })
     } catch (error) {
         console.log(error)
+        dispatch({ type: END_LOADING })
     }
 }
 
@@ -35,6 +37,7 @@ export const getSelectedData = (id) => async (dispatch) => {
         dispatch({ type: END_LOADING })
     } catch (error) {
         console.log(error)
+        dispatch({ type: END_LOADING })
     }
 }
 
