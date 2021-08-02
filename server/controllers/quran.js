@@ -4,7 +4,7 @@ import Quran from '../models/quran.js'
 
 export const getData = async (req, res) => {
     try {
-        const quran = await Quran.find()
+        const quran = await Quran.find().sort({ surah_index: 1 })
 
         res.status(200).json({ data: quran })
     } catch (error) {

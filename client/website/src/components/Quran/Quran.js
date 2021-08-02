@@ -7,7 +7,7 @@ import './Quran.css'
 const Quran = ({ currentId, setCurrentId }) => {
     const { surat, isLoading } = useSelector((state) => state.quran)
 
-    surat.sort((a, b) => parseFloat(a.surah_id) - parseFloat(b.surah_id))
+    // surat.sort((a, b) => parseFloat(a.surah_id) - parseFloat(b.surah_id))
     // surat.sort((a, b) => (a.literal > b.literal) ? 1 : ((b.literal > a.literal) ? -1 : 0))
 
     if (!surat.length && !isLoading) return 'No data'
