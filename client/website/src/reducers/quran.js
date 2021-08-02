@@ -5,7 +5,7 @@ const quran = (state = { isLoading: true, surat: []}, action) => {
         case FETCH_ALL:
             return { ...state, surat: action.payload.data }
         case FETCH_BY_SEARCH:
-            return { ...state, surat: action.payload }
+            return { ...state, surat: action.payload.data }
         case FETCH_DATA:
             return { ...state, surah: action.payload }
         case CREATE:

@@ -18,7 +18,7 @@ export const getData = () => async (dispatch) => {
 export const getDataBySearch = (search) => async (dispatch) => {
     try {
         dispatch({ type: START_LOADING })
-        const { data: { data } } = await api.fetchDataBySearch(search)
+        const { data } = await api.fetchDataBySearch(search)
 
         dispatch({ type: FETCH_BY_SEARCH, payload: data })
         dispatch({ type: END_LOADING })
