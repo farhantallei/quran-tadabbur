@@ -44,6 +44,8 @@
 .text-area {
     padding: 12px;
     min-height: 100px;
+
+    resize: none;
 }
 
 .field, .text-area {
