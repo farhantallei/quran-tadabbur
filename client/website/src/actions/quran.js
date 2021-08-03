@@ -1,6 +1,6 @@
 import * as api from '../api'
 
-import { CREATE, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE } from '../constant/actionTypes'
+import { ADD_THEME, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_DATA, UPDATE_THEME } from '../constant/actionTypes'
 
 export const getData = () => async (dispatch) => {
     try {
@@ -45,7 +45,19 @@ export const createData = (surat) => async (dispatch) => {
     try {
         const { data } = await api.createData(surat)
 
-        dispatch({ type: CREATE, payload: data })
+        dispatch({ type: CREATE_DATA, payload: data })
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+export const addTheme = (id, theme) => async (dispatch) => {
+    try {
+        const { data } = await api.addTheme(id, theme)
+
+        dispatch({ type: ADD_THEME, payload: data })
+
+        return data.position
     } catch (error) {
         console.log(error)
     }
@@ -55,7 +67,19 @@ export const updateData = (id, surat) => async (dispatch) => {
     try {
         const { data } = await api.updateData(id, surat)
 
-        dispatch({ type: UPDATE, payload: data })
+        dispatch({ type: UPDATE_DATA, payload: data })
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+export const updateTheme = (id, theme) => async (dispatch) => {
+    try {
+        const { data } = await api.updateTheme(id, theme)
+
+        dispatch({ type: UPDATE_THEME, payload: data })
+
+        return data.position
     } catch (error) {
         console.log(error)
     }

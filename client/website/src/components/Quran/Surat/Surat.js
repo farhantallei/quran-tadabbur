@@ -1,7 +1,7 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
 
-import './Surat.css'
+import './styles.css'
 
 const Surat = ({ surat, currentId, setCurrentId }) => {
     const history = useHistory()

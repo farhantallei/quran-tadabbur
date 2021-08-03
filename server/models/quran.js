@@ -9,7 +9,8 @@ const quranSchema = mongoose.Schema({
     classification: { type: String, required: true },
     aliases: { type: [String], default: [] },
     avail: { type: [String], default: [] },
-    mysterious_letters: { type: Boolean, default: false }
+    mysterious_letters: { type: Boolean, default: false },
+    position: { type: [Object], default: [] }
 })
 
 autoIncrement.initialize(mongoose)

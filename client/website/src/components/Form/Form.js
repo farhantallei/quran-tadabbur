@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import { createData, updateData } from '../../actions/quran'
-import './Form.css'
+import './styles.css'
 
 const Form = ({ currentId, setCurrentId }) => {
     const dispatch = useDispatch()

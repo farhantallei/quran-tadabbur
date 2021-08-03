@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 
 const suratSchema = mongoose.Schema({
-    position: [[{
+    position: [{
         theme: { type: String },
         ruku: [[{
             subject: { type: String },
@@ -17,7 +17,7 @@ const suratSchema = mongoose.Schema({
                 }]
             }],
         }]],
-    }]]
+    }]
 })
 
 export default mongoose.model('Quran', suratSchema)

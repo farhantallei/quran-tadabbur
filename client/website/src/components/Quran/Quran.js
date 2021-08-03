@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 import Surat from './Surat/Surat'
-import './Quran.css'
+import './styles.css'
 
 const Quran = ({ currentId, setCurrentId }) => {
     const { surat, isLoading } = useSelector((state) => state.quran)

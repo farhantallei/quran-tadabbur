@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useHistory, useParams } from 'react-router-dom'
 
 import { getDataBySearch, getSelectedData } from '../actions/quran'
+import ThemeSurah from '../components/ThemeSurah/ThemeSurah'
 import NotFound from './NotFound'
 
 const Surah = () => {
@@ -37,6 +38,7 @@ const Surah = () => {
             <h1>{surah.aliases.length > 1 ? surah.aliases.map((aliases) => `${aliases}, `) : surah.aliases}</h1>
             <h1>{surah.avail.length > 1 ? surah.avail.map((avail) => `${avail}, `) : surah.avail}</h1>
             <h1>Muqata'at: {surah.mysterious_letters ? 'ada' : 'tidak ada'}</h1>
+            <ThemeSurah surah={surah} />
             {surat.length > 1 ? (
                 <>
                 <h1>PREV</h1>
