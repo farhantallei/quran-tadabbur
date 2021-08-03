@@ -39,7 +39,7 @@ const ThemeSurah = ({ surah }) => {
         <>
             <h1>Themes</h1>
             {themes.map((value, index) => (
-                <div key={index} style={{ userSelect: 'none' }} onDoubleClick={() => edit(index, value.theme.toString())}>
+                <div key={index} style={{ userSelect: 'none' }} onClick={() => edit(index, value.theme.toString())}>
                     <p>{value.theme}</p>
                 </div>
             ))}
