@@ -205,6 +205,7 @@ body {
     -ms-grid-rows: 145px 1fr;
     grid-template-rows: 145px 1fr;
     overflow: hidden;
+    background-color: #fff;
 }
 
 body, input, textarea, code {
@@ -616,6 +617,14 @@ code {
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
+}
+
+.table-footend {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 36px;
 }
 
 .info-none {

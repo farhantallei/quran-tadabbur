@@ -7,7 +7,7 @@ import Surah from './routes/Surah'
 import NotFound from './routes/NotFound'
 
 const App = () => {
-    const [title, setTitle] = useState('')
+    const [title, setTitle] = useState('Quran Tadabbur data API')
 
     return (
         <BrowserRouter>

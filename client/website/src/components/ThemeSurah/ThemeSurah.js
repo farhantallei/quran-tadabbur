@@ -46,7 +46,7 @@ const ThemeSurah = ({ surah, surat, setTitle }) => {
             {surat.length > 1 ? (
                 <>
                 <h1>PREV</h1>
-                <div className='item'>
+                <div style={{ width: '100%' }} className='item'>
                     <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => openSurah(0)}>
                         <div className='action'>
                             <div className='index' style={{ backgroundColor: 'white' }}>{surat[0].surah_index}</div>
@@ -61,7 +61,7 @@ const ThemeSurah = ({ surah, surat, setTitle }) => {
                     </div>
                 </div>
                 <h1>NEXT</h1>
-                <div className='item'>
+                <div style={{ width: '100%' }} className='item'>
                     <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => openSurah(1)}>
                         <div className='action'>
                             <div className='index' style={{ backgroundColor: 'white' }}>{surat[1].surah_index}</div>
@@ -79,7 +79,7 @@ const ThemeSurah = ({ surah, surat, setTitle }) => {
             ) : surat[0].surah_index > surah.surah_index ? (
                 <>
                 <h1>NEXT</h1>
-                <div className='item'>
+                <div style={{ width: '100%' }} className='item'>
                     <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => openSurah(0)}>
                         <div className='action'>
                             <div className='index' style={{ backgroundColor: 'white' }}>{surat[0].surah_index}</div>
@@ -97,7 +97,7 @@ const ThemeSurah = ({ surah, surat, setTitle }) => {
             ) : (
                 <>
                 <h1>PREV</h1>
-                <div className='item'>
+                <div style={{ width: '100%' }} className='item'>
                     <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => openSurah(0)}>
                         <div className='action'>
                             <div className='index' style={{ backgroundColor: 'white' }}>{surat[0].surah_index}</div>
@@ -113,7 +113,7 @@ const ThemeSurah = ({ surah, surat, setTitle }) => {
                 </div>
                 </>
             ) }
-            <h1>Themes</h1>
+            {/* <h1>Themes</h1>
             {themes.map((value, index) => (
                 <div key={index} style={{ userSelect: 'none' }} onClick={() => edit(index, value.theme.toString())}>
                     <p>{value.theme}</p>
@@ -123,7 +123,7 @@ const ThemeSurah = ({ surah, surat, setTitle }) => {
                 <input type='text' value={themeInput} onChange={(e) => setThemeInput(e.target.value)} />
                 <input type='submit'value={currentId ? 'Edit theme' : 'Add theme'} />
             </form>
-            <button onClick={clear}>Clear</button>
+            <button onClick={clear}>Clear</button> */}
         </>
     )
 }
