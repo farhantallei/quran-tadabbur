@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 
 import { addTheme, updateTheme } from '../../actions/quran'
 
-const ThemeSurah = ({ surah }) => {
+const ThemeSurah = ({ surah, surat, setTitle }) => {
     const dispatch = useDispatch()
+    const history = useHistory()
 
     const [currentId, setCurrentId] = useState(0)
     const [themes, setThemes] = useState(surah?.position)
@@ -33,9 +35,84 @@ const ThemeSurah = ({ surah }) => {
         setCurrentId(0)
         setThemeInput('')
     }
+
+    const openSurah = (i) => {
+        history.push(`/surah/${surat[i].surah_id}`)
+        setTitle(`Surah no ${surat[i].surah_index}`)
+    }
     
     return (
         <>
+            {surat.length > 1 ? (
+                <>
+                <h1>PREV</h1>
+                <div className='item'>
+                    <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => openSurah(0)}>
+                        <div className='action'>
+                            <div className='index' style={{ backgroundColor: 'white' }}>{surat[0].surah_index}</div>
+                        </div>
+                        <div className='content'>
+                            <div className='arabic title' style={{ color: 'white' }}>{surat[0].arabic_name}</div>
+                            <div className='info'>
+                                <div className='latin' style={{ color: 'white' }}>{surat[0].latin_name}</div>
+                                <div className='literal' style={{ color: 'white' }}>{surat[0].literal}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1>NEXT</h1>
+                <div className='item'>
+                    <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => openSurah(1)}>
+                        <div className='action'>
+                            <div className='index' style={{ backgroundColor: 'white' }}>{surat[1].surah_index}</div>
+                        </div>
+                        <div className='content'>
+                            <div className='arabic title' style={{ color: 'white' }}>{surat[1].arabic_name}</div>
+                            <div className='info'>
+                                <div className='latin' style={{ color: 'white' }}>{surat[1].latin_name}</div>
+                                <div className='literal' style={{ color: 'white' }}>{surat[1].literal}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </>
+            ) : surat[0].surah_index > surah.surah_index ? (
+                <>
+                <h1>NEXT</h1>
+                <div className='item'>
+                    <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => openSurah(0)}>
+                        <div className='action'>
+                            <div className='index' style={{ backgroundColor: 'white' }}>{surat[0].surah_index}</div>
+                        </div>
+                        <div className='content'>
+                            <div className='arabic title' style={{ color: 'white' }}>{surat[0].arabic_name}</div>
+                            <div className='info'>
+                                <div className='latin' style={{ color: 'white' }}>{surat[0].latin_name}</div>
+                                <div className='literal' style={{ color: 'white' }}>{surat[0].literal}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </>
+            ) : (
+                <>
+                <h1>PREV</h1>
+                <div className='item'>
+                    <div className='card' style={{ backgroundColor: '#007aff' }} onClick={() => openSurah(0)}>
+                        <div className='action'>
+                            <div className='index' style={{ backgroundColor: 'white' }}>{surat[0].surah_index}</div>
+                        </div>
+                        <div className='content'>
+                            <div className='arabic title' style={{ color: 'white' }}>{surat[0].arabic_name}</div>
+                            <div className='info'>
+                                <div className='latin' style={{ color: 'white' }}>{surat[0].latin_name}</div>
+                                <div className='literal' style={{ color: 'white' }}>{surat[0].literal}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </>
+            ) }
             <h1>Themes</h1>
             {themes.map((value, index) => (
                 <div key={index} style={{ userSelect: 'none' }} onClick={() => edit(index, value.theme.toString())}>

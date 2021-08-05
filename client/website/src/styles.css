@@ -590,6 +590,7 @@ code {
     margin: 0 0 30px;
     font-size: 36px;
     font-weight: 500;
+    min-height: 41px;
 }
 
 .table-layout {

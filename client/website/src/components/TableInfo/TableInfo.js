@@ -1,13 +1,14 @@
 import React from 'react'
 
-const TableInfo = ({ surah }) => {
+const TableInfo = ({ surah, isLoading }) => {
     return (
         <div className="table">
-            <div className="table-head">{surah.latin_name}</div>
+            <div className="table-head">{!isLoading && surah.latin_name}</div>
             <div className="table-layout">
                 <div className="table-scroll">
                     <div className="table-container">
-                        <div className="table-content-info">
+                        {!isLoading && (
+                        <><div className="table-content-info">
                             <div className="info-alias">{surah.aliases.map((aliases, i, array) => (array.length - 1 === i) ? aliases : `${aliases} ● `)}</div>
                             <div className="info-arabic arabic">{surah.arabic_name}</div>
                             <div className="info-literal">{surah.literal}</div>
@@ -44,7 +45,7 @@ const TableInfo = ({ surah }) => {
                                     <div className="info-avail">{avail}</div>
                                 </div> )
                             )}
-                        </div>
+                        </div></>)}
                     </div>
                 </div>
             </div>
