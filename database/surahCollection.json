@@ -18,10 +18,13 @@
             "Asy Syifa",
             "Al Waqiyah"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "610236ddbd9691186c109d55",
         "arabic_name": "الفاتحة",
         "latin_name": "Al Fātiḥah",
@@ -33,20 +36,20 @@
     },
     {
         "aliases": [
-            "Fustatul Qur'an",
-            "Alif Lam Mim",
-            "Az Zahrawan",
-            "As Sinam"
+            "Az Zahrawan"
         ],
-        "mysterious_letters": true,
         "avail": [
             "Mengusir setan dari rumah",
             "Dua penerang di Hari Kiamat"
         ],
+        "mysterious_letters": [
+            "الم"
+        ],
+        "position": [],
         "_id": "61023883bd9691186c109d63",
         "arabic_name": "البقرة",
         "latin_name": "Al Baqarah",
-        "literal": "Sapi Betina",
+        "literal": "Sapi",
         "classification": "Madaniyah",
         "__v": 0,
         "surah_index": 2,
@@ -56,10 +59,13 @@
         "aliases": [
             "Az Zahrawan"
         ],
-        "mysterious_letters": true,
         "avail": [
             "Dua penerang di Hari Kiamat"
         ],
+        "mysterious_letters": [
+            "الم"
+        ],
+        "position": [],
         "_id": "61023a56bd9691186c109d66",
         "arabic_name": "آل عمران",
         "latin_name": "Āl ʻImrān",
@@ -73,10 +79,13 @@
         "aliases": [
             "An Nisa Al Kubra"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61023b16bd9691186c109d69",
         "arabic_name": "النساء",
         "latin_name": "An Nisā'",
@@ -91,10 +100,13 @@
             "Al 'Uqud",
             "Al Munqiz"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61023bf7bd9691186c109d6e",
         "arabic_name": "المائدة",
         "latin_name": "Al Mā'idah",
@@ -108,10 +120,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61023c4abd9691186c109d71",
         "arabic_name": "الأنعام",
         "latin_name": "Al Anʻām",
@@ -125,10 +140,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "المص"
+        ],
+        "position": [],
         "_id": "61023ce5bd9691186c109d74",
         "arabic_name": "الأعراف",
         "latin_name": "Al Aʻrāf",
@@ -142,10 +160,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61023d7abd9691186c109d89",
         "arabic_name": "الأنفال",
         "latin_name": "Al Anfāl",
@@ -162,10 +183,13 @@
             "Al Fadikhah",
             "Al Muqasyqisyah"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61023e1abd9691186c109d8c",
         "arabic_name": "التوبة",
         "latin_name": "At Taubah",
@@ -179,10 +203,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "الر"
+        ],
+        "position": [],
         "_id": "61023e82bd9691186c109d8f",
         "arabic_name": "يونس",
         "latin_name": "Yūnus",
@@ -196,10 +223,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "الر"
+        ],
+        "position": [],
         "_id": "61023eb2bd9691186c109d92",
         "arabic_name": "هود",
         "latin_name": "Hūd",
@@ -213,10 +243,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "الر"
+        ],
+        "position": [],
         "_id": "61023ef4bd9691186c109d95",
         "arabic_name": "يوسف",
         "latin_name": "Yūsuf",
@@ -230,10 +263,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "المر"
+        ],
+        "position": [],
         "_id": "61023f88bd9691186c109d98",
         "arabic_name": "الرعد",
         "latin_name": "Ar Raʻd",
@@ -247,10 +283,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "الر"
+        ],
+        "position": [],
         "_id": "61023fc3bd9691186c109d9b",
         "arabic_name": "إبراهيم",
         "latin_name": "Ibrāhīm",
@@ -264,10 +303,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "الر"
+        ],
+        "position": [],
         "_id": "610240bdbd9691186c109da0",
         "arabic_name": "الحجر",
         "latin_name": "Al Ḥijr",
@@ -281,10 +323,13 @@
         "aliases": [
             "An Ni'am"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6102412dbd9691186c109da3",
         "arabic_name": "النحل",
         "latin_name": "An Naḥl",
@@ -298,10 +343,13 @@
         "aliases": [
             "Bani Isra'il"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "610241ddbd9691186c109daf",
         "arabic_name": "الإسراء",
         "latin_name": "Al Isrā'",
@@ -315,10 +363,13 @@
         "aliases": [
             "Ashabul Kahf"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "610242d4bd9691186c109db2",
         "arabic_name": "الكهف",
         "latin_name": "Al Kahf",
@@ -332,10 +383,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "كهيعص"
+        ],
+        "position": [],
         "_id": "6103efa7bb02a921cc00368d",
         "arabic_name": "مريم",
         "latin_name": "Maryam",
@@ -349,10 +403,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "طه"
+        ],
+        "position": [],
         "_id": "6103f0c6bb02a921cc003698",
         "arabic_name": "طه",
         "latin_name": "Ṭā Hā",
@@ -366,10 +423,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f351bb02a921cc00369c",
         "arabic_name": "الأنبياء",
         "latin_name": "Al Anbiyā'",
@@ -383,10 +443,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f3a1bb02a921cc00369f",
         "arabic_name": "الحج",
         "latin_name": "Al Ḥajj",
@@ -400,10 +463,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f3f2bb02a921cc0036a2",
         "arabic_name": "المؤمنون",
         "latin_name": "Al Mu'minūn",
@@ -417,10 +483,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f452bb02a921cc0036ab",
         "arabic_name": "النور",
         "latin_name": "An Nūr",
@@ -434,10 +503,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f4b8bb02a921cc0036ae",
         "arabic_name": "الفرقان",
         "latin_name": "Al Furqān",
@@ -451,10 +523,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "طسم"
+        ],
+        "position": [],
         "_id": "6103f510bb02a921cc0036b1",
         "arabic_name": "الشعراء",
         "latin_name": "Ash Shuʻarā'",
@@ -468,10 +543,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "طس"
+        ],
+        "position": [],
         "_id": "6103f5a1bb02a921cc0036c1",
         "arabic_name": "النمل",
         "latin_name": "An Naml",
@@ -485,10 +563,13 @@
         "aliases": [
             "Musa"
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "طسم"
+        ],
+        "position": [],
         "_id": "6103f62dbb02a921cc0036c7",
         "arabic_name": "القصص",
         "latin_name": "Al Qaṣaṣ",
@@ -502,10 +583,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "الم"
+        ],
+        "position": [],
         "_id": "6103f66fbb02a921cc0036cf",
         "arabic_name": "العنكبوت",
         "latin_name": "Al ‘Ankabūt",
@@ -519,10 +603,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "الم"
+        ],
+        "position": [],
         "_id": "6103f697bb02a921cc0036d2",
         "arabic_name": "الروم",
         "latin_name": "Ar Rūm",
@@ -536,10 +623,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "الم"
+        ],
+        "position": [],
         "_id": "6103f6bdbb02a921cc0036d5",
         "arabic_name": "لقمان",
         "latin_name": "Luqmān",
@@ -553,10 +643,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "الم"
+        ],
+        "position": [],
         "_id": "6103f6edbb02a921cc0036d8",
         "arabic_name": "السجدة",
         "latin_name": "As Sajdah",
@@ -570,10 +663,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f743bb02a921cc0036db",
         "arabic_name": "الأحزاب",
         "latin_name": "Al Aḥzāb",
@@ -587,10 +683,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f7d8bb02a921cc0036df",
         "arabic_name": "سبأ",
         "latin_name": "Saba'",
@@ -604,10 +703,13 @@
         "aliases": [
             "Al Mala'ikah"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f835bb02a921cc0036e5",
         "arabic_name": "فاطر",
         "latin_name": "Fāṭir",
@@ -622,10 +724,13 @@
             "Man'amah",
             "Rafi'ah Khafizah"
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "يس"
+        ],
+        "position": [],
         "_id": "6103f880bb02a921cc0036ea",
         "arabic_name": "يس",
         "latin_name": "Yā Sīn",
@@ -639,10 +744,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f8bfbb02a921cc0036ef",
         "arabic_name": "الصافات",
         "latin_name": "Aṣ Ṣāffāt",
@@ -656,10 +764,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "ص"
+        ],
+        "position": [],
         "_id": "6103f902bb02a921cc0036f2",
         "arabic_name": "ص",
         "latin_name": "Ṣād",
@@ -673,10 +784,13 @@
         "aliases": [
             "Al Guraf"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103f931bb02a921cc0036f5",
         "arabic_name": "الزمر",
         "latin_name": "Az Zumar",
@@ -692,10 +806,13 @@
             "At-Tawl",
             "Ha Mim Al Mu'min"
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "حم"
+        ],
+        "position": [],
         "_id": "6103f9c3bb02a921cc0036f8",
         "arabic_name": "غافر",
         "latin_name": "Ghāfir",
@@ -709,10 +826,13 @@
         "aliases": [
             "Ha Mim as-Sadjah"
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "حم"
+        ],
+        "position": [],
         "_id": "6103fa06bb02a921cc0036fb",
         "arabic_name": "فصلت",
         "latin_name": "Fuṣṣilat",
@@ -726,10 +846,14 @@
         "aliases": [
             "Ha Mim 'Ain Sin Qaf"
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "حم",
+            "عسق"
+        ],
+        "position": [],
         "_id": "6103fa37bb02a921cc0036fe",
         "arabic_name": "الشورى",
         "latin_name": "Ash Shūrā",
@@ -743,10 +867,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "حم"
+        ],
+        "position": [],
         "_id": "6103fa6dbb02a921cc003701",
         "arabic_name": "الزخرف",
         "latin_name": "Az Zukhruf",
@@ -760,10 +887,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "حم"
+        ],
+        "position": [],
         "_id": "6103fa91bb02a921cc003704",
         "arabic_name": "الدخان",
         "latin_name": "Ad Dukhān",
@@ -777,10 +907,13 @@
         "aliases": [
             "Asy Syari'ah"
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "حم"
+        ],
+        "position": [],
         "_id": "6103fac1bb02a921cc003707",
         "arabic_name": "الجاثية",
         "latin_name": "Al Jāthiyah",
@@ -794,10 +927,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "حم"
+        ],
+        "position": [],
         "_id": "6103fae5bb02a921cc00370a",
         "arabic_name": "الأحقاف",
         "latin_name": "Al Aḥqāf",
@@ -811,10 +947,13 @@
         "aliases": [
             "Al Qital"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fb2cbb02a921cc00370d",
         "arabic_name": "محمد",
         "latin_name": "Muḥammad",
@@ -828,10 +967,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fb5ebb02a921cc003710",
         "arabic_name": "الفتح",
         "latin_name": "Al Fatḥ",
@@ -845,10 +987,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fb7cbb02a921cc003713",
         "arabic_name": "الحجرات",
         "latin_name": "Al Ḥujurāt",
@@ -862,10 +1007,13 @@
         "aliases": [
             "Al Basiqat"
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "ق"
+        ],
+        "position": [],
         "_id": "6103fba4bb02a921cc003716",
         "arabic_name": "ق",
         "latin_name": "Qāf",
@@ -879,10 +1027,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fbdfbb02a921cc003719",
         "arabic_name": "الذاريات",
         "latin_name": "Adh Dhāriyāt",
@@ -896,10 +1047,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fc05bb02a921cc00371c",
         "arabic_name": "الطور",
         "latin_name": "Aṭ Ṭūr",
@@ -913,10 +1067,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fc20bb02a921cc00371f",
         "arabic_name": "النجم",
         "latin_name": "An Najm",
@@ -930,10 +1087,13 @@
         "aliases": [
             "Iqtarabat"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fc48bb02a921cc003722",
         "arabic_name": "القمر",
         "latin_name": "Al Qamar",
@@ -947,10 +1107,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fc66bb02a921cc003725",
         "arabic_name": "الرحمن",
         "latin_name": "Ar Raḥmān",
@@ -964,10 +1127,13 @@
         "aliases": [
             "Idza waqa'at"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fc8ebb02a921cc003728",
         "arabic_name": "الواقعة",
         "latin_name": "Al Wāqiʻah",
@@ -981,10 +1147,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fcb6bb02a921cc00372b",
         "arabic_name": "الحديد",
         "latin_name": "Al Ḥadīd",
@@ -998,10 +1167,13 @@
         "aliases": [
             "Al Mujadalah"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fd3dbb02a921cc00372e",
         "arabic_name": "المجادلة",
         "latin_name": "Al Mujādilah",
@@ -1015,10 +1187,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fdc3bb02a921cc003731",
         "arabic_name": "الحشر",
         "latin_name": "Al Ḥashr",
@@ -1032,10 +1207,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fdfabb02a921cc003734",
         "arabic_name": "الممتحنة",
         "latin_name": "Al Mumtaḥanah",
@@ -1049,10 +1227,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fe12bb02a921cc003737",
         "arabic_name": "الصف",
         "latin_name": "Aṣ Ṣaff",
@@ -1066,10 +1247,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fe53bb02a921cc00373a",
         "arabic_name": "الجمعة",
         "latin_name": "Al Jumuʿah",
@@ -1083,10 +1267,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fe69bb02a921cc00373d",
         "arabic_name": "المنافقون",
         "latin_name": "Al Munāfiqūn",
@@ -1100,10 +1287,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fe8dbb02a921cc003740",
         "arabic_name": "التغابن",
         "latin_name": "At Taghābun",
@@ -1117,10 +1307,13 @@
         "aliases": [
             "An Nisa'us Sugra"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103fec4bb02a921cc003743",
         "arabic_name": "الطلاق",
         "latin_name": "Aṭ Ṭalāq",
@@ -1134,10 +1327,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6103ff13bb02a921cc003747",
         "arabic_name": "التحريم",
         "latin_name": "At Taḥrīm",
@@ -1151,10 +1347,13 @@
         "aliases": [
             "Tabarak"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6104882efb7d052900dbd58e",
         "arabic_name": "الملك",
         "latin_name": "Al Mulk",
@@ -1168,10 +1367,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": true,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            "ن"
+        ],
+        "position": [],
         "_id": "61048858fb7d052900dbd591",
         "arabic_name": "القلم",
         "latin_name": "Al Qalam",
@@ -1185,10 +1387,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048889fb7d052900dbd594",
         "arabic_name": "الحاقة",
         "latin_name": "Al Ḥāqqah",
@@ -1202,10 +1407,13 @@
         "aliases": [
             "Sa'ala sailun"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048912fb7d052900dbd597",
         "arabic_name": "المعارج",
         "latin_name": "Al Maʻārij",
@@ -1219,10 +1427,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048941fb7d052900dbd59a",
         "arabic_name": "نوح",
         "latin_name": "Nūḥ",
@@ -1236,10 +1447,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048967fb7d052900dbd59d",
         "arabic_name": "الجن",
         "latin_name": "Al Jinn",
@@ -1253,10 +1467,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "6104898ffb7d052900dbd5a3",
         "arabic_name": "المزمل",
         "latin_name": "Al Muzzammil",
@@ -1270,10 +1487,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "610489b0fb7d052900dbd5a6",
         "arabic_name": "المدثر",
         "latin_name": "Al Muddaththir",
@@ -1287,10 +1507,13 @@
         "aliases": [
             "La uqsimu bi yaumil qiyamah"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "610489d1fb7d052900dbd5a9",
         "arabic_name": "القيامة",
         "latin_name": "Al Qiyāmah",
@@ -1305,10 +1528,13 @@
             "Ad Dahr",
             "Hal ata"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048a05fb7d052900dbd5ac",
         "arabic_name": "الإنسان",
         "latin_name": "Al Insān",
@@ -1322,10 +1548,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048a78fb7d052900dbd5af",
         "arabic_name": "المرسلات",
         "latin_name": "Al Mursalāt",
@@ -1339,10 +1568,13 @@
         "aliases": [
             "'Amma Yatasa'alun"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048a9cfb7d052900dbd5b2",
         "arabic_name": "النبأ",
         "latin_name": "An Naba'",
@@ -1357,10 +1589,13 @@
             "As Sahirah",
             "At Tammah"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048afffb7d052900dbd5b7",
         "arabic_name": "النازعات",
         "latin_name": "An Nāziʻāt",
@@ -1374,10 +1609,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048b37fb7d052900dbd5ba",
         "arabic_name": "عبس",
         "latin_name": "ʻAbasa",
@@ -1391,10 +1629,13 @@
         "aliases": [
             "Idzasy syamsu kuwwirat"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048b51fb7d052900dbd5bd",
         "arabic_name": "التكوير",
         "latin_name": "At Takwīr",
@@ -1408,10 +1649,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048b6dfb7d052900dbd5c0",
         "arabic_name": "الانفطار",
         "latin_name": "Al Infiṭār",
@@ -1425,10 +1669,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048b88fb7d052900dbd5c3",
         "arabic_name": "المطففين",
         "latin_name": "Al Muṭaffifīn",
@@ -1442,10 +1689,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048baafb7d052900dbd5c6",
         "arabic_name": "الانشقاق",
         "latin_name": "Al Inshiqāq",
@@ -1459,10 +1709,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048bc2fb7d052900dbd5c9",
         "arabic_name": "البروج",
         "latin_name": "Al Burūj",
@@ -1476,10 +1729,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048bd9fb7d052900dbd5cc",
         "arabic_name": "الطارق",
         "latin_name": "Aṭ Ṭāriq",
@@ -1493,10 +1749,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048bf3fb7d052900dbd5cf",
         "arabic_name": "الأعلى",
         "latin_name": "Al Aʻlā",
@@ -1510,10 +1769,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048c0bfb7d052900dbd5d2",
         "arabic_name": "الغاشية",
         "latin_name": "Al Ghāshiyah",
@@ -1527,10 +1789,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048c21fb7d052900dbd5d5",
         "arabic_name": "الفجر",
         "latin_name": "Al Fajr",
@@ -1544,10 +1809,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048c34fb7d052900dbd5d8",
         "arabic_name": "البلد",
         "latin_name": "Al-Balad",
@@ -1561,10 +1829,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048c4afb7d052900dbd5db",
         "arabic_name": "الشمس",
         "latin_name": "Ash Shams",
@@ -1578,10 +1849,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048ca3fb7d052900dbd5de",
         "arabic_name": "الليل",
         "latin_name": "Al Lail",
@@ -1595,10 +1869,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048d33fb7d052900dbd5e1",
         "arabic_name": "الضحى",
         "latin_name": "Aḍ Ḍuḥā",
@@ -1612,10 +1889,13 @@
         "aliases": [
             "Alam Nasyrah"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048d54fb7d052900dbd5e4",
         "arabic_name": "الشرح",
         "latin_name": "Ash Sharḥ",
@@ -1629,10 +1909,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048d68fb7d052900dbd5e7",
         "arabic_name": "التين",
         "latin_name": "At Tīn",
@@ -1648,10 +1931,13 @@
             "Al Qalam",
             "Iqra' Bismi Rabbika"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048d9efb7d052900dbd5ea",
         "arabic_name": "العلق",
         "latin_name": "Al ʻAlaq",
@@ -1665,10 +1951,13 @@
         "aliases": [
             "Inna Anzalnahu"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048dc1fb7d052900dbd5ed",
         "arabic_name": "القدر",
         "latin_name": "Al Qadr",
@@ -1682,10 +1971,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048dd4fb7d052900dbd5f0",
         "arabic_name": "البينة",
         "latin_name": "Al Bayyinah",
@@ -1699,10 +1991,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048e2efb7d052900dbd5f3",
         "arabic_name": "الزلزلة",
         "latin_name": "Al Zalzalah",
@@ -1716,10 +2011,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048e5afb7d052900dbd5f6",
         "arabic_name": "العاديات",
         "latin_name": "Al ʻĀdiyāt",
@@ -1733,10 +2031,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048e89fb7d052900dbd5f9",
         "arabic_name": "القارعة",
         "latin_name": "Al Qāriʻah",
@@ -1750,10 +2051,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048eadfb7d052900dbd5ff",
         "arabic_name": "التكاثر",
         "latin_name": "At Takāthur",
@@ -1767,10 +2071,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048ecffb7d052900dbd602",
         "arabic_name": "العصر",
         "latin_name": "Al ʻAṣr",
@@ -1784,10 +2091,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048ef6fb7d052900dbd609",
         "arabic_name": "الهمزة",
         "latin_name": "Al Humazah",
@@ -1801,10 +2111,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048f11fb7d052900dbd60c",
         "arabic_name": "الفيل",
         "latin_name": "Al Fīl",
@@ -1818,10 +2131,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048f62fb7d052900dbd60f",
         "arabic_name": "قريش",
         "latin_name": "Quraysh",
@@ -1835,10 +2151,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048f8afb7d052900dbd612",
         "arabic_name": "الماعون",
         "latin_name": "Al Māʻūn",
@@ -1852,10 +2171,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048fa6fb7d052900dbd615",
         "arabic_name": "الكوثر",
         "latin_name": "Al Kauthar",
@@ -1869,10 +2191,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048fbffb7d052900dbd618",
         "arabic_name": "الكافرون",
         "latin_name": "Al Kāfirūn",
@@ -1886,10 +2211,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61048fdbfb7d052900dbd61b",
         "arabic_name": "النصر",
         "latin_name": "An Naṣr",
@@ -1903,10 +2231,13 @@
         "aliases": [
             "Al Massad"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61049156fb7d052900dbd61e",
         "arabic_name": "اللهب",
         "latin_name": "Al Lahab",
@@ -1930,10 +2261,13 @@
             "As Shamad",
             "Al Amin"
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "610491dbfb7d052900dbd621",
         "arabic_name": "الإخلاص",
         "latin_name": "Al Ikhlāṣ",
@@ -1947,10 +2281,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61049208fb7d052900dbd624",
         "arabic_name": "الفلق",
         "latin_name": "Al Falaq",
@@ -1964,10 +2301,13 @@
         "aliases": [
             ""
         ],
-        "mysterious_letters": false,
         "avail": [
             ""
         ],
+        "mysterious_letters": [
+            ""
+        ],
+        "position": [],
         "_id": "61049241fb7d052900dbd627",
         "arabic_name": "الناس",
         "latin_name": "An Nās",

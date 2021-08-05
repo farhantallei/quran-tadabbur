@@ -1,0 +1,86 @@
+{
+    "_id": {
+        "$oid": "61082d80bd25ff48809654ef"
+    },
+    "surah_index": 2,
+    "surah_id": "al-baqarah",
+    "arabic_name": "البقرة",
+    "latin_name": "Al Baqarah",
+    "literal": "Sapi Betina",
+    "aliases": ["Fustatul Qur'an", "Alif Lam Mim", "Az Zahrawan", "As Sinam"],
+    "classification": "Madaniyah",
+    "mysterious_letters": ["الم"],
+    "avail": ["Mengusir setan dari rumah", "Dua penerang di Hari Kiamat"],
+    "position": [
+        [{
+            "text": [{
+                "arabic": "الٓمٓ",
+                "latin": "alif lām mīm",
+                "translation": "Alif Lam Mim"
+            }],
+            "tafsir": [{
+                "name": "Tafsir Al-Muyassar / Kementerian Agama Saudi Arabia",
+                "text": "Huruf-huruf ini dan huruf-huruf lainnya dari huruf-huruf yang terputus di awal-awal sejumlah surat Alquran, di dalamnya terkandung isyarat atas kemukjizatan Alquran. Maka sungguh telah terjadi tantangan dengannya terhadap orang-orang musyrik dan terbukti mereka tidak mampu untuk membantahnya, padahal huruf-huruf tersebut merupakan komponen tersusunnya bahasa Arab. Karena itu ketidakmampuan bangsa Arab untuk mendatangkan yang semisal dengan Alquran (Padahal mereka adalah manusia yang paling fasih berbahasa Arab) menunjukkan bahwa Alquran adalah wahyu dari Allah"
+            }]
+        }, {
+            "text": [{
+                "arabic": "ذَٰلِكَ ٱلْكِتَٰبُ",
+                "latin": "żālikal-kitābu",
+                "translation": "kitab (Al-Qur'an) itu"
+            }, {
+                "arabic": "لَا رَيْبَ فِيهِ",
+                "latin": "lā raiba fīh",
+                "translation": "tidak ada keraguan padanya"
+            }, {
+                "arabic": "هُدًى لِّلْمُتَّقِينَ",
+                "latin": "hudal lil-muttaqīn",
+                "translation": "petunjuk bagi mereka yang bertakwa"
+            }],
+            "tafsir": [{
+                "name": "Tafsir Al-Muyassar / Kementerian Agama Saudi Arabia",
+                "text": "Alquran itu adalah kitab yang agung yang tidak ada keraguan bahwasanya  ia datang dari sisi Allah, maka tidak benar bila ada seseorang yang ragu-ragu terhadap nya karena begitu jelasnya alquran itu. Dimana orang-orang yang bertaqwa dapat mengambil manfaat dengannya berupa ilmu yang bermanfaat dan amal sholeh dan mereka itu adalah orang-orang yang takut kepada Allah dan mengikuti hukum-hukum-Nya."
+            }]
+        }, {
+            "text": [{
+                "arabic": "",
+                "latin": "",
+                "translation": ""
+            }],
+            "tafsir": [{
+                "name": "",
+                "text": ""
+            }]
+        }],
+        [{
+            "text": [{
+                "arabic": "",
+                "latin": "",
+                "translation": ""
+            }],
+            "tafsir": [{
+                "name": "",
+                "text": ""
+            }]
+        }, {
+            "text": [{
+                "arabic": "",
+                "latin": "",
+                "translation": ""
+            }],
+            "tafsir": [{
+                "name": "",
+                "text": ""
+            }]
+        }, {
+            "text": [{
+                "arabic": "",
+                "latin": "",
+                "translation": ""
+            }],
+            "tafsir": [{
+                "name": "",
+                "text": ""
+            }]
+        }]
+    ]
+}

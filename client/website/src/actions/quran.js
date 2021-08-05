@@ -1,6 +1,6 @@
 import * as api from '../api'
 
-import { ADD_THEME, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_DATA, UPDATE_THEME } from '../constant/actionTypes'
+import { ADD_RUKU, ADD_THEME, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_DATA, UPDATE_THEME } from '../constant/actionTypes'
 
 export const getData = () => async (dispatch) => {
     try {
@@ -48,6 +48,18 @@ export const createData = (surat) => async (dispatch) => {
         const { data } = await api.createData(surat)
 
         dispatch({ type: CREATE_DATA, payload: data })
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+export const addRuku = (id) => async (dispatch) => {
+    try {
+        const { data } = await api.addRuku(id)
+
+        dispatch({ type: ADD_RUKU, payload: data })
+
+        return data.position
     } catch (error) {
         console.log(error)
     }

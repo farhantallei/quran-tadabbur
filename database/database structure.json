@@ -9,7 +9,7 @@
         "literal": "Sapi Betina",
         "aliases": ["Fustatul Qur'an", "Alif Lam Mim", "Az Zahrawan", "As Sinam"],
         "classification": "Madaniyah",
-        "mysterious_letters": true,
+        "mysterious_letters": ["الم"],
         "avail": ["Mengusir setan dari rumah", "Dua penerang di Hari Kiamat"],
         "position": [{
             "theme": "Tiga Golongan Manusia dalam menghadapi Al-Quran",
@@ -114,7 +114,7 @@
         "literal": "Keluarga 'Imran",
         "aliases": ["Az Zahrawan"],
         "classification": "Madaniyah",
-        "mysterious_letters": true,
+        "mysterious_letters": ["الم"],
         "avail": ["Dua penerang di Hari Kiamat"],
         "position": [{
             "theme": "",

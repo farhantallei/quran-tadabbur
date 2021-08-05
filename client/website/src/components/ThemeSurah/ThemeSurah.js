@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 
 import { addTheme, updateTheme } from '../../actions/quran'
 
-const ThemeSurah = ({ surah, surat, setTitle }) => {
+const ThemeSurah = ({ surah, surat, setTitle, setRuku }) => {
     const dispatch = useDispatch()
     const history = useHistory()
 
@@ -37,6 +37,7 @@ const ThemeSurah = ({ surah, surat, setTitle }) => {
     }
 
     const openSurah = (i) => {
+        setRuku([])
         history.push(`/surah/${surat[i].surah_id}`)
         setTitle(`Surah no ${surat[i].surah_index}`)
     }
