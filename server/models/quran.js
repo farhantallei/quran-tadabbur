@@ -9,7 +9,7 @@ const quranSchema = mongoose.Schema({
     classification: { type: String, required: true },
     aliases: { type: [String], default: [] },
     avail: { type: [String], default: [] },
-    mysterious_letters: { type: Boolean, default: false },
+    mysterious_letters: { type: [String], default: [] },
     position: { type: [Object], default: [] }
 })
 

@@ -2,11 +2,10 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import { createData, updateData } from '../../actions/quran'
-import './styles.css'
 
 const Form = ({ currentId, setCurrentId }) => {
     const dispatch = useDispatch()
-    const [quranData, setQuranData] = useState({ surah_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: false, avail: '' })
+    const [quranData, setQuranData] = useState({ surah_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '' })
     const quran = useSelector((state) => currentId ? state.quran.surat.find((surah) => surah._id === currentId) : null)
     const formScroll = useRef()
 
@@ -33,7 +32,7 @@ const Form = ({ currentId, setCurrentId }) => {
         for (let i = 0; i < input.length; i++) input[i].checked = false
 
         setCurrentId(0)
-        setQuranData({ surah_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: false, avail: '' })
+        setQuranData({ surah_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '' })
 
         formScroll.current.scrollTo({ top: 0, behavior: 'smooth'})
     }
@@ -76,12 +75,9 @@ const Form = ({ currentId, setCurrentId }) => {
                         
                         <label className='label'><span>Faedah</span> dari Surah <em>(pisahkan dengan tanda</em> &nbsp; <code><b>,</b></code> <em>)</em></label>
                         <textarea className='text-area' name='avail' value={quranData.avail} onChange={(e) => setQuranData({ ...quranData, avail: e.target.value.split(',') })} ></textarea>
-                        
-                        <label className='label'>Ada huruf <span>Muqatta'at</span>?</label>
-                        <label className='switch'>
-                            <input id='mysterious_letters' name='mysterious_letters' type="checkbox" checked={quranData.mysterious_letters} onChange={(e) => setQuranData({ ...quranData, mysterious_letters: e.target.checked })} />
-                            <span className="toggle-switch"></span>
-                        </label>
+
+                        <label className='label'>Huruf <span>Muqatta'at</span> <em>(pisahkan dengan tanda</em> &nbsp; <code><b>,</b></code> <em>)</em></label>
+                        <input className='arabic field' name='mysterious_letters' type='text' value={quranData.mysterious_letters} onChange={(e) => setQuranData({ ...quranData, mysterious_letters: e.target.value.split(',') })} />
                         <input className={currentId ? 'submit submit-edit' : 'submit'} type='submit' value={currentId ? 'Edit' : 'Tambahkan!'} />
                     </form>
                     <button className='reset' onClick={clear}>Reset</button>

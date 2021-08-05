@@ -10,7 +10,7 @@ function useQuery() {
     return new URLSearchParams(useLocation().search)
 }
 
-const Home = () => {
+const Home = ({ setTitle }) => {
     const dispatch = useDispatch()
     const query = useQuery()
     const history = useHistory()
@@ -20,6 +20,7 @@ const Home = () => {
     const [searchTerm, setSearchTerm] = useState('')
 
     useEffect(() => {
+        setTitle('Quran Tadabbur data API')
         if (searchQuery) dispatch(getDataBySearch({ search: searchQuery, index: '' }))
         else dispatch(getData())
     }, [dispatch, searchQuery])
@@ -40,13 +41,13 @@ const Home = () => {
     }
 
     return (
-        <div className='home-grid'>
-            <div className='container'>
+        <div className='home-layout'>
+            <div className='home-container'>
                 <div className='layout'>
                     <input className='search' name='search' type='text' value={searchTerm} onKeyDown={handleKeyPress} onChange={(e) => setSearchTerm(e.target.value)}  />
                     <div className='menu'>
                         <div className='menu-content'>
-                            <Quran currentId={currentId} setCurrentId={setCurrentId} />
+                            <Quran currentId={currentId} setCurrentId={setCurrentId} setTitle={setTitle} />
                         </div>
                     </div>
                 </div>

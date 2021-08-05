@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 
 import { addTheme, updateTheme } from '../../actions/quran'
-import './styles.css'
 
 const ThemeSurah = ({ surah }) => {
     const dispatch = useDispatch()

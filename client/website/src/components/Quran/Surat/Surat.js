@@ -1,12 +1,13 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
 
-import './styles.css'
-
-const Surat = ({ surat, currentId, setCurrentId }) => {
+const Surat = ({ surat, currentId, setCurrentId, setTitle }) => {
     const history = useHistory()
 
-    const openSurah = () => history.push(`/surah/${surat.surah_id}`)
+    const openSurah = () => {
+        history.push(`/surah/${surat.surah_id}`)
+        setTitle(`Surah no ${surat.surah_index}`)
+    }
 
     return (
         <div className={currentId === surat._id ? 'card card-active' : 'card'} onDoubleClick={openSurah}>
