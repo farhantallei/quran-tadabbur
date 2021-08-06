@@ -53,13 +53,11 @@ export const createData = (surat) => async (dispatch) => {
     }
 }
 
-export const addRuku = (id) => async (dispatch) => {
+export const addRuku = (id, ruku) => async (dispatch) => {
     try {
-        const { data } = await api.addRuku(id)
+        const { data } = await api.addRuku(id, ruku)
 
         dispatch({ type: ADD_RUKU, payload: data })
-
-        return data.position
     } catch (error) {
         console.log(error)
     }

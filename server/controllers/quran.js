@@ -55,10 +55,11 @@ export const createData = async (req, res) => {
 
 export const addRuku = async (req, res) => {
     const { id } = req.params
+    const ruku = req.body
 
     const surah = await Quran.findById(id)
 
-    surah.position.push({ text: [], tafsir: [] })
+    surah.position.push(ruku)
 
     const updatedData = await Quran.findByIdAndUpdate(id, surah, { new: true })
 

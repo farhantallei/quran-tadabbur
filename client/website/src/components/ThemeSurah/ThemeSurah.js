@@ -9,14 +9,14 @@ const ThemeSurah = ({ surah, surat, setTitle, setRuku }) => {
     const history = useHistory()
 
     const [currentId, setCurrentId] = useState(0)
-    const [themes, setThemes] = useState(surah?.position)
+    const [themes, setThemes] = useState(surah.position)
     const [themeInput, setThemeInput] = useState('')
     const [themeIndex, setThemeIndex] = useState(null)
 
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        let updatedTheme = surah?.position
+        let updatedTheme = surah.position
         
         if (currentId === 0) themeInput ? (updatedTheme = await dispatch(addTheme(surah._id, themeInput))) : (updatedTheme = await dispatch(addTheme(surah._id, themes.length)))
         else themeInput ? (updatedTheme = await dispatch(updateTheme(currentId, { i: themeIndex, theme: themeInput}))) : (updatedTheme = await dispatch(updateTheme(currentId, { i: themeIndex, theme: themeIndex})))

@@ -28,6 +28,10 @@ const Surah = ({ setTitle }) => {
         }
     }, [dispatch, surah])
 
+    useEffect(() => {
+        !isLoading && surah && setRuku(surah.position)
+    }, [isLoading])
+
     return (
         <div className="surah-layout" >
             <div className="grid-layout side">

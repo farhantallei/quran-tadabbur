@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import { addRuku } from '../../../actions/quran'
@@ -6,15 +6,12 @@ import { addRuku } from '../../../actions/quran'
 const TableAyat = ({ ruku, setRuku }) => {
     const dispatch = useDispatch()
     const { surah, isLoading } = useSelector((state) => state.quran)
-
-    useEffect(() => {
-        !isLoading && surah && setRuku(surah?.position)
-    }, [isLoading])
+    const rukuInput = { text: [], tafsir: [] }
     
     const handleRuku = async () => {
         if (!isLoading && surah) {
-            const addedRuku = await dispatch(addRuku(surah._id))
-            setRuku(addedRuku)
+            dispatch(addRuku(surah._id, rukuInput))
+            setRuku([...ruku, [rukuInput]])
         }
     }
 
@@ -24,7 +21,7 @@ const TableAyat = ({ ruku, setRuku }) => {
                 <input className='search' name='search' type='text' value='' onKeyDown={() => {}} onChange={() => {}} />
             </div>
             <div className="table-layout">
-                {isLoading ? 'Tunggu' : !surah ? 'Error' : !ruku.length ? 'No data' : ruku.map((ayat, index) => (
+                {isLoading ? 'Tunggu' : !surah ? 'Error' : !ruku?.length ? 'No data' : ruku.map((ayat, index) => (
                 <div key={index} style={{ userSelect: 'none' }}>
                     <p>Ruku: {index+1}</p>
                     {ayat.map((ayah, index) => (
