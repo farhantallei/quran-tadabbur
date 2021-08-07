@@ -7,7 +7,8 @@ export const fetchDataBySearch = (search) => axios.get(`${url}/search?q=${search
 export const fetchSelectedData = (id) => axios.get(`${url}/${id}`)
 
 export const createData = (newData) => axios.post(url, newData)
-export const addRuku = (id, ruku) => axios.post(`${url}/${id}/ruku`, ruku)
+export const addRuku = (id) => axios.post(`${url}/${id}/ruku`)
+export const addAyah = (id, ruku, ayah) => axios.post(`${url}/${id}/ayah`, { ruku, ayah })
 export const addTheme = (id, theme) => axios.post(`${url}/${id}/theme`, { theme })
 
 export const updateData = (id, updatedData) => axios.patch(`${url}/${id}`, updatedData)

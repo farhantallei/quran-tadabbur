@@ -55,11 +55,23 @@ export const createData = async (req, res) => {
 
 export const addRuku = async (req, res) => {
     const { id } = req.params
-    const ruku = req.body
 
     const surah = await Quran.findById(id)
 
-    surah.position.push(ruku)
+    surah.position.push([])
+
+    const updatedData = await Quran.findByIdAndUpdate(id, surah, { new: true })
+
+    res.json(updatedData)
+}
+
+export const addAyah = async (req, res) => {
+    const { id } = req.params
+    const { ruku, ayah } = req.body
+
+    const surah = await Quran.findById(id)
+
+    surah.position[ruku].push({ ayah })
 
     const updatedData = await Quran.findByIdAndUpdate(id, surah, { new: true })
 

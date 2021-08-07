@@ -549,10 +549,6 @@ code {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
     overflow: auto;
 }
 
@@ -566,6 +562,32 @@ code {
     font-weight: bold;
     color: #1c1c1e;
     margin: 0 0 36px;
+    text-align: center;
+}
+
+.surah-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 16px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.surah-nav-prev, .surah-nav-next {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898EC;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 6px;
 }
 
 /*==============================================================================
@@ -762,6 +784,22 @@ code {
     background-color: #f2f2f7;
 }
 
+.ruku-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #f2f2f7;
+    padding: 24px 16px;
+    border-radius: 20px;
+    margin: 0 0 16px;
+}
+
 /*==============================================================================
 /* Items
 /*==============================================================================*/
@@ -775,16 +813,19 @@ code {
 /* Card
 /*==============================================================================*/
 
-.card {
+.card, .card-ayah {
     /* Auto Layout */
     display: -ms-grid;
     display: grid;
     padding: 16px;
 
-    user-select: none;
-    height: 130px;
     border-radius: 15px;
     background-color: #fff;
+}
+
+.card {
+    user-select: none;
+    height: 130px;
 
     /* Inside Auto Layout */
     grid-auto-columns: 1fr;
@@ -795,6 +836,20 @@ code {
     grid-template-columns: min-content 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+}
+
+.card-ayah {
+    margin-bottom: 16px;
+
+    grid-auto-columns: auto;
+    grid-auto-rows: 1fr;
+    grid-row-gap: 16px;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    -ms-grid-rows: -webkit-min-content 1fr;
+    -ms-grid-rows: min-content 1fr;
+    grid-template-rows: -webkit-min-content 1fr;
+    grid-template-rows: min-content 1fr;
 }
 
 .card-active {
@@ -813,20 +868,23 @@ code {
 /* Card Action
 /*==============================================================================*/
 
-.action {
+.action, .card-ayah-action {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.action {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
 }
 
 .index {
@@ -856,7 +914,7 @@ code {
     align-items: center;
 }
 
-.editBtn {
+.editBtn, .card-ayah-edit {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -865,6 +923,10 @@ code {
     border: none;
     background: none;
     cursor: pointer;
+}
+
+.card-ayah-edit {
+    width: 30px;
 }
 
 /*==============================================================================
@@ -890,6 +952,29 @@ code {
     flex-direction: column;
 }
 
+.card-ayah-content {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-row-gap: 36px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.card-latin-letters {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 12px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+}
+
 .info {
     display: -ms-grid;
     display: grid;
@@ -909,18 +994,31 @@ code {
     grid-template-rows: min-content min-content;
 }
 
-.title {
+.title, .card-ayah-arabic {
     font-weight: 500;
     font-size: 30px;
+}
 
+.title {
     color: #8e8e93;
+}
+
+.card-ayah-arabic, .card-ayah-latin, .card-ayah-translation {
+    color: #1c1c1e;
+}
+
+.latin, .card-ayah-latin, .card-ayah-translation {
+    font-size: 18px;
 }
 
 .latin {
     font-weight: 700;
-    font-size: 18px;
 
     color: #48484a;
+}
+
+.card-ayah-latin {
+    font-weight: 600;
 }
 
 .literal {
@@ -956,6 +1054,10 @@ code {
     padding: 24px 12px;
     height: 100%;
     overflow: auto;
+}
+
+.f-scroll {
+    padding: 24px;
 }
 
 .form-scroll {
@@ -997,10 +1099,6 @@ code {
     transition: background-color .4s;
 }
 
-.field:hover, .text-area:hover {
-    background-color: #e5e5ea;
-}
-
 .field, .submit, .reset {
     padding: 8px 12px;
 }
@@ -1012,6 +1110,14 @@ code {
     
     border: none;
     border-radius: 15px;
+}
+
+.field:not(:disabled):hover, .text-area:not(:disabled):hover {
+    background-color: #e5e5ea;
+}
+
+.field:disabled {
+    background-color: #d1d1d6;
 }
 
 .radio {
@@ -1145,10 +1251,6 @@ code {
     color: #8e8e93;
 }
 
-.submit:hover, .reset:hover {
-    filter: brightness(0.9);
-}
-
 .submit, .reset {
     display: inline-block;
     margin: 12px 0 0;
@@ -1160,6 +1262,15 @@ code {
     text-transform: uppercase;
 
     transition: filter .4s;
+}
+
+.submit:not(:disabled):hover, .reset:not(:disabled):hover {
+    filter: brightness(0.9);
+}
+
+.submit:disabled {
+    background-color: #f2f2f7;
+    color: #d1d1d6;
 }
 
 .form-title span, .label span {

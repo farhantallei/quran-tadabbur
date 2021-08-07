@@ -1,17 +1,23 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 
 import { addRuku } from '../../../actions/quran'
+import Ayah from './Ayah/Ayah'
 
-const TableAyat = ({ ruku, setRuku }) => {
+const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex }) => {
     const dispatch = useDispatch()
-    const { surah, isLoading } = useSelector((state) => state.quran)
-    const rukuInput = { text: [], tafsir: [] }
+    let count = 0
     
     const handleRuku = async () => {
         if (!isLoading && surah) {
-            dispatch(addRuku(surah._id, rukuInput))
-            setRuku([...ruku, [rukuInput]])
+            dispatch(addRuku(surah._id))
+            setRuku([...ruku, []])
+        }
+    }
+
+    const handleAyah = async (i) => {
+        if (!isLoading && surah) {
+            setRukuIndex(i)
         }
     }
 
@@ -21,17 +27,18 @@ const TableAyat = ({ ruku, setRuku }) => {
                 <input className='search' name='search' type='text' value='' onKeyDown={() => {}} onChange={() => {}} />
             </div>
             <div className="table-layout">
-                {isLoading ? 'Tunggu' : !surah ? 'Error' : !ruku?.length ? 'No data' : ruku.map((ayat, index) => (
-                <div key={index} style={{ userSelect: 'none' }}>
-                    <p>Ruku: {index+1}</p>
-                    {ayat.map((ayah, index) => (
-                    <div key={index}>
-                        <p>Ayat: {index+1}</p>
-                        <p>{ayah.text}</p>
-                        <p>{ayah.tafsir}</p>
-                    </div>))}
-                    <button onClick={() => {}}>Add AYAH</button>
-                </div>))}
+                <div className="table-scroll">
+                    <div className="table-container">
+                        {isLoading ? 'Tunggu' : !surah ? 'Error' : !ruku.length ? 'No data' : ruku.map((ayat, rukuIndex) => (
+                            <div key={rukuIndex} className="ruku-list">
+                                {ayat.map((ayahData, ayahIndex) => (
+                                    <Ayah key={ayahIndex} count={++count} ayahData={ayahData} />
+                                ))}
+                                <button onClick={() => handleAyah(rukuIndex)}>Add AYAH</button>
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div>
             <button onClick={handleRuku}>Add RUKU</button>
         </div>
