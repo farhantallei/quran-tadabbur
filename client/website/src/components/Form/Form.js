@@ -11,7 +11,7 @@ const Form = ({ currentId, setCurrentId }) => {
 
     useEffect(() => {
         if (quran) {
-            setQuranData(quran)
+            setQuranData({ ...quran, aliases: quran.aliases.join('|'), mysterious_letters: quran.mysterious_letters.join('|'), avail: quran.avail.join('|') })
             formScroll.current.scrollTo({ top: 0, behavior: 'smooth'})
         }
 
@@ -21,8 +21,10 @@ const Form = ({ currentId, setCurrentId }) => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        if (currentId === 0) dispatch(createData(quranData))
-        else dispatch(updateData(currentId, { ...quranData, surah_id: quranData.surah_id.replace(/\s+/g, '-').toLowerCase()}))
+        const submitData = { ...quranData, surah_id: quranData.surah_id.replace(/\s+/g, '-').toLowerCase(), aliases: quranData.aliases.split('|'), mysterious_letters: quranData.mysterious_letters.split('|'), avail: quranData.avail.split('|') }
+
+        if (currentId === 0) dispatch(createData(submitData))
+        else dispatch(updateData(currentId, submitData))
         
         clear()
     }
@@ -70,14 +72,14 @@ const Form = ({ currentId, setCurrentId }) => {
                             </label>
                         </div>
                         
-                        <label className='label'><span>Nama lain</span> dari Surah <em>(pisahkan dengan tanda</em> &nbsp; <code><b>,</b></code> <em>)</em></label>
-                        <textarea className='text-area' name='aliases' value={quranData.aliases} onChange={(e) => setQuranData({ ...quranData, aliases: e.target.value.split(',') })} ></textarea>
+                        <label className='label'><span>Nama lain</span> dari Surah <em>(pisahkan dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
+                        <textarea className='text-area' name='aliases' value={quranData.aliases} onChange={(e) => setQuranData({ ...quranData, aliases: e.target.value })} ></textarea>
                         
-                        <label className='label'><span>Faedah</span> dari Surah <em>(pisahkan dengan tanda</em> &nbsp; <code><b>,</b></code> <em>)</em></label>
-                        <textarea className='text-area' name='avail' value={quranData.avail} onChange={(e) => setQuranData({ ...quranData, avail: e.target.value.split(',') })} ></textarea>
+                        <label className='label'><span>Faedah</span> dari Surah <em>(pisahkan dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
+                        <textarea className='text-area' name='avail' value={quranData.avail} onChange={(e) => setQuranData({ ...quranData, avail: e.target.value })} ></textarea>
 
-                        <label className='label'>Huruf <span>Muqatta'at</span> <em>(pisahkan dengan tanda</em> &nbsp; <code><b>,</b></code> <em>)</em></label>
-                        <input className='arabic field' name='mysterious_letters' type='text' value={quranData.mysterious_letters} onChange={(e) => setQuranData({ ...quranData, mysterious_letters: e.target.value.split(',') })} />
+                        <label className='label'>Huruf <span>Muqatta'at</span> <em>(pisahkan dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
+                        <input className='arabic field' name='mysterious_letters' type='text' value={quranData.mysterious_letters} onChange={(e) => setQuranData({ ...quranData, mysterious_letters: e.target.value })} />
                         <input className={currentId ? 'submit submit-edit' : 'submit'} type='submit' value={currentId ? 'Edit' : 'Tambahkan!'} />
                     </form>
                     <button className='reset' onClick={clear}>Reset</button>

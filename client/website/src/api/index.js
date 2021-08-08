@@ -12,4 +12,5 @@ export const addAyah = (id, ruku, ayah) => axios.post(`${url}/${id}/ayah`, { ruk
 export const addTheme = (id, theme) => axios.post(`${url}/${id}/theme`, { theme })
 
 export const updateData = (id, updatedData) => axios.patch(`${url}/${id}`, updatedData)
+export const updateAyah = (id, ruku, ayah, updatedAyah) => axios.patch(`${url}/${id}/ayah`, { ruku, ayah, updatedAyah })
 export const updateTheme = (id, theme) => axios.patch(`${url}/${id}/theme`, theme)

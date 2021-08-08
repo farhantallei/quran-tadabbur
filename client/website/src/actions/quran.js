@@ -1,6 +1,6 @@
 import * as api from '../api'
 
-import { ADD_AYAH, ADD_RUKU, ADD_THEME, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_DATA, UPDATE_THEME } from '../constant/actionTypes'
+import { ADD_AYAH, ADD_RUKU, ADD_THEME, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_AYAH, UPDATE_DATA, UPDATE_THEME } from '../constant/actionTypes'
 
 export const getData = () => async (dispatch) => {
     try {
@@ -90,6 +90,16 @@ export const updateData = (id, surat) => async (dispatch) => {
         const { data } = await api.updateData(id, surat)
 
         dispatch({ type: UPDATE_DATA, payload: data })
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+export const updateAyah = (id, ruku, ayah, updatedAyah) => async (dispatch) => {
+    try {
+        const { data } = await api.updateAyah(id, ruku, ayah, updatedAyah)
+
+        dispatch({ type: UPDATE_AYAH, payload: data })
     } catch (error) {
         console.log(error)
     }

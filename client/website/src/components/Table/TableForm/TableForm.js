@@ -1,48 +1,70 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch } from 'react-redux'
 
-import { addAyah } from '../../../actions/quran'
+import { addAyah, updateAyah } from '../../../actions/quran'
 
-const TableForm = ({ isLoading, surah, ruku, rukuIndex, setRukuIndex, isRuku }) => {
+const TableForm = ({ isLoading, surah, ayahInput, setAyahInput, clearInput, ruku, rukuIndex, ayahIndex, isRuku, isAyah }) => {
     const dispatch = useDispatch()
-    const [ayahData, setAyahData] = useState({ arabic: '', latin: '', translation: '' })
     const arabicField = useRef()
 
     useEffect(() => {
+        isAyah && setAyahInput({ arabic: ruku[rukuIndex][ayahIndex].ayah.arabic.join('|'), latin: ruku[rukuIndex][ayahIndex].ayah.latin.join('|'), translation: ruku[rukuIndex][ayahIndex].ayah.translation.join('|') })
         arabicField.current.focus()
-    }, [rukuIndex])
+    }, [rukuIndex, ayahIndex])
 
-    const handleSubmit = (e, index) => {
+    const handleSubmit = (e) => {
         e.preventDefault()
 
-        if (!isLoading && surah && isRuku) {
-            dispatch(addAyah(surah._id, index, { arabic: ayahData.arabic.split('|'), latin: ayahData.latin.split('|'), translation: ayahData.translation.split('|') }))
-            ruku[index].push({ ayah: { arabic: ayahData.arabic.split('|'), latin: ayahData.latin.split('|'), translation: ayahData.translation.split('|') } })
+        const submitData = { arabic: ayahInput.arabic.split('|'), latin: ayahInput.latin.split('|'), translation: ayahInput.translation.split('|') }
+
+        const submitArabic = submitData.arabic.toString()
+        const submitLatin = submitData.latin.toString()
+        const submitTranslation = submitData.translation.toString()
+
+        const dataArabic = ruku[rukuIndex][ayahIndex].ayah.arabic.toString()
+        const dataLatin = ruku[rukuIndex][ayahIndex].ayah.latin.toString()
+        const dataTranslation = ruku[rukuIndex][ayahIndex].ayah.translation.toString()
+
+        if (!isLoading && surah) {
+            if(submitArabic === dataArabic && submitLatin === dataLatin && submitTranslation === dataTranslation) {
+                alert("Silahkan ubah datanya atau tekan reset kalau tidak jadi mengedit")
+                arabicField.current.focus()
+                return false
+            } else {
+                if(isRuku && !isAyah) {
+                    dispatch(addAyah(surah._id, rukuIndex, submitData))
+                    ruku[rukuIndex].push({ ayah: submitData })
+                }
+    
+                if(isRuku && isAyah) {
+                    dispatch(updateAyah(surah._id, rukuIndex, ayahIndex, submitData))
+                    ruku[rukuIndex][ayahIndex] = { ayah: submitData }
+                }
+
+                clearInput()
+            }
         }
-
-        clear()
-    }
-
-    const clear = () => {
-        setRukuIndex(null)
-        setAyahData({ arabic: '', latin: '', translation: '' })
     }
 
     return (
-        <div className="form-layout f-scroll">
-            <form className="form" autoComplete="off" onSubmit={(e) => handleSubmit(e, rukuIndex)}>
-                <label className="label">Ayat di <span>Arabic</span> <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
-                <input className="arabic field" ref={arabicField} disabled={!isRuku} name="arabic" type="text" required value={ayahData.arabic} onChange={(e) => setAyahData({ ...ayahData, arabic: e.target.value })} />
+        <div className="form-layout">
+            <div className="form-scroll">
+                <div className="form-content">
+                    <form className="form" autoComplete="off" onSubmit={handleSubmit}>
+                        <label className="label">Ayat di <span>Arabic</span> <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
+                        <input className="arabic field" ref={arabicField} disabled={!isRuku} name="arabic" type="text" required value={ayahInput.arabic} onChange={(e) => setAyahInput({ ...ayahInput, arabic: e.target.value })} />
 
-                <label className="label">Ayat di <span>Latin</span> <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
-                <input className="field" disabled={!isRuku} name="latin" type="text" required value={ayahData.latin} onChange={(e) => setAyahData({ ...ayahData, latin: e.target.value })} />
+                        <label className="label">Ayat di <span>Latin</span> <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
+                        <input className="field" disabled={!isRuku} name="latin" type="text" required value={ayahInput.latin} onChange={(e) => setAyahInput({ ...ayahInput, latin: e.target.value })} />
 
-                <label className="label"><span>Arti</span> Ayat <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
-                <input className="field" disabled={!isRuku} name="translation" type="text" required value={ayahData.translation} onChange={(e) => setAyahData({ ...ayahData, translation: e.target.value })} />
+                        <label className="label"><span>Arti</span> Ayat <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
+                        <input className="field" disabled={!isRuku} name="translation" type="text" required value={ayahInput.translation} onChange={(e) => setAyahInput({ ...ayahInput, translation: e.target.value })} />
 
-                <input className="submit" disabled={!isRuku} type="submit" value={isRuku ? 'Tambahkan!' : 'Pilih Ruku!'} />
-            </form>
-            <button className="reset" onClick={clear}>Reset</button>
+                        <input className="submit" disabled={!isRuku} type="submit" value={(isRuku && isAyah) ? 'Edit!' : isRuku ? 'Simpan!' : 'Pilih Ruku!'} />
+                    </form>
+                    <button className="reset" onClick={clearInput}>Reset</button>
+                </div>
+            </div>
         </div>
     )
 }

@@ -4,9 +4,8 @@ import { useDispatch } from 'react-redux'
 import { addRuku } from '../../../actions/quran'
 import Ayah from './Ayah/Ayah'
 
-const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex }) => {
+const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex, setAyahIndex, currentAyahIndex }) => {
     const dispatch = useDispatch()
-    let count = 0
     
     const handleRuku = async () => {
         if (!isLoading && surah) {
@@ -16,9 +15,8 @@ const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex }) => {
     }
 
     const handleAyah = async (i) => {
-        if (!isLoading && surah) {
-            setRukuIndex(i)
-        }
+        setRukuIndex(i)
+        setAyahIndex(null)
     }
 
     return (
@@ -32,7 +30,7 @@ const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex }) => {
                         {isLoading ? 'Tunggu' : !surah ? 'Error' : !ruku.length ? 'No data' : ruku.map((ayat, rukuIndex) => (
                             <div key={rukuIndex} className="ruku-list">
                                 {ayat.map((ayahData, ayahIndex) => (
-                                    <Ayah key={ayahIndex} count={++count} ayahData={ayahData} />
+                                    <Ayah key={ayahIndex} currentAyahIndex={currentAyahIndex} ayahData={ayahData} rukuIndex={rukuIndex} ayahIndex={ayahIndex} setRukuIndex={setRukuIndex} setAyahIndex={setAyahIndex} />
                                 ))}
                                 <button onClick={() => handleAyah(rukuIndex)}>Add AYAH</button>
                             </div>
@@ -40,7 +38,7 @@ const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex }) => {
                     </div>
                 </div>
             </div>
-            <button onClick={handleRuku}>Add RUKU</button>
+            <button onClick={handleRuku}>{isLoading ? 'Tunggu' : !surah ? 'Error' : 'Add RUKU'}</button>
         </div>
     )
 }

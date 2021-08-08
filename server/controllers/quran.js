@@ -102,6 +102,17 @@ export const updateData = async (req, res) => {
     res.json(updatedData)
 }
 
+export const updateAyah = async (req, res) => {
+    const { id } = req.params
+    const { ruku, ayah, updatedAyah } = req.body
+
+    console.log({ id, ruku, ayah, updatedAyah })
+
+    const updatedData = await Quran.findByIdAndUpdate(id, { $set: { [`position.${ruku}.${ayah}.ayah`]: updatedAyah } }, { new: true })
+
+    res.json(updatedData)
+}
+
 export const updateTheme = async (req, res) => {
     const { id } = req.params
     const { i, theme } = req.body

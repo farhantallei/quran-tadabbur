@@ -12,9 +12,12 @@ const Surah = ({ setTitle }) => {
     const history = useHistory()
     const { id } = useParams()
     const { surah, surat, isLoading } = useSelector((state) => state.quran)
+    const [ayahInput, setAyahInput] = useState({ arabic: '', latin: '', translation: '' })
     const [ruku, setRuku] = useState([])
     const [rukuIndex, setRukuIndex] = useState(null)
+    const [ayahIndex, setAyahIndex] = useState(null)
     const isRuku = typeof rukuIndex === 'number'
+    const isAyah = typeof ayahIndex === 'number'
 
     useEffect(() => {
         const fetchSelectedData = async () => {
@@ -34,10 +37,25 @@ const Surah = ({ setTitle }) => {
         !isLoading && surah && setRuku(surah.position)
     }, [isLoading])
 
+    const currentAyahIndex = (rukuI, ayahI) => {
+        let totalAyah = ayahI+1
+        for(let i = 0; i < rukuI; i++) {
+            totalAyah += ruku[rukuI-(i+1)].length
+        }
+        return totalAyah
+    }
+
     const openSurah = (i) => {
         setRuku([])
         history.push(`/surah/${surat[i].surah_id}`)
         setTitle(`Surah no ${surat[i].surah_index}`)
+        clearInput()
+    }
+
+    const clearInput = () => {
+        setRukuIndex(null)
+        setAyahIndex(null)
+        setAyahInput({ arabic: '', latin: '', translation: '' })
     }
 
     return (
@@ -48,17 +66,17 @@ const Surah = ({ setTitle }) => {
             </div>
             <div className="grid-layout">
                 <div className="grid-layout-header uppercase">Ayat</div>
-                <TableAyat isLoading={isLoading} surah={surah} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} />
+                <TableAyat isLoading={isLoading} surah={surah} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} setAyahIndex={setAyahIndex} currentAyahIndex={currentAyahIndex} />
             </div>
             <div className="grid-layout side">
-                <div className="grid-layout-header uppercase">{isRuku ? `Input Ayat di Ruku ${rukuIndex+1}` : 'Pilih Ruku!'}</div>
-                <TableForm isLoading={isLoading} surah={surah} ruku={ruku} setRuku={setRuku} rukuIndex={rukuIndex} setRukuIndex={setRukuIndex} isRuku={isRuku} />
+                <div className="grid-layout-header uppercase">{(isRuku && isAyah) ? `Edit Ayat ${currentAyahIndex(rukuIndex, ayahIndex)}` : isRuku ? `Input Ayat di Ruku ${rukuIndex+1}` : 'Pilih Ruku atau Ayat!'}</div>
+                <TableForm isLoading={isLoading} surah={surah} ayahInput={ayahInput} setAyahInput={setAyahInput} clearInput={clearInput} ruku={ruku} setRuku={setRuku} rukuIndex={rukuIndex} ayahIndex={ayahIndex} isRuku={isRuku} isAyah={isAyah} />
                 <div className="surah-nav">
                     {surat.length > 1 ? (<>
                         <button className="surah-nav-prev" onClick={() => openSurah(0)} >Prev</button>
                         <button className="surah-nav-next" onClick={() => openSurah(1)} >Next</button>
                     </>) : (
-                        <button className="surah-nav-prev" onClick={() => openSurah(0)} >{!isLoading && (surat[0].surah_index > surah.surah_index) ? 'Next' : 'Prev'}</button>
+                        <button className="surah-nav-prev" onClick={() => openSurah(0)} >{!isLoading && surah && (surat[0].surah_index > surah.surah_index) ? 'Next' : 'Prev'}</button>
                     )}
                 </div>
             </div>
