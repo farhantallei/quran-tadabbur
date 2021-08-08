@@ -11,9 +11,13 @@ const App = () => {
 
     return (
         <BrowserRouter>
-            <Appbar title={title} />
             <Switch>
-                <Route path="/" exact><Home setTitle={setTitle} /></Route>
+                <Route path="/" exact>
+                    <div className="home-body">
+                        <Appbar title={title} />
+                        <Home setTitle={setTitle} />
+                    </div>
+                </Route>
                 <Route path="/search" exact><Home setTitle={setTitle} /></Route>
                 <Route path="/surah/:id"><Surah setTitle={setTitle} /></Route>
 

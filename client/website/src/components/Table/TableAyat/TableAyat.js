@@ -22,7 +22,7 @@ const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex, setAyahIndex
     return (
         <div className="table">
             <div className="table-head">
-                <input className='search' name='search' type='text' value='' onKeyDown={() => {}} onChange={() => {}} />
+                <input className='search' name='search' type='text' />
             </div>
             <div className="table-layout">
                 <div className="table-scroll">

@@ -52,13 +52,13 @@ const TableForm = ({ isLoading, surah, ayahInput, setAyahInput, clearInput, ruku
                 <div className="form-content">
                     <form className="form" autoComplete="off" onSubmit={handleSubmit}>
                         <label className="label">Ayat di <span>Arabic</span> <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
-                        <input className="arabic field" ref={arabicField} disabled={!isRuku} name="arabic" type="text" required value={ayahInput.arabic} onChange={(e) => setAyahInput({ ...ayahInput, arabic: e.target.value })} />
+                        <textarea className="arabic text-area" ref={arabicField} rows={4} disabled={!isRuku} name="arabic" type="text" required value={ayahInput.arabic} onChange={(e) => setAyahInput({ ...ayahInput, arabic: e.target.value })} />
 
                         <label className="label">Ayat di <span>Latin</span> <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
-                        <input className="field" disabled={!isRuku} name="latin" type="text" required value={ayahInput.latin} onChange={(e) => setAyahInput({ ...ayahInput, latin: e.target.value })} />
+                        <textarea className="text-area" rows={4} disabled={!isRuku} name="latin" type="text" required value={ayahInput.latin} onChange={(e) => setAyahInput({ ...ayahInput, latin: e.target.value })} />
 
                         <label className="label"><span>Arti</span> Ayat <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
-                        <input className="field" disabled={!isRuku} name="translation" type="text" required value={ayahInput.translation} onChange={(e) => setAyahInput({ ...ayahInput, translation: e.target.value })} />
+                        <textarea className="text-area" rows={4} disabled={!isRuku} name="translation" type="text" required value={ayahInput.translation} onChange={(e) => setAyahInput({ ...ayahInput, translation: e.target.value })} />
 
                         <input className="submit" disabled={!isRuku} type="submit" value={(isRuku && isAyah) ? 'Edit!' : isRuku ? 'Simpan!' : 'Pilih Ruku!'} />
                     </form>
