@@ -1,45 +1,45 @@
 import React, { useEffect, useRef } from 'react'
 import { useDispatch } from 'react-redux'
 
-import { addAyah, updateAyah } from '../../../actions/quran'
+import { addVerse, updateVerse } from '../../../actions/quran'
 
-const TableForm = ({ isLoading, surah, ayahInput, setAyahInput, clearInput, ruku, rukuIndex, ayahIndex, isRuku, isAyah }) => {
+const TableForm = ({ isLoading, surah, verseInput, setVerseInput, clearInput, ruku, rukuIndex, verseIndex, isRuku, isVerse }) => {
     const dispatch = useDispatch()
     const arabicField = useRef()
 
     useEffect(() => {
-        isAyah && setAyahInput({ arabic: ruku[rukuIndex][ayahIndex].ayah.arabic.join('|'), latin: ruku[rukuIndex][ayahIndex].ayah.latin.join('|'), translation: ruku[rukuIndex][ayahIndex].ayah.translation.join('|') })
+        isVerse && setVerseInput({ arabic: ruku[rukuIndex][verseIndex].verse.arabic.join('|'), latin: ruku[rukuIndex][verseIndex].verse.latin.join('|'), translation: ruku[rukuIndex][verseIndex].verse.translation.join('|') })
         arabicField.current.focus()
-    }, [rukuIndex, ayahIndex])
+    }, [rukuIndex, verseIndex])
 
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        const submitData = { arabic: ayahInput.arabic.split('|'), latin: ayahInput.latin.split('|'), translation: ayahInput.translation.split('|') }
+        const submitData = { arabic: verseInput.arabic.split('|'), latin: verseInput.latin.split('|'), translation: verseInput.translation.split('|') }
 
         const submitArabic = submitData.arabic.toString()
         const submitLatin = submitData.latin.toString()
         const submitTranslation = submitData.translation.toString()
 
         if (!isLoading && surah) {
-            if(isRuku && !isAyah) {
-                dispatch(addAyah(surah._id, rukuIndex, submitData))
-                ruku[rukuIndex].push({ ayah: submitData })
+            if(isRuku && !isVerse) {
+                dispatch(addVerse(surah._id, rukuIndex, submitData))
+                ruku[rukuIndex].push({ verse: submitData })
                 clearInput()
             }
 
-            if(isRuku && isAyah) {
-                const dataArabic = ruku[rukuIndex][ayahIndex].ayah.arabic.toString()
-                const dataLatin = ruku[rukuIndex][ayahIndex].ayah.latin.toString()
-                const dataTranslation = ruku[rukuIndex][ayahIndex].ayah.translation.toString()
+            if(isRuku && isVerse) {
+                const dataArabic = ruku[rukuIndex][verseIndex].verse.arabic.toString()
+                const dataLatin = ruku[rukuIndex][verseIndex].verse.latin.toString()
+                const dataTranslation = ruku[rukuIndex][verseIndex].verse.translation.toString()
 
                 if(submitArabic === dataArabic && submitLatin === dataLatin && submitTranslation === dataTranslation) {
                     alert("Silahkan ubah datanya atau tekan reset kalau tidak jadi mengedit")
                     arabicField.current.focus()
                     return false
                 } else {
-                    dispatch(updateAyah(surah._id, rukuIndex, ayahIndex, submitData))
-                    ruku[rukuIndex][ayahIndex] = { ayah: submitData }
+                    dispatch(updateVerse(surah._id, rukuIndex, verseIndex, submitData))
+                    ruku[rukuIndex][verseIndex] = { verse: submitData }
                     clearInput()
                 }
             }
@@ -52,15 +52,15 @@ const TableForm = ({ isLoading, surah, ayahInput, setAyahInput, clearInput, ruku
                 <div className="form-content">
                     <form className="form" autoComplete="off" onSubmit={handleSubmit}>
                         <label className="label">Ayat di <span>Arabic</span> <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
-                        <textarea className="arabic text-area" ref={arabicField} rows={4} disabled={!isRuku} name="arabic" type="text" required value={ayahInput.arabic} onChange={(e) => setAyahInput({ ...ayahInput, arabic: e.target.value })} />
+                        <textarea className="arabic text-area" ref={arabicField} rows={4} disabled={!isRuku} name="arabic" type="text" required value={verseInput.arabic} onChange={(e) => setVerseInput({ ...verseInput, arabic: e.target.value })} />
 
                         <label className="label">Ayat di <span>Latin</span> <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
-                        <textarea className="text-area" rows={4} disabled={!isRuku} name="latin" type="text" required value={ayahInput.latin} onChange={(e) => setAyahInput({ ...ayahInput, latin: e.target.value })} />
+                        <textarea className="text-area" rows={4} disabled={!isRuku} name="latin" type="text" required value={verseInput.latin} onChange={(e) => setVerseInput({ ...verseInput, latin: e.target.value })} />
 
                         <label className="label"><span>Arti</span> Ayat <em>(pisah dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
-                        <textarea className="text-area" rows={4} disabled={!isRuku} name="translation" type="text" required value={ayahInput.translation} onChange={(e) => setAyahInput({ ...ayahInput, translation: e.target.value })} />
+                        <textarea className="text-area" rows={4} disabled={!isRuku} name="translation" type="text" required value={verseInput.translation} onChange={(e) => setVerseInput({ ...verseInput, translation: e.target.value })} />
 
-                        <input className="submit" disabled={!isRuku} type="submit" value={(isRuku && isAyah) ? 'Edit!' : isRuku ? 'Simpan!' : 'Pilih Ruku!'} />
+                        <input className="submit" disabled={!isRuku} type="submit" value={(isRuku && isVerse) ? 'Edit!' : isRuku ? 'Simpan!' : 'Pilih Ruku!'} />
                     </form>
                     <button className="reset" onClick={clearInput}>Reset</button>
                 </div>

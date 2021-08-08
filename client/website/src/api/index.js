@@ -8,7 +8,7 @@ export const fetchSelectedData = (id) => axios.get(`${url}/${id}`)
 
 export const createData = (newData) => axios.post(url, newData)
 export const addRuku = (id) => axios.post(`${url}/${id}/ruku`)
-export const addAyah = (id, ruku, ayah) => axios.post(`${url}/${id}/ayah`, { ruku, ayah })
+export const addVerse = (id, ruku, verse) => axios.post(`${url}/${id}/verse`, { ruku, verse })
 
 export const updateData = (id, updatedData) => axios.patch(`${url}/${id}`, updatedData)
-export const updateAyah = (id, ruku, ayah, updatedAyah) => axios.patch(`${url}/${id}/ayah`, { ruku, ayah, updatedAyah })
+export const updateVerse = (id, ruku, verse, updatedVerse) => axios.patch(`${url}/${id}/verse`, { ruku, verse, updatedVerse })

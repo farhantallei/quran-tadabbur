@@ -16,7 +16,7 @@
             "ruku": [
                 [{
                     "subject": "Golongan Mukmin",
-                    "ayat": [{
+                    "verse": [{
                         "text": [{
                             "arabic": "الٓمٓ",
                             "latin": "alif lām mīm",
@@ -47,7 +47,7 @@
                     }]
                 }, {
                     "subject": "Golongan Kafir",
-                    "ayat": [{
+                    "verse": [{
                         "text": [{
                             "arabic": "",
                             "latin": "",
@@ -65,7 +65,7 @@
             "ruku": [
                 [{
                     "subject": "Perintah menyembah Allah Yang Maha Esa",
-                    "ayat": [{
+                    "verse": [{
                         "text": [{
                             "arabic": "",
                             "latin": "",
@@ -88,7 +88,7 @@
                     }]
                 }, {
                     "subject": "Tantangan Allah kepada Kaum Musyrikin mengenai Al-Quran",
-                    "ayat": [{
+                    "verse": [{
                         "text": [{
                             "arabic": "",
                             "latin": "",
@@ -121,7 +121,7 @@
             "ruku": [
                 [{
                     "subject": "Perintah hanya menyembah Allah Yang Maha Esa",
-                    "ayat": [{
+                    "verse": [{
                         "text": [{
                             "arabic": "الٓمٓ",
                             "latin": "alif lām mīm",

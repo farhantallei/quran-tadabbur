@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Link, useHistory, useParams } from 'react-router-dom'
 
 import { getDataBySearch, getSelectedData } from '../actions/quran'
-import TableAyat from '../components/Table/TableAyat/TableAyat'
+import TableVerses from '../components/Table/TableVerses/TableVerses'
 import TableForm from '../components/Table/TableForm/TableForm'
 import TableInfo from '../components/Table/TableInfo/TableInfo'
 
@@ -12,12 +12,12 @@ const Surah = ({ setTitle }) => {
     const history = useHistory()
     const { id } = useParams()
     const { surah, surat, isLoading } = useSelector((state) => state.quran)
-    const [ayahInput, setAyahInput] = useState({ arabic: '', latin: '', translation: '' })
+    const [verseInput, setVerseInput] = useState({ arabic: '', latin: '', translation: '' })
     const [ruku, setRuku] = useState([])
     const [rukuIndex, setRukuIndex] = useState(null)
-    const [ayahIndex, setAyahIndex] = useState(null)
+    const [verseIndex, setVerseIndex] = useState(null)
     const isRuku = typeof rukuIndex === 'number'
-    const isAyah = typeof ayahIndex === 'number'
+    const isVerse = typeof verseIndex === 'number'
 
     useEffect(() => {
         const fetchSelectedData = async () => {
@@ -37,12 +37,12 @@ const Surah = ({ setTitle }) => {
         !isLoading && surah && setRuku(surah.position)
     }, [isLoading])
 
-    const currentAyahIndex = (rukuI, ayahI) => {
-        let totalAyah = ayahI+1
+    const currentVerseIndex = (rukuI, verseI) => {
+        let totalVerse = verseI+1
         for(let i = 0; i < rukuI; i++) {
-            totalAyah += ruku[rukuI-(i+1)].length
+            totalVerse += ruku[rukuI-(i+1)].length
         }
-        return totalAyah
+        return totalVerse
     }
 
     const openSurah = (i) => {
@@ -54,8 +54,8 @@ const Surah = ({ setTitle }) => {
 
     const clearInput = () => {
         setRukuIndex(null)
-        setAyahIndex(null)
-        setAyahInput({ arabic: '', latin: '', translation: '' })
+        setVerseIndex(null)
+        setVerseInput({ arabic: '', latin: '', translation: '' })
     }
 
     return (
@@ -77,11 +77,11 @@ const Surah = ({ setTitle }) => {
                 <TableInfo isLoading={isLoading} surah={surah} />
             </div>
             <div className="grid-layout">
-                <TableAyat isLoading={isLoading} surah={surah} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} setAyahIndex={setAyahIndex} currentAyahIndex={currentAyahIndex} />
+                <TableVerses isLoading={isLoading} surah={surah} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} currentVerseIndex={currentVerseIndex} />
             </div>
             <div className="grid-layout side">
-                <div className="grid-layout-header uppercase">{(isRuku && isAyah) ? `Edit Ayat ${currentAyahIndex(rukuIndex, ayahIndex)}` : isRuku ? `Input Ayat di Ruku ${rukuIndex+1}` : 'Pilih Ruku atau Ayat!'}</div>
-                <TableForm isLoading={isLoading} surah={surah} ayahInput={ayahInput} setAyahInput={setAyahInput} clearInput={clearInput} ruku={ruku} setRuku={setRuku} rukuIndex={rukuIndex} ayahIndex={ayahIndex} isRuku={isRuku} isAyah={isAyah} />
+                <div className="grid-layout-header uppercase">{(isRuku && isVerse) ? `Edit Ayat ${currentVerseIndex(rukuIndex, verseIndex)}` : isRuku ? `Input Ayat di Ruku ${rukuIndex+1}` : 'Pilih Ruku atau Ayat!'}</div>
+                <TableForm isLoading={isLoading} surah={surah} verseInput={verseInput} setVerseInput={setVerseInput} clearInput={clearInput} ruku={ruku} setRuku={setRuku} rukuIndex={rukuIndex} verseIndex={verseIndex} isRuku={isRuku} isVerse={isVerse} />
             </div>
         </div>
     )

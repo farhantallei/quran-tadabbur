@@ -702,7 +702,7 @@ code {
     font-size: 48px;
 }
 
-.info-ayat, .info-classification, .info-none {
+.info-verse, .info-classification, .info-none {
     font-size: 24px;
 }
 
@@ -817,7 +817,7 @@ code {
 /* Card
 /*==============================================================================*/
 
-.card, .card-ayah {
+.card, .card-verse {
     /* Auto Layout */
     display: -ms-grid;
     display: grid;
@@ -842,7 +842,7 @@ code {
     grid-template-rows: auto;
 }
 
-.card-ayah {
+.card-verse {
     margin-bottom: 16px;
 
     grid-auto-columns: auto;
@@ -872,7 +872,7 @@ code {
 /* Card Action
 /*==============================================================================*/
 
-.action, .card-ayah-action {
+.action, .card-verse-action {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -918,7 +918,7 @@ code {
     align-items: center;
 }
 
-.editBtn, .card-ayah-edit {
+.editBtn, .card-verse-edit {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -929,7 +929,7 @@ code {
     cursor: pointer;
 }
 
-.card-ayah-edit {
+.card-verse-edit {
     width: 30px;
 }
 
@@ -956,7 +956,7 @@ code {
     flex-direction: column;
 }
 
-.card-ayah-content {
+.card-verse-content {
     display: -ms-grid;
     display: grid;
     grid-auto-columns: 1fr;
@@ -998,7 +998,7 @@ code {
     grid-template-rows: min-content min-content;
 }
 
-.title, .card-ayah-arabic {
+.title, .card-verse-arabic {
     font-weight: 500;
     font-size: 30px;
 }
@@ -1007,11 +1007,11 @@ code {
     color: #8e8e93;
 }
 
-.card-ayah-arabic, .card-ayah-latin, .card-ayah-translation {
+.card-verse-arabic, .card-verse-latin, .card-verse-translation {
     color: #1c1c1e;
 }
 
-.latin, .card-ayah-latin, .card-ayah-translation {
+.latin, .card-verse-latin, .card-verse-translation {
     font-size: 18px;
 }
 
@@ -1021,7 +1021,7 @@ code {
     color: #48484a;
 }
 
-.card-ayah-latin {
+.card-verse-latin {
     font-weight: 600;
 }
 

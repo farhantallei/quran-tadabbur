@@ -65,13 +65,13 @@ export const addRuku = async (req, res) => {
     res.json(updatedData)
 }
 
-export const addAyah = async (req, res) => {
+export const addVerse = async (req, res) => {
     const { id } = req.params
-    const { ruku, ayah } = req.body
+    const { ruku, verse } = req.body
 
     const surah = await Quran.findById(id)
 
-    surah.position[ruku].push({ ayah })
+    surah.position[ruku].push({ verse })
 
     const updatedData = await Quran.findByIdAndUpdate(id, surah, { new: true })
 
@@ -89,11 +89,11 @@ export const updateData = async (req, res) => {
     res.json(updatedData)
 }
 
-export const updateAyah = async (req, res) => {
+export const updateVerse = async (req, res) => {
     const { id } = req.params
-    const { ruku, ayah, updatedAyah } = req.body
+    const { ruku, verse, updatedVerse } = req.body
 
-    const updatedData = await Quran.findByIdAndUpdate(id, { $set: { [`position.${ruku}.${ayah}.ayah`]: updatedAyah } }, { new: true })
+    const updatedData = await Quran.findByIdAndUpdate(id, { $set: { [`position.${ruku}.${verse}.verse`]: updatedVerse } }, { new: true })
 
     res.json(updatedData)
 }

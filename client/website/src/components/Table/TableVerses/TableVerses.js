@@ -2,9 +2,9 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 
 import { addRuku } from '../../../actions/quran'
-import Ayah from './Ayah/Ayah'
+import Verse from './Verse/Verse'
 
-const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex, setAyahIndex, currentAyahIndex }) => {
+const TableVerses = ({ isLoading, surah, ruku, setRuku, setRukuIndex, setVerseIndex, currentVerseIndex }) => {
     const dispatch = useDispatch()
     
     const handleRuku = async () => {
@@ -14,9 +14,9 @@ const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex, setAyahIndex
         }
     }
 
-    const handleAyah = async (i) => {
+    const handleVerse = async (i) => {
         setRukuIndex(i)
-        setAyahIndex(null)
+        setVerseIndex(null)
     }
 
     return (
@@ -27,20 +27,20 @@ const TableAyat = ({ isLoading, surah, ruku, setRuku, setRukuIndex, setAyahIndex
             <div className="table-layout">
                 <div className="table-scroll">
                     <div className="table-container">
-                        {isLoading ? 'Tunggu' : !surah ? 'Error' : !ruku.length ? 'No data' : ruku.map((ayat, rukuIndex) => (
+                        {isLoading ? 'Tunggu' : !surah ? 'Error' : !ruku.length ? 'No data' : ruku.map((verses, rukuIndex) => (
                             <div key={rukuIndex} className="ruku-list">
-                                {ayat.map((ayahData, ayahIndex) => (
-                                    <Ayah key={ayahIndex} currentAyahIndex={currentAyahIndex} ayahData={ayahData} rukuIndex={rukuIndex} ayahIndex={ayahIndex} setRukuIndex={setRukuIndex} setAyahIndex={setAyahIndex} />
+                                {verses.map((verseData, verseIndex) => (
+                                    <Verse key={verseIndex} currentVerseIndex={currentVerseIndex} verseData={verseData} rukuIndex={rukuIndex} verseIndex={verseIndex} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} />
                                 ))}
-                                <button onClick={() => handleAyah(rukuIndex)}>Add AYAH</button>
+                                <button onClick={() => handleVerse(rukuIndex)}>Tambah Ayat</button>
                             </div>
                         ))}
                     </div>
                 </div>
             </div>
-            <button onClick={handleRuku}>{isLoading ? 'Tunggu' : !surah ? 'Error' : 'Add RUKU'}</button>
+            <button onClick={handleRuku}>{isLoading ? 'Tunggu' : !surah ? 'Error' : 'Tambah Rukuʻ'}</button>
         </div>
     )
 }
 
-export default TableAyat
+export default TableVerses

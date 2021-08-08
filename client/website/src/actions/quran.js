@@ -1,6 +1,6 @@
 import * as api from '../api'
 
-import { ADD_AYAH, ADD_RUKU, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_AYAH, UPDATE_DATA } from '../constant/actionTypes'
+import { ADD_RUKU, ADD_VERSE, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_DATA, UPDATE_VERSE } from '../constant/actionTypes'
 
 export const getData = () => async (dispatch) => {
     try {
@@ -63,11 +63,11 @@ export const addRuku = (id) => async (dispatch) => {
     }
 }
 
-export const addAyah = (id, ruku, ayah) => async (dispatch) => {
+export const addVerse = (id, ruku, verse) => async (dispatch) => {
     try {
-        const { data } = await api.addAyah(id, ruku, ayah)
+        const { data } = await api.addVerse(id, ruku, verse)
 
-        dispatch({ type: ADD_AYAH, payload: data })
+        dispatch({ type: ADD_VERSE, payload: data })
     } catch (error) {
         console.log(error)
     }
@@ -83,11 +83,11 @@ export const updateData = (id, surat) => async (dispatch) => {
     }
 }
 
-export const updateAyah = (id, ruku, ayah, updatedAyah) => async (dispatch) => {
+export const updateVerse = (id, ruku, verse, updatedVerse) => async (dispatch) => {
     try {
-        const { data } = await api.updateAyah(id, ruku, ayah, updatedAyah)
+        const { data } = await api.updateVerse(id, ruku, verse, updatedVerse)
 
-        dispatch({ type: UPDATE_AYAH, payload: data })
+        dispatch({ type: UPDATE_VERSE, payload: data })
     } catch (error) {
         console.log(error)
     }

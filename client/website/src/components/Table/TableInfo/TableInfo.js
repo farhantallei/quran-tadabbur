@@ -12,7 +12,7 @@ const TableInfo = ({ surah, isLoading }) => {
                             <div className="info-alias">{surah.aliases.map((aliases, i, array) => (array.length - 1 === i) ? aliases : `${aliases} ● `)}</div>
                             <div className="info-arabic arabic">{surah.arabic_name}</div>
                             <div className="info-literal">{surah.literal}</div>
-                            <div className="info-ayat">- ayat</div>
+                            <div className="info-verse">- ayat</div>
                         </div>
                         <div className="table-separator"><svg width="100%" height="6" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" rx="3" fill="#f2f2f7" /></svg></div>
                         <div className="table-col-2-grid">
