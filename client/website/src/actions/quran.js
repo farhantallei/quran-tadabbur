@@ -1,6 +1,6 @@
 import * as api from '../api'
 
-import { ADD_AYAH, ADD_RUKU, ADD_THEME, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_AYAH, UPDATE_DATA, UPDATE_THEME } from '../constant/actionTypes'
+import { ADD_AYAH, ADD_RUKU, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_AYAH, UPDATE_DATA } from '../constant/actionTypes'
 
 export const getData = () => async (dispatch) => {
     try {
@@ -73,18 +73,6 @@ export const addAyah = (id, ruku, ayah) => async (dispatch) => {
     }
 }
 
-export const addTheme = (id, theme) => async (dispatch) => {
-    try {
-        const { data } = await api.addTheme(id, theme)
-
-        dispatch({ type: ADD_THEME, payload: data })
-
-        return data.position
-    } catch (error) {
-        console.log(error)
-    }
-}
-
 export const updateData = (id, surat) => async (dispatch) => {
     try {
         const { data } = await api.updateData(id, surat)
@@ -100,18 +88,6 @@ export const updateAyah = (id, ruku, ayah, updatedAyah) => async (dispatch) => {
         const { data } = await api.updateAyah(id, ruku, ayah, updatedAyah)
 
         dispatch({ type: UPDATE_AYAH, payload: data })
-    } catch (error) {
-        console.log(error)
-    }
-}
-
-export const updateTheme = (id, theme) => async (dispatch) => {
-    try {
-        const { data } = await api.updateTheme(id, theme)
-
-        dispatch({ type: UPDATE_THEME, payload: data })
-
-        return data.position
     } catch (error) {
         console.log(error)
     }

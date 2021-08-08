@@ -78,19 +78,6 @@ export const addAyah = async (req, res) => {
     res.json(updatedData)
 }
 
-export const addTheme = async (req, res) => {
-    const { id } = req.params
-    const theme = req.body
-
-    const surah = await Quran.findById(id)
-    
-    surah.position.push(theme)
-
-    const updatedTheme = await Quran.findByIdAndUpdate(id, surah, { new: true })
-
-    res.json(updatedTheme)
-}
-
 export const updateData = async (req, res) => {
     const { id } = req.params
     const data = req.body
@@ -106,18 +93,7 @@ export const updateAyah = async (req, res) => {
     const { id } = req.params
     const { ruku, ayah, updatedAyah } = req.body
 
-    console.log({ id, ruku, ayah, updatedAyah })
-
     const updatedData = await Quran.findByIdAndUpdate(id, { $set: { [`position.${ruku}.${ayah}.ayah`]: updatedAyah } }, { new: true })
 
     res.json(updatedData)
-}
-
-export const updateTheme = async (req, res) => {
-    const { id } = req.params
-    const { i, theme } = req.body
-
-    const updatedTheme = await Quran.findByIdAndUpdate(id, { $set: { [`position.${i}.theme`]: theme } }, { new: true })
-
-    res.json(updatedTheme)
 }

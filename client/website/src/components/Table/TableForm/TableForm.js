@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { useDispatch } from 'react-redux'
 
 import { addAyah, updateAyah } from '../../../actions/quran'
@@ -21,27 +21,27 @@ const TableForm = ({ isLoading, surah, ayahInput, setAyahInput, clearInput, ruku
         const submitLatin = submitData.latin.toString()
         const submitTranslation = submitData.translation.toString()
 
-        const dataArabic = ruku[rukuIndex][ayahIndex].ayah.arabic.toString()
-        const dataLatin = ruku[rukuIndex][ayahIndex].ayah.latin.toString()
-        const dataTranslation = ruku[rukuIndex][ayahIndex].ayah.translation.toString()
-
         if (!isLoading && surah) {
-            if(submitArabic === dataArabic && submitLatin === dataLatin && submitTranslation === dataTranslation) {
-                alert("Silahkan ubah datanya atau tekan reset kalau tidak jadi mengedit")
-                arabicField.current.focus()
-                return false
-            } else {
-                if(isRuku && !isAyah) {
-                    dispatch(addAyah(surah._id, rukuIndex, submitData))
-                    ruku[rukuIndex].push({ ayah: submitData })
-                }
-    
-                if(isRuku && isAyah) {
+            if(isRuku && !isAyah) {
+                dispatch(addAyah(surah._id, rukuIndex, submitData))
+                ruku[rukuIndex].push({ ayah: submitData })
+                clearInput()
+            }
+
+            if(isRuku && isAyah) {
+                const dataArabic = ruku[rukuIndex][ayahIndex].ayah.arabic.toString()
+                const dataLatin = ruku[rukuIndex][ayahIndex].ayah.latin.toString()
+                const dataTranslation = ruku[rukuIndex][ayahIndex].ayah.translation.toString()
+
+                if(submitArabic === dataArabic && submitLatin === dataLatin && submitTranslation === dataTranslation) {
+                    alert("Silahkan ubah datanya atau tekan reset kalau tidak jadi mengedit")
+                    arabicField.current.focus()
+                    return false
+                } else {
                     dispatch(updateAyah(surah._id, rukuIndex, ayahIndex, submitData))
                     ruku[rukuIndex][ayahIndex] = { ayah: submitData }
+                    clearInput()
                 }
-
-                clearInput()
             }
         }
     }
