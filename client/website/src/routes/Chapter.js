@@ -77,7 +77,7 @@ const Chapter = ({ setTitle }) => {
                 <TableInfo isLoading={isLoading} chapter={chapter} />
             </div>
             <div className="grid-layout">
-                <TableVerses isLoading={isLoading} chapter={chapter} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} currentVerseIndex={currentVerseIndex} />
+                <TableVerses isLoading={isLoading} chapter={chapter} setVerseInput={setVerseInput} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} currentVerseIndex={currentVerseIndex} />
             </div>
             <div className="grid-layout side">
                 <div className="grid-layout-header uppercase">{(isRuku && isVerse) ? `Edit Ayat ${currentVerseIndex(rukuIndex, verseIndex)}` : isRuku ? `Input Ayat di Ruku ${rukuIndex+1}` : 'Pilih Ruku atau Ayat!'}</div>

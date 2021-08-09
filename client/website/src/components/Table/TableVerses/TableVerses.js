@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { addRuku } from '../../../actions/quran'
 import Verse from './Verse/Verse'
 
-const TableVerses = ({ isLoading, chapter, ruku, setRuku, setRukuIndex, setVerseIndex, currentVerseIndex }) => {
+const TableVerses = ({ isLoading, chapter, setVerseInput, ruku, setRuku, setRukuIndex, setVerseIndex, currentVerseIndex }) => {
     const dispatch = useDispatch()
     
     const handleRuku = async () => {
@@ -17,6 +17,7 @@ const TableVerses = ({ isLoading, chapter, ruku, setRuku, setRukuIndex, setVerse
     const handleVerse = async (i) => {
         setRukuIndex(i)
         setVerseIndex(null)
+        setVerseInput({ arabic: '', latin: '', translation: '' })
     }
 
     return (
