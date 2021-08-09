@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Appbar from './components/Appbar/Appbar'
 import Home from './routes/Home'
-import Surah from './routes/Surah'
+import Chapter from './routes/Chapter'
 import NotFound from './routes/NotFound'
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
                     </div>
                 </Route>
                 <Route path="/search" exact><Home setTitle={setTitle} /></Route>
-                <Route path="/surah/:id"><Surah setTitle={setTitle} /></Route>
+                <Route path="/surah/:id"><Chapter setTitle={setTitle} /></Route>
 
                 <Route path=""><NotFound /></Route>
             </Switch>
