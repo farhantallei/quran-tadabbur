@@ -5,7 +5,7 @@ import { createData, updateData } from '../../actions/quran'
 
 const Form = ({ currentId, setCurrentId }) => {
     const dispatch = useDispatch()
-    const [quranData, setQuranData] = useState({ surah_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '' })
+    const [quranData, setQuranData] = useState({ chapter_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '' })
     const quran = useSelector((state) => currentId ? state.quran.chapters.find((chapter) => chapter._id === currentId) : null)
     const formScroll = useRef()
 
@@ -21,7 +21,7 @@ const Form = ({ currentId, setCurrentId }) => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        const submitData = { ...quranData, surah_id: quranData.surah_id.replace(/\s+/g, '-').toLowerCase(), aliases: quranData.aliases.split('|'), mysterious_letters: quranData.mysterious_letters.split('|'), avail: quranData.avail.split('|') }
+        const submitData = { ...quranData, chapter_id: quranData.chapter_id.replace(/\s+/g, '-').toLowerCase(), aliases: quranData.aliases.split('|'), mysterious_letters: quranData.mysterious_letters.split('|'), avail: quranData.avail.split('|') }
 
         if (currentId === 0) dispatch(createData(submitData))
         else dispatch(updateData(currentId, submitData))
@@ -34,7 +34,7 @@ const Form = ({ currentId, setCurrentId }) => {
         for (let i = 0; i < input.length; i++) input[i].checked = false
 
         setCurrentId(0)
-        setQuranData({ surah_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '' })
+        setQuranData({ chapter_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '' })
 
         formScroll.current.scrollTo({ top: 0, behavior: 'smooth'})
     }
@@ -47,7 +47,7 @@ const Form = ({ currentId, setCurrentId }) => {
                 <div className='form-content'>
                     <form className='form' id='form' autoComplete="off" onSubmit={handleSubmit}>
                         <label className='label'><span>Id</span> Surah</label>
-                        <input className='field' name='surah_id' type='text' required value={quranData.surah_id} onChange={(e) => setQuranData({ ...quranData, surah_id: e.target.value })} />
+                        <input className='field' name='chapter_id' type='text' required value={quranData.chapter_id} onChange={(e) => setQuranData({ ...quranData, chapter_id: e.target.value })} />
 
                         <label className='label'>Nama Surah dalam <span>Arabic</span></label>
                         <input className='arabic field' name='arabic_name' type='text' required value={quranData.arabic_name} onChange={(e) => setQuranData({ ...quranData, arabic_name: e.target.value })} />

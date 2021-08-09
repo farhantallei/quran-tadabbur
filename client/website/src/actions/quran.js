@@ -36,7 +36,7 @@ export const getSelectedData = (id) => async (dispatch) => {
         dispatch({ type: FETCH_DATA, payload: data })
         dispatch({ type: END_LOADING })
 
-        return data.surah_index
+        return data.chapter_index
     } catch (error) {
         console.log(error)
         dispatch({ type: END_LOADING })

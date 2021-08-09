@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import autoIncrement from 'mongoose-auto-increment'
 
 const quranSchema = mongoose.Schema({
-    surah_id: { type: String, required: true },
+    chapter_id: { type: String, required: true },
     arabic_name: { type: String, required: true },
     latin_name: { type: String, required: true },
     literal: { type: String, required: true },
@@ -15,6 +15,6 @@ const quranSchema = mongoose.Schema({
 
 autoIncrement.initialize(mongoose)
 
-quranSchema.plugin(autoIncrement.plugin, { model: 'Quran', field: 'surah_index', startAt: 1 })
+quranSchema.plugin(autoIncrement.plugin, { model: 'Quran', field: 'chapter_index', startAt: 1 })
 
 export default mongoose.model('Quran', quranSchema)

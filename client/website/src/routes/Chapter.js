@@ -21,15 +21,15 @@ const Chapter = ({ setTitle }) => {
 
     useEffect(() => {
         const fetchSelectedData = async () => {
-            const surahIndex = await dispatch(getSelectedData(id))
-            surahIndex && setTitle(`Surah no ${surahIndex}`)
+            const chapterIndex = await dispatch(getSelectedData(id))
+            chapterIndex && setTitle(`Surah no ${chapterIndex}`)
         }
         fetchSelectedData()
     }, [dispatch, id])
 
     useEffect(() => {
         if (chapter) {
-            dispatch(getDataBySearch({ search: 'none', index: [chapter.surah_index-1, chapter.surah_index+1] }))
+            dispatch(getDataBySearch({ search: 'none', index: [chapter.chapter_index-1, chapter.chapter_index+1] }))
         }
     }, [dispatch, chapter])
 
@@ -45,10 +45,10 @@ const Chapter = ({ setTitle }) => {
         return totalVerse
     }
 
-    const openSurah = (i) => {
+    const openChapter = (i) => {
         setRuku([])
-        history.push(`/surah/${chapters[i].surah_id}`)
-        setTitle(`Surah no ${chapters[i].surah_index}`)
+        history.push(`/surah/${chapters[i].chapter_id}`)
+        setTitle(`Surah no ${chapters[i].chapter_index}`)
         clearInput()
     }
 
@@ -68,10 +68,10 @@ const Chapter = ({ setTitle }) => {
                         </Link>
                     </div>
                     {chapters.length > 1 ? (<>
-                        <button className="surah-nav-prev" onClick={() => openSurah(0)} >Prev</button>
-                        <button className="surah-nav-next" onClick={() => openSurah(1)} >Next</button>
+                        <button className="surah-nav-prev" onClick={() => openChapter(0)} >Prev</button>
+                        <button className="surah-nav-next" onClick={() => openChapter(1)} >Next</button>
                     </>) : (
-                        <button className="surah-nav-prev" onClick={() => openSurah(0)} >{!isLoading && chapter && (chapters[0].surah_index > chapter.surah_index) ? 'Next' : 'Prev'}</button>
+                        <button className="surah-nav-prev" onClick={() => openChapter(0)} >{!isLoading && chapter && (chapters[0].chapter_index > chapter.chapter_index) ? 'Next' : 'Prev'}</button>
                     )}
                 </div>
                 <TableInfo isLoading={isLoading} chapter={chapter} />

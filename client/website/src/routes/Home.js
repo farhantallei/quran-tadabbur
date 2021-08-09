@@ -25,7 +25,7 @@ const Home = ({ setTitle }) => {
         else dispatch(getData())
     }, [dispatch, searchQuery])
 
-    const searchSurah = () => {
+    const searchChapter = () => {
         setCurrentId(0)
         if (searchTerm.trim()) {
             dispatch(getDataBySearch({ search: searchTerm, index: '' }))
@@ -37,7 +37,7 @@ const Home = ({ setTitle }) => {
     }
 
     const handleKeyPress = (e) => {
-        if (e.keyCode === 13) searchSurah()
+        if (e.keyCode === 13) searchChapter()
     }
 
     return (

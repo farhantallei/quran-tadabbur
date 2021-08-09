@@ -4,7 +4,7 @@ import Quran from '../models/quran.js'
 
 export const getData = async (req, res) => {
     try {
-        const quran = await Quran.find().sort({ surah_index: 1 })
+        const quran = await Quran.find().sort({ chapter_index: 1 })
 
         res.status(200).json({ data: quran })
     } catch (error) {
@@ -18,7 +18,7 @@ export const getDataBySearch = async (req, res) => {
     try {
         const searchTerm = new RegExp(q, 'i')
 
-        const quran = await Quran.find({ $or: [ { arabic_name: searchTerm }, { latin_name: searchTerm }, { literal: searchTerm}, { surah_id: searchTerm }, { surah_index: { $in: i.split(',') } }]})
+        const quran = await Quran.find({ $or: [ { arabic_name: searchTerm }, { latin_name: searchTerm }, { literal: searchTerm}, { chapter_id: searchTerm }, { chapter_index: { $in: i.split(',') } }]})
 
         res.json({ data: quran })
     } catch (error) {
@@ -30,7 +30,7 @@ export const getSelectedData = async (req, res) => {
     const { id } = req.params
 
     try {
-        const chapter = await Quran.findOne({ surah_id: id })
+        const chapter = await Quran.findOne({ chapter_id: id })
 
         if (chapter) res.status(200).json(chapter)
         else res.status(404).json({ message: `Data ${id} not found` })
