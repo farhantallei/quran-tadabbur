@@ -11,7 +11,7 @@ const Chapter = ({ setTitle }) => {
     const dispatch = useDispatch()
     const history = useHistory()
     const { id } = useParams()
-    const { surah, chapters, isLoading } = useSelector((state) => state.quran)
+    const { chapter, chapters, isLoading } = useSelector((state) => state.quran)
     const [verseInput, setVerseInput] = useState({ arabic: '', latin: '', translation: '' })
     const [ruku, setRuku] = useState([])
     const [rukuIndex, setRukuIndex] = useState(null)
@@ -28,13 +28,13 @@ const Chapter = ({ setTitle }) => {
     }, [dispatch, id])
 
     useEffect(() => {
-        if (surah) {
-            dispatch(getDataBySearch({ search: 'none', index: [surah.surah_index-1, surah.surah_index+1] }))
+        if (chapter) {
+            dispatch(getDataBySearch({ search: 'none', index: [chapter.surah_index-1, chapter.surah_index+1] }))
         }
-    }, [dispatch, surah])
+    }, [dispatch, chapter])
 
     useEffect(() => {
-        !isLoading && surah && setRuku(surah.position)
+        !isLoading && chapter && setRuku(chapter.position)
     }, [isLoading])
 
     const currentVerseIndex = (rukuI, verseI) => {
@@ -71,17 +71,17 @@ const Chapter = ({ setTitle }) => {
                         <button className="surah-nav-prev" onClick={() => openSurah(0)} >Prev</button>
                         <button className="surah-nav-next" onClick={() => openSurah(1)} >Next</button>
                     </>) : (
-                        <button className="surah-nav-prev" onClick={() => openSurah(0)} >{!isLoading && surah && (chapters[0].surah_index > surah.surah_index) ? 'Next' : 'Prev'}</button>
+                        <button className="surah-nav-prev" onClick={() => openSurah(0)} >{!isLoading && chapter && (chapters[0].surah_index > chapter.surah_index) ? 'Next' : 'Prev'}</button>
                     )}
                 </div>
-                <TableInfo isLoading={isLoading} surah={surah} />
+                <TableInfo isLoading={isLoading} chapter={chapter} />
             </div>
             <div className="grid-layout">
-                <TableVerses isLoading={isLoading} surah={surah} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} currentVerseIndex={currentVerseIndex} />
+                <TableVerses isLoading={isLoading} chapter={chapter} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} currentVerseIndex={currentVerseIndex} />
             </div>
             <div className="grid-layout side">
                 <div className="grid-layout-header uppercase">{(isRuku && isVerse) ? `Edit Ayat ${currentVerseIndex(rukuIndex, verseIndex)}` : isRuku ? `Input Ayat di Ruku ${rukuIndex+1}` : 'Pilih Ruku atau Ayat!'}</div>
-                <TableForm isLoading={isLoading} surah={surah} verseInput={verseInput} setVerseInput={setVerseInput} clearInput={clearInput} ruku={ruku} setRuku={setRuku} rukuIndex={rukuIndex} verseIndex={verseIndex} isRuku={isRuku} isVerse={isVerse} />
+                <TableForm isLoading={isLoading} chapter={chapter} verseInput={verseInput} setVerseInput={setVerseInput} clearInput={clearInput} ruku={ruku} setRuku={setRuku} rukuIndex={rukuIndex} verseIndex={verseIndex} isRuku={isRuku} isVerse={isVerse} />
             </div>
         </div>
     )

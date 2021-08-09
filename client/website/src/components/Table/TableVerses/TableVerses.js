@@ -4,12 +4,12 @@ import { useDispatch } from 'react-redux'
 import { addRuku } from '../../../actions/quran'
 import Verse from './Verse/Verse'
 
-const TableVerses = ({ isLoading, surah, ruku, setRuku, setRukuIndex, setVerseIndex, currentVerseIndex }) => {
+const TableVerses = ({ isLoading, chapter, ruku, setRuku, setRukuIndex, setVerseIndex, currentVerseIndex }) => {
     const dispatch = useDispatch()
     
     const handleRuku = async () => {
-        if (!isLoading && surah) {
-            dispatch(addRuku(surah._id))
+        if (!isLoading && chapter) {
+            dispatch(addRuku(chapter._id))
             setRuku([...ruku, []])
         }
     }
@@ -27,7 +27,7 @@ const TableVerses = ({ isLoading, surah, ruku, setRuku, setRukuIndex, setVerseIn
             <div className="table-layout">
                 <div className="table-scroll">
                     <div className="table-container">
-                        {isLoading ? 'Tunggu' : !surah ? 'Error' : !ruku.length ? 'No data' : ruku.map((verses, rukuIndex) => (
+                        {isLoading ? 'Tunggu' : !chapter ? 'Error' : !ruku.length ? 'No data' : ruku.map((verses, rukuIndex) => (
                             <div key={rukuIndex} className="ruku-list">
                                 {verses.map((verseData, verseIndex) => (
                                     <Verse key={verseIndex} currentVerseIndex={currentVerseIndex} verseData={verseData} rukuIndex={rukuIndex} verseIndex={verseIndex} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} />
@@ -38,7 +38,7 @@ const TableVerses = ({ isLoading, surah, ruku, setRuku, setRukuIndex, setVerseIn
                     </div>
                 </div>
             </div>
-            <button onClick={handleRuku}>{isLoading ? 'Tunggu' : !surah ? 'Error' : 'Tambah Rukuʻ'}</button>
+            <button onClick={handleRuku}>{isLoading ? 'Tunggu' : !chapter ? 'Error' : 'Tambah Rukuʻ'}</button>
         </div>
     )
 }

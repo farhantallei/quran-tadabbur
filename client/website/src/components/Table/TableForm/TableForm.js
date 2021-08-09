@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 
 import { addVerse, updateVerse } from '../../../actions/quran'
 
-const TableForm = ({ isLoading, surah, verseInput, setVerseInput, clearInput, ruku, rukuIndex, verseIndex, isRuku, isVerse }) => {
+const TableForm = ({ isLoading, chapter, verseInput, setVerseInput, clearInput, ruku, rukuIndex, verseIndex, isRuku, isVerse }) => {
     const dispatch = useDispatch()
     const arabicField = useRef()
 
@@ -21,9 +21,9 @@ const TableForm = ({ isLoading, surah, verseInput, setVerseInput, clearInput, ru
         const submitLatin = submitData.latin.toString()
         const submitTranslation = submitData.translation.toString()
 
-        if (!isLoading && surah) {
+        if (!isLoading && chapter) {
             if(isRuku && !isVerse) {
-                dispatch(addVerse(surah._id, rukuIndex, submitData))
+                dispatch(addVerse(chapter._id, rukuIndex, submitData))
                 ruku[rukuIndex].push({ verse: submitData })
                 clearInput()
             }
@@ -38,7 +38,7 @@ const TableForm = ({ isLoading, surah, verseInput, setVerseInput, clearInput, ru
                     arabicField.current.focus()
                     return false
                 } else {
-                    dispatch(updateVerse(surah._id, rukuIndex, verseIndex, submitData))
+                    dispatch(updateVerse(chapter._id, rukuIndex, verseIndex, submitData))
                     ruku[rukuIndex][verseIndex] = { verse: submitData }
                     clearInput()
                 }

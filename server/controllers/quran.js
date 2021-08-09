@@ -30,9 +30,9 @@ export const getSelectedData = async (req, res) => {
     const { id } = req.params
 
     try {
-        const surah = await Quran.findOne({ surah_id: id })
+        const chapter = await Quran.findOne({ surah_id: id })
 
-        if (surah) res.status(200).json(surah)
+        if (chapter) res.status(200).json(chapter)
         else res.status(404).json({ message: `Data ${id} not found` })
     } catch (error) {
         res.status(404).json({ message: error })
@@ -56,11 +56,11 @@ export const createData = async (req, res) => {
 export const addRuku = async (req, res) => {
     const { id } = req.params
 
-    const surah = await Quran.findById(id)
+    const chapter = await Quran.findById(id)
 
-    surah.position.push([])
+    chapter.position.push([])
 
-    const updatedData = await Quran.findByIdAndUpdate(id, surah, { new: true })
+    const updatedData = await Quran.findByIdAndUpdate(id, chapter, { new: true })
 
     res.json(updatedData)
 }
@@ -69,11 +69,11 @@ export const addVerse = async (req, res) => {
     const { id } = req.params
     const { ruku, verse } = req.body
 
-    const surah = await Quran.findById(id)
+    const chapter = await Quran.findById(id)
 
-    surah.position[ruku].push({ verse })
+    chapter.position[ruku].push({ verse })
 
-    const updatedData = await Quran.findByIdAndUpdate(id, surah, { new: true })
+    const updatedData = await Quran.findByIdAndUpdate(id, chapter, { new: true })
 
     res.json(updatedData)
 }
