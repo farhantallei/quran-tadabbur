@@ -6,7 +6,7 @@ import { createData, updateData } from '../../actions/quran'
 const Form = ({ currentId, setCurrentId }) => {
     const dispatch = useDispatch()
     const [quranData, setQuranData] = useState({ surah_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '' })
-    const quran = useSelector((state) => currentId ? state.quran.surat.find((surah) => surah._id === currentId) : null)
+    const quran = useSelector((state) => currentId ? state.quran.chapters.find((surah) => surah._id === currentId) : null)
     const formScroll = useRef()
 
     useEffect(() => {

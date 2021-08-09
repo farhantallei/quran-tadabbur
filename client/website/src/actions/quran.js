@@ -43,9 +43,9 @@ export const getSelectedData = (id) => async (dispatch) => {
     }
 }
 
-export const createData = (surat) => async (dispatch) => {
+export const createData = (chapters) => async (dispatch) => {
     try {
-        const { data } = await api.createData(surat)
+        const { data } = await api.createData(chapters)
 
         dispatch({ type: CREATE_DATA, payload: data })
     } catch (error) {
@@ -73,9 +73,9 @@ export const addVerse = (id, ruku, verse) => async (dispatch) => {
     }
 }
 
-export const updateData = (id, surat) => async (dispatch) => {
+export const updateData = (id, chapters) => async (dispatch) => {
     try {
-        const { data } = await api.updateData(id, surat)
+        const { data } = await api.updateData(id, chapters)
 
         dispatch({ type: UPDATE_DATA, payload: data })
     } catch (error) {
