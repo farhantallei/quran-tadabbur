@@ -38,7 +38,8 @@ const Chapter = ({ setTitle }) => {
     }, [isLoading])
 
     const currentVerseIndex = (rukuI, verseI) => {
-        let totalVerse = verseI+1
+        let totalVerse = verseI+1||ruku[rukuI].length+1
+        
         for(let i = 0; i < rukuI; i++) {
             totalVerse += ruku[rukuI-(i+1)].length
         }
@@ -80,7 +81,7 @@ const Chapter = ({ setTitle }) => {
                 <TableVerses isLoading={isLoading} chapter={chapter} setVerseInput={setVerseInput} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} currentVerseIndex={currentVerseIndex} />
             </div>
             <div className="grid-layout side">
-                <div className="grid-layout-header uppercase">{(isRuku && isVerse) ? `Edit Ayat ${currentVerseIndex(rukuIndex, verseIndex)}` : isRuku ? `Input Ayat di Ruku ${rukuIndex+1}` : 'Pilih Ruku atau Ayat!'}</div>
+                <div className="grid-layout-header uppercase">{(isRuku && isVerse) ? `Edit Ayat ${currentVerseIndex(rukuIndex, verseIndex)}` : isRuku ? `Input Ayat ${currentVerseIndex(rukuIndex)} di Ruku ${rukuIndex+1}` : 'Pilih Ruku atau Ayat!'}</div>
                 <TableForm isLoading={isLoading} chapter={chapter} verseInput={verseInput} setVerseInput={setVerseInput} clearInput={clearInput} ruku={ruku} setRuku={setRuku} rukuIndex={rukuIndex} verseIndex={verseIndex} isRuku={isRuku} isVerse={isVerse} />
             </div>
         </div>
