@@ -75,7 +75,7 @@ const Chapter = ({ setTitle }) => {
                         <button className="surah-nav-prev" onClick={() => openChapter(0)} >{!isLoading && chapter && (chapters[0].chapter_index > chapter.chapter_index) ? 'Next' : 'Prev'}</button>
                     )}
                 </div>
-                <TableInfo isLoading={isLoading} chapter={chapter} />
+                <TableInfo isLoading={isLoading} chapter={chapter} ruku={ruku} />
             </div>
             <div className="grid-layout">
                 <TableVerses isLoading={isLoading} chapter={chapter} setVerseInput={setVerseInput} ruku={ruku} setRuku={setRuku} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} currentVerseIndex={currentVerseIndex} />
