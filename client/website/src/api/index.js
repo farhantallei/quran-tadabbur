@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url = 'http://localhost:5000/quran'
+const url = 'https://quran-tadabbur.herokuapp.com/quran'
 
 export const fetchData = () => axios.get(url)
 export const fetchDataBySearch = (search) => axios.get(`${url}/search?q=${search.search || 'none'}&i=${search.index}`)
