@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useHistory, useLocation } from 'react-router-dom'
 
-import { getData, getDataBySearch } from '../actions/quran'
+import { getChapter, getData, getDataBySearch } from '../actions/quran'
 import Form from '../components/Form/Form'
 import Quran from '../components/Quran/Quran'
 
@@ -22,7 +22,7 @@ const Home = ({ setTitle }) => {
     useEffect(() => {
         setTitle('Quran Tadabbur data API')
         if (searchQuery) dispatch(getDataBySearch({ search: searchQuery, index: '' }))
-        else dispatch(getData())
+        else dispatch(getChapter())
     }, [dispatch, searchQuery])
 
     const searchChapter = () => {
@@ -31,7 +31,7 @@ const Home = ({ setTitle }) => {
             dispatch(getDataBySearch({ search: searchTerm, index: '' }))
             history.push(`/search?q=${searchTerm}`)
         } else {
-            dispatch(getData())
+            dispatch(getChapter())
             history.push('/')
         }
     }

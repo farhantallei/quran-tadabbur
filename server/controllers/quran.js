@@ -12,6 +12,16 @@ export const getData = async (req, res) => {
     }
 }
 
+export const getChapter = async (req, res) => {
+    try {
+        const chapters = await Quran.find({}, { _id: 0, arabic_name: 1, latin_name: 1, literal: 1, classification: 1, chapter_id: 1, chapter_index: 1 }).sort({ chapter_index: 1 })
+
+        res.status(200).json({ data: chapters })
+    } catch (error) {
+        res.status(404).json({ message: error })
+    }
+}
+
 export const getDataBySearch = async (req, res) => {
     const { q, i } = req.query
 

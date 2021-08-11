@@ -1,10 +1,11 @@
 import express from 'express'
 
-import { getData, getDataBySearch, createData, updateData, getSelectedData, addRuku, addVerse, updateVerse } from '../controllers/quran.js'
+import { getData, getDataBySearch, createData, updateData, getSelectedData, addRuku, addVerse, updateVerse, getChapter } from '../controllers/quran.js'
 
 const router = express.Router()
 
 router.get('/', getData)
+router.get('/chapter', getChapter)
 router.get('/search', getDataBySearch)
 router.get('/:id', getSelectedData)
 

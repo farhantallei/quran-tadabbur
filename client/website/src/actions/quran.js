@@ -1,6 +1,6 @@
 import * as api from '../api'
 
-import { ADD_RUKU, ADD_VERSE, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_DATA, UPDATE_VERSE } from '../constant/actionTypes'
+import { ADD_RUKU, ADD_VERSE, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_ALL_CHAPTER, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_DATA, UPDATE_VERSE } from '../constant/actionTypes'
 
 export const getData = () => async (dispatch) => {
     try {
@@ -8,6 +8,19 @@ export const getData = () => async (dispatch) => {
         const { data } = await api.fetchData()
         
         dispatch({ type: FETCH_ALL, payload: data })
+        dispatch({ type: END_LOADING })
+    } catch (error) {
+        console.log(error)
+        dispatch({ type: END_LOADING })
+    }
+}
+
+export const getChapter = () => async (dispatch) => {
+    try {
+        dispatch({ type: START_LOADING })
+        const { data } = await api.fetchChapter()
+        
+        dispatch({ type: FETCH_ALL_CHAPTER, payload: data })
         dispatch({ type: END_LOADING })
     } catch (error) {
         console.log(error)

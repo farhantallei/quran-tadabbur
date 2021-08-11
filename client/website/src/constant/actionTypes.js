@@ -1,4 +1,5 @@
 export const FETCH_ALL = 'FETCH_ALL'
+export const FETCH_ALL_CHAPTER = 'FETCH_ALL_CHAPTER'
 export const FETCH_BY_SEARCH = 'FETCH_BY_SEARCH'
 export const FETCH_DATA = 'FETCH_DATA'
 

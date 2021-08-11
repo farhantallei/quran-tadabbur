@@ -1,9 +1,9 @@
-import { ADD_RUKU, ADD_VERSE, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_DATA, UPDATE_VERSE } from "../constant/actionTypes"
+import { ADD_RUKU, ADD_VERSE, CREATE_DATA, END_LOADING, FETCH_ALL, FETCH_ALL_CHAPTER, FETCH_BY_SEARCH, FETCH_DATA, START_LOADING, UPDATE_DATA, UPDATE_VERSE } from "../constant/actionTypes"
 
 const quran = (state = { isLoading: true, chapters: []}, action) => {
     switch (action.type) {
         case FETCH_ALL:
-            return { ...state, chapters: action.payload.data }
+        case FETCH_ALL_CHAPTER:
         case FETCH_BY_SEARCH:
             return { ...state, chapters: action.payload.data }
         case FETCH_DATA:

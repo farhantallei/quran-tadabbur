@@ -3,6 +3,7 @@ import axios from 'axios'
 const url = 'https://quran-tadabbur.herokuapp.com/quran'
 
 export const fetchData = () => axios.get(url)
+export const fetchChapter = () => axios.get(`${url}/chapter`)
 export const fetchDataBySearch = (search) => axios.get(`${url}/search?q=${search.search || 'none'}&i=${search.index}`)
 export const fetchSelectedData = (id) => axios.get(`${url}/${id}`)
 
