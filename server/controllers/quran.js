@@ -14,7 +14,7 @@ export const getData = async (req, res) => {
 
 export const getChapter = async (req, res) => {
     try {
-        const chapters = await Quran.find({}, { aliases: 0, avail: 0, mysterious_letters: 0, position: 0 }).sort({ chapter_index: 1 })
+        const chapters = await Quran.find({}, { position: 0 }).sort({ chapter_index: 1 })
 
         res.status(200).json({ data: chapters })
     } catch (error) {
