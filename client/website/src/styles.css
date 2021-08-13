@@ -696,6 +696,7 @@ code {
 .info-arabic {
     font-size: 72px;
     font-weight: bold;
+    line-height: inherit;
 }
 
 .info-literal {
