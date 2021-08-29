@@ -37,6 +37,10 @@ const Chapter = ({ setTitle }) => {
         !isLoading && chapter && setRuku(chapter.position)
     }, [isLoading])
 
+    useEffect(() => {
+        clearInput()
+    }, [history.location.pathname])
+
     const currentVerseIndex = (rukuI, verseI) => {
         let totalVerse = verseI+1||ruku[rukuI].length+1
         
