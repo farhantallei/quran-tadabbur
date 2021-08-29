@@ -23,7 +23,7 @@ const TableVerses = ({ isLoading, chapter, setVerseInput, ruku, setRuku, setRuku
     return (
         <div className="table">
             <div className="table-head">
-                <input className='search' name='search' type='text' />
+                {!isLoading && chapter && chapter.chapter_index}
             </div>
             <div className="table-layout">
                 <div className="table-scroll">
