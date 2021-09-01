@@ -1281,7 +1281,11 @@ code {
     filter: brightness(0.9);
 }
 
-.submit:disabled {
+.submit:not(:disabled):focus, .reset:not(:disabled):focus {
+    filter: brightness(0.8);
+}
+
+.submit:disabled, .reset:disabled {
     background-color: #f2f2f7;
     color: #d1d1d6;
 }

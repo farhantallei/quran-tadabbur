@@ -86,7 +86,7 @@ const Chapter = ({ setTitle }) => {
             </div>
             <div className="grid-layout side">
                 <div className="grid-layout-header uppercase">{(isRuku && isVerse) ? `Edit Ayat ${currentVerseIndex(rukuIndex, verseIndex)}` : isRuku ? `Input Ayat ${currentVerseIndex(rukuIndex)} di Ruku ${rukuIndex+1}` : 'Pilih Ruku atau Ayat!'}</div>
-                <TableForm isLoading={isLoading} chapter={chapter} verseInput={verseInput} setVerseInput={setVerseInput} clearInput={clearInput} ruku={ruku} setRuku={setRuku} rukuIndex={rukuIndex} verseIndex={verseIndex} isRuku={isRuku} isVerse={isVerse} />
+                <TableForm isLoading={isLoading} chapter={chapter} verseInput={verseInput} setVerseInput={setVerseInput} clearInput={clearInput} ruku={ruku} rukuIndex={rukuIndex} setRukuIndex={setRukuIndex} verseIndex={verseIndex} isRuku={isRuku} isVerse={isVerse} />
             </div>
         </div>
     )
