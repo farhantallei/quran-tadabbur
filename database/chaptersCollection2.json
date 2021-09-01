@@ -1201,7 +1201,74 @@
         "mysterious_letters": [
             ""
         ],
-        "position": [],
+        "position": [
+            [{
+                    "verse": {
+                        "arabic": [
+                            "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَوۡفُوا۟ بِٱلۡعُقُودِ أُحِلَّتۡ لَكُم بَهِيمَةُ ٱلۡأَنۡعَٰمِ إِلَّا مَا يُتۡلَىٰ عَلَيۡكُمۡ غَيۡرَ مُحِلِّى ٱلصَّيۡدِ وَأَنتُمۡ حُرُمٌ إِنَّ ٱللَّهَ يَحۡكُمُ مَا يُرِيدُ"
+                        ],
+                        "latin": [
+                            "yā ayyuhallażīna āmanū aufụ bil-'uqụd, uḥillat lakum bahīmatul-an'āmi illā mā yutlā 'alaikum gaira muḥilliṣ-ṣaidi wa antum ḥurum, innallāha yaḥkumu mā yurīd"
+                        ],
+                        "translation": [
+                            "Wahai orang-orang yang beriman! Penuhilah janji-janji. Hewan ternak dihalalkan bagimu, kecuali yang akan disebutkan kepadamu, dengan tidak menghalalkan berburu ketika kamu sedang berihram (haji atau umrah). Sesungguhnya Allah menetapkan hukum sesuai dengan yang Dia kehendaki."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُحِلُّوا۟ شَعَٰۤىِٕرَ ٱللَّهِ وَلَا ٱلشَّهۡرَ ٱلۡحَرَامَ وَلَا ٱلۡهَدۡىَ وَلَا ٱلۡقَلَٰۤىِٕدَ وَلَآ ءَاۤمِّينَ ٱلۡبَيۡتَ ٱلۡحَرَامَ يَبۡتَغُونَ فَضۡلࣰا مِّن رَّبِّهِمۡ وَرِضۡوَٰنࣰا وَإِذَا حَلَلۡتُمۡ فَٱصۡطَادُوا۟ وَلَا يَجۡرِمَنَّكُمۡ شَنَــَٔانُ قَوۡمٍ أَن صَدُّوكُمۡ عَنِ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ أَن تَعۡتَدُوا۟ وَتَعَاوَنُوا۟ عَلَى ٱلۡبِرِّ وَٱلتَّقۡوَىٰ وَلَا تَعَاوَنُوا۟ عَلَى ٱلۡإِثۡمِ وَٱلۡعُدۡوَٰنِ وَٱتَّقُوا۟ ٱللَّهَ إِنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ"
+                        ],
+                        "latin": [
+                            "yā ayyuhallażīna āmanụ lā tuḥillụ sya'ā`irallāhi wa lasy-syahral-ḥarāma wa lal-hadya wa lal-qalā`ida wa lā āmmīnal-baital-ḥarāma yabtagụna faḍlam mir rabbihim wa riḍwānā, wa iżā ḥalaltum faṣṭādụ, wa lā yajrimannakum syana`ānu qaumin an ṣaddụkum 'anil-masjidil-ḥarāmi an ta'tadụ, wa ta'āwanụ 'alal-birri wat-taqwā wa lā ta'āwanụ 'alal-iṡmi wal-'udwāni wattaqullāh, innallāha syadīdul-'iqāb"
+                        ],
+                        "translation": [
+                            "Wahai orang-orang yang beriman! Janganlah kamu melanggar syiar-syiar kesucian Allah, dan jangan (melanggar kehormatan) bulan-bulan haram, jangan (mengganggu) hadyu (hewan-hewan kurban) dan qala'id (hewan-hewan kurban yang diberi tanda), dan jangan (pula) mengganggu orang-orang yang mengunjungi Baitulharam; mereka mencari karunia dan keridaan Tuhannya. Tetapi apabila kamu telah menyelesaikan ihram, maka bolehlah kamu berburu. Jangan sampai kebencian(mu) kepada suatu kaum karena mereka menghalang-halangimu dari Masjidilharam, mendorongmu berbuat melampaui batas (kepada mereka). Dan tolong-menolonglah kamu dalam (mengerjakan) kebajikan dan takwa, dan jangan tolong-menolong dalam berbuat dosa dan permusuhan. Bertakwalah kepada Allah, sungguh, Allah sangat berat siksaan-Nya."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "حُرِّمَتۡ عَلَيۡكُمُ ٱلۡمَيۡتَةُ وَٱلدَّمُ وَلَحۡمُ ٱلۡخِنزِيرِ وَمَآ أُهِلَّ لِغَيۡرِ ٱللَّهِ بِهِۦ وَٱلۡمُنۡخَنِقَةُ وَٱلۡمَوۡقُوذَةُ وَٱلۡمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَـلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيۡتُمۡ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسۡتَقۡسِمُوا۟ بِٱلۡأَزۡلَٰمِ ذَٰلِكُمۡ فِسۡقٌ ٱلۡيَوۡمَ يَىِٕسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمۡ فَلَا تَخۡشَوۡهُمۡ وَٱخۡشَوۡنِ ٱلۡيَوۡمَ أَكۡمَلۡتُ لَكُمۡ دِينَكُمۡ وَأَتۡمَمۡتُ عَلَيۡكُمۡ نِعۡمَتِى وَرَضِيتُ لَكُمُ ٱلۡإِسۡلَٰمَ دِينࣰا فَمَنِ ٱضۡطُرَّ فِى مَخۡمَصَةٍ غَيۡرَ مُتَجَانِفࣲ لِّإِثۡمࣲ فَإِنَّ ٱللَّهَ غَفُورࣱ رَّحِيمࣱ"
+                        ],
+                        "latin": [
+                            "ḥurrimat 'alaikumul-maitatu wad-damu wa laḥmul-khinzīri wa mā uhilla ligairillāhi bihī wal-munkhaniqatu wal-mauqụżatu wal-mutaraddiyatu wan-naṭīḥatu wa mā akalas-sabu'u illā mā żakkaitum, wa mā żubiḥa 'alan-nuṣubi wa an tastaqsimụ bil-azlām, żālikum fisq, al-yauma ya`isallażīna kafarụ min dīnikum fa lā takhsyauhum wakhsyaụn, al-yauma akmaltu lakum dīnakum wa atmamtu 'alaikum ni'matī wa raḍītu lakumul-islāma dīnā, fa maniḍṭurra fī makhmaṣatin gaira mutajānifil li`iṡmin fa innallāha gafụrur raḥīm"
+                        ],
+                        "translation": [
+                            "Diharamkan bagimu (memakan) bangkai, darah, daging babi, dan (daging) hewan yang disembelih bukan atas (nama) Allah, yang tercekik, yang dipukul, yang jatuh, yang ditanduk, dan yang diterkam binatang buas, kecuali yang sempat kamu sembelih. Dan (diharamkan pula) yang disembelih untuk berhala. Dan (diharamkan pula) mengundi nasib dengan azlam (anak panah), (karena) itu suatu perbuatan fasik. Pada hari ini orang-orang kafir telah putus asa untuk (mengalahkan) agamamu, sebab itu janganlah kamu takut kepada mereka, tetapi takutlah kepada-Ku. Pada hari ini telah Aku sempurnakan agamamu untukmu, dan telah Aku cukupkan nikmat-Ku bagimu, dan telah Aku ridai Islam sebagai agamamu. Tetapi barangsiapa terpaksa karena lapar, bukan karena ingin berbuat dosa, maka sungguh, Allah Maha Pengampun, Maha Penyayang."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "يَسۡـَٔلُونَكَ مَاذَآ أُحِلَّ لَهُمۡ قُلۡ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ وَمَا عَلَّمۡتُم مِّنَ ٱلۡجَوَارِحِ مُكَـلِّبِينَ تُعَلِّمُونَهُنَّ مِمَّا عَلَّمَكُمُ ٱللَّهُ فَكُـلُوا۟ مِمَّآ أَمۡسَكۡنَ عَلَيۡكُمۡ وَٱذۡكُرُوا۟ ٱسۡمَ ٱللَّهِ عَلَيۡهِ وَٱتَّقُوا۟ ٱللَّهَ إِنَّ ٱللَّهَ سَرِيعُ ٱلۡحِسَابِ"
+                        ],
+                        "latin": [
+                            "yas`alụnaka māżā uḥilla lahum, qul uḥilla lakumuṭ-ṭayyibātu wa mā 'allamtum minal-jawāriḥi mukallibīna tu'allimụnahunna mimmā 'allamakumullāhu fa kulụ mimmā amsakna 'alaikum ważkurusmallāhi 'alaihi wattaqullāh, innallāha sarī'ul-ḥisāb"
+                        ],
+                        "translation": [
+                            "Mereka bertanya kepadamu (Muhammad), “Apakah yang dihalalkan bagi mereka?” Katakanlah, ”Yang dihalalkan bagimu (adalah makanan) yang baik-baik dan (buruan yang ditangkap) oleh binatang pemburu yang telah kamu latih untuk berburu, yang kamu latih menurut apa yang telah diajarkan Allah kepadamu. Maka makanlah apa yang ditangkapnya untukmu, dan sebutlah nama Allah (waktu melepasnya). Dan bertakwalah kepada Allah, sungguh, Allah sangat cepat perhitungan-Nya.”"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "ٱلۡيَوۡمَ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ وَطَعَامُ ٱلَّذِينَ أُوتُوا۟ ٱلۡكِتَٰبَ حِلࣱّ لَّكُمۡ وَطَعَامُكُمۡ حِلࣱّ لَّهُمۡ وَٱلۡمُحۡصَنَٰتُ مِنَ ٱلۡمُؤۡمِنَٰتِ وَٱلۡمُحۡصَنَٰتُ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلۡكِتَٰبَ مِن قَبۡلِكُمۡ إِذَآ ءَاتَيۡتُمُوهُنَّ أُجُورَهُنَّ مُحۡصِنِينَ غَيۡرَ مُسَٰفِحِينَ وَلَا مُتَّخِذِىٓ أَخۡدَانࣲ وَمَن يَكۡفُرۡ بِٱلۡإِيمَٰنِ فَقَدۡ حَبِطَ عَمَلُهُۥ وَهُوَ فِى ٱلۡٵخِرَةِ مِنَ ٱلۡخَٰسِرِينَ"
+                        ],
+                        "latin": [
+                            "al-yauma uḥilla lakumuṭ-ṭayyibāt, wa ṭa'āmullażīna ụtul-kitāba ḥillul lakum wa ṭa'āmukum ḥillul lahum wal-muḥṣanātu minal-mu`mināti wal-muḥṣanātu minallażīna ụtul-kitāba ming qablikum iżā ātaitumụhunna ujụrahunna muḥṣinīna gaira musāfiḥīna wa lā muttakhiżī akhdān, wa may yakfur bil-īmāni fa qad ḥabiṭa 'amaluhụ wa huwa fil-ākhirati minal-khāsirīn"
+                        ],
+                        "translation": [
+                            "Pada hari ini dihalalkan bagimu segala yang baik-baik. Makanan (sembelihan) Ahli Kitab itu halal bagimu, dan makananmu halal bagi mereka. Dan (dihalalkan bagimu menikahi) perempuan-perempuan yang menjaga kehormatan di antara perempuan-perempuan yang beriman dan perempuan-perempuan yang menjaga kehormatan di antara orang-orang yang diberi kitab sebelum kamu, apabila kamu membayar maskawin mereka untuk menikahinya, tidak dengan maksud berzina dan bukan untuk menjadikan perempuan piaraan. Barangsiapa kafir setelah beriman, maka sungguh, sia-sia amal mereka, dan di akhirat dia termasuk orang-orang yang rugi."
+                        ]
+                    }
+                }
+            ]
+        ],
         "_id": "61023bf7bd9691186c109d6e",
         "arabic_name": "المائدة",
         "latin_name": "Al Mā'idah",
@@ -1221,7 +1288,139 @@
         "mysterious_letters": [
             ""
         ],
-        "position": [],
+        "position": [
+            [{
+                    "verse": {
+                        "arabic": [
+                            "ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَ وَجَعَلَ ٱلظُّلُمَٰتِ وَٱلنُّورَ ثُمَّ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمۡ يَعۡدِلُونَ"
+                        ],
+                        "latin": [
+                            "al-ḥamdu lillāhillażī khalaqas-samāwāti wal-arḍa wa ja'alaẓ-ẓulumāti wan-nụr, ṡummallażīna kafarụ birabbihim ya'dilụn"
+                        ],
+                        "translation": [
+                            "Segala puji bagi Allah yang telah menciptakan langit dan bumi, dan menjadikan gelap dan terang, namun demikian orang-orang kafir masih mempersekutukan Tuhan mereka dengan sesuatu."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "هُوَ ٱلَّذِى خَلَقَكُم مِّن طِينࣲ ثُمَّ قَضىٰٓ أَجَلࣰا وَأَجَلࣱ مُّسَمًّى عِندَهُۥ ثُمَّ أَنتُمۡ تَمۡتَرُونَ"
+                        ],
+                        "latin": [
+                            "huwallażī khalaqakum min ṭīnin ṡumma qaḍā ajalā, wa ajalum musamman 'indahụ ṡumma antum tamtarụn"
+                        ],
+                        "translation": [
+                            "Dialah yang menciptakan kamu dari tanah, kemudian Dia menetapkan ajal (kematianmu), dan batas waktu tertentu yang hanya diketahui oleh-Nya. Namun demikian kamu masih meragukannya."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَهُوَ ٱللَّهُ فِى ٱلسَّمَٰوَٰتِ وَفِى ٱلۡأَرۡضِ يَعۡلَمُ سِرَّكُمۡ وَجَهۡرَكُمۡ وَيَعۡلَمُ مَا تَكۡسِبُونَ"
+                        ],
+                        "latin": [
+                            "wa huwallāhu fis-samāwāti wa fil-arḍ, ya'lamu sirrakum wa jahrakum wa ya'lamu mā taksibụn"
+                        ],
+                        "translation": [
+                            "Dan Dialah Allah (yang disembah), di langit maupun di bumi; Dia mengetahui apa yang kamu rahasiakan dan apa yang kamu nyatakan dan mengetahui (pula) apa yang kamu kerjakan."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَمَا تَأۡتِيهِم مِّنۡ ءَايَةࣲ مِّنۡ ءَايَٰتِ رَبِّهِمۡ إِلَّا كَـانُوا۟ عَنۡهَا مُعۡرِضِينَ"
+                        ],
+                        "latin": [
+                            "wa mā ta`tīhim min āyatim min āyāti rabbihim illā kānụ 'an-hā mu'riḍīn"
+                        ],
+                        "translation": [
+                            "Dan setiap ayat dari ayat-ayat Tuhan yang sampai kepada mereka (orang kafir), semuanya selalu diingkarinya."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "فَقَدۡ كَذَّبُوا۟ بِٱلۡحَقِّ لَمَّا جَاۤءَهُمۡ فَسَوۡفَ يَأۡتِيهِمۡ أَنۢبَٰۤؤُا۟ مَا كَـانُوا۟ بِهِۦ يَسۡتَهۡزِءُونَ"
+                        ],
+                        "latin": [
+                            "fa qad każżabụ bil-ḥaqqi lammā jā`ahum, fa saufa ya`tīhim ambā`u mā kānụ bihī yastahzi`ụn"
+                        ],
+                        "translation": [
+                            "Sungguh, mereka telah mendustakan kebenaran (Al-Qur'an) ketika sampai kepada mereka, maka kelak akan sampai kepada mereka (kenyataan dari) berita-berita yang selalu mereka perolok-olokkan."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "أَلَمۡ يَرَوۡا۟ كَمۡ أَهۡلَكۡنَا مِن قَبۡلِهِم مِّن قَرۡنࣲ مَّكَّنَّٰهُمۡ فِى ٱلۡأَرۡضِ مَا لَمۡ نُمَكِّن لَّكُمۡ وَأَرۡسَلۡنَا ٱلسَّمَاۤءَ عَلَيۡهِم مِّدۡرَارࣰا وَجَعَلۡنَا ٱلۡأَنۡهَٰرَ تَجۡرِى مِن تَحۡتِهِمۡ فَأَهۡلَكۡنَٰهُم بِذُنُوبِهِمۡ وَأَنشَأۡنَا مِنۢ بَعۡدِهِمۡ قَرۡنًا ءَاخَرِينَ"
+                        ],
+                        "latin": [
+                            "a lam yarau kam ahlaknā ming qablihim ming qarnim makkannāhum fil-arḍi mā lam numakkil lakum wa arsalnas-samā`a 'alaihim midrāraw wa ja'alnal-an-hāra tajrī min taḥtihim fa ahlaknāhum biżunụbihim wa ansya`nā mim ba'dihim qarnan ākharīn"
+                        ],
+                        "translation": [
+                            "Tidakkah mereka memperhatikan berapa banyak generasi sebelum mereka yang telah Kami binasakan, padahal (generasi itu) telah Kami teguhkan kedudukannya di bumi, yaitu keteguhan yang belum pernah Kami berikan kepadamu. Kami curahkan hujan yang lebat untuk mereka dan Kami jadikan sungai-sungai mengalir di bawah mereka, kemudian Kami binasakan mereka karena dosa-dosa mereka sendiri, dan Kami ciptakan generasi yang lain setelah generasi mereka."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَلَوۡ نَزَّلۡنَا عَلَيۡكَ كِتَٰبࣰا فِى قِرۡطَاسࣲ فَلَمَسُوهُ بِأَيۡدِيهِمۡ لَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنۡ هَٰذَآ إِلَّا سِحۡرࣱ مُّبِينࣱ"
+                        ],
+                        "latin": [
+                            "walau nazzalnā 'alaika kitāban fī qirṭāsin fa lamasụhu bi`aidīhim laqālallażīna kafarū in hāżā illā siḥrum mubīn"
+                        ],
+                        "translation": [
+                            "Dan sekiranya Kami turunkan kepadamu (Muhammad) tulisan di atas kertas, sehingga mereka dapat memegangnya dengan tangan mereka sendiri, niscaya orang-orang kafir itu akan berkata, “Ini tidak lain hanyalah sihir yang nyata.”"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَقَالُوا۟ لَوۡلَآ أُنزِلَ عَلَيۡهِ مَلَكࣱ وَلَوۡ أَنزَلۡنَا مَلَكࣰـا لَّقُضِىَ ٱلۡأَمۡرُ ثُمَّ لَا يُنظَرُونَ"
+                        ],
+                        "latin": [
+                            "wa qālụ lau lā unzila 'alaihi malak, walau anzalnā malakal laquḍiyal-amru ṡumma lā yunẓarụn"
+                        ],
+                        "translation": [
+                            "Dan mereka berkata, “Mengapa tidak diturunkan malaikat kepadanya (Muhammad)?” Jika Kami turunkan malaikat (kepadanya), tentu selesailah urusan itu, tetapi mereka tidak diberi penangguhan (sedikit pun)."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَلَوۡ جَعَلۡنَٰهُ مَلَكࣰـا لَّجَعَلۡنَٰهُ رَجُلࣰا وَلَلَبَسۡنَا عَلَيۡهِم مَّا يَلۡبِسُونَ"
+                        ],
+                        "latin": [
+                            "walau ja'alnāhu malakal laja'alnāhu rajulaw wa lalabasnā 'alaihim mā yalbisụn"
+                        ],
+                        "translation": [
+                            "Dan sekiranya rasul itu Kami jadikan (dari) malaikat, pastilah Kami jadikan dia (berwujud) laki-laki, dan (dengan demikian) pasti Kami akan menjadikan mereka tetap ragu sebagaimana kini mereka ragu."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَلَقَدِ ٱسۡتُهۡزِئَ بِرُسُلࣲ مِّن قَبۡلِكَ فَحَاقَ بِٱلَّذِينَ سَخِرُوا۟ مِنۡهُم مَّا كَـانُوا۟ بِهِۦ يَسۡتَهۡزِءُونَ"
+                        ],
+                        "latin": [
+                            "wa laqadistuhzi`a birusulim ming qablika fa ḥāqa billażīna sakhirụ min-hum mā kānụ bihī yastahzi`ụn"
+                        ],
+                        "translation": [
+                            "Dan sungguh, beberapa rasul sebelum engkau (Muhammad) telah diperolok-olokkan, sehingga turunlah azab kepada orang-orang yang mencemoohkan itu sebagai balasan olok-olokan mereka."
+                        ]
+                    }
+                }
+            ]
+        ],
         "_id": "61023c4abd9691186c109d71",
         "arabic_name": "الأنعام",
         "latin_name": "Al An‘ām",
@@ -1241,7 +1440,139 @@
         "mysterious_letters": [
             "المص"
         ],
-        "position": [],
+        "position": [
+            [{
+                    "verse": {
+                        "arabic": [
+                            "الۤمۤصۤ"
+                        ],
+                        "latin": [
+                            "alif lām mīm ṣād"
+                        ],
+                        "translation": [
+                            "Alif Lam Mim Shad."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "كِتَٰبٌ أُنزِلَ إِلَيۡكَ فَلَا يَكُن فِى صَدۡرِكَ حَرَجࣱ مِّنۡهُ لِتُنذِرَ بِهِۦ وَذِكۡرَىٰ لِلۡمُؤۡمِنِينَ"
+                        ],
+                        "latin": [
+                            "kitābun unzila ilaika fa lā yakun fī ṣadrika ḥarajum min-hu litunżira bihī wa żikrā lil-mu`minīn"
+                        ],
+                        "translation": [
+                            "(Inilah) Kitab yang diturunkan kepadamu (Muhammad); maka janganlah engkau sesak dada karenanya, agar engkau memberi peringatan dengan (Kitab) itu dan menjadi pelajaran bagi orang yang beriman."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "ٱتَّبِعُوا۟ مَآ أُنزِلَ إِلَيۡكُم مِّن رَّبِّكُمۡ وَلَا تَتَّبِعُوا۟ مِن دُونِهِۦٓ أَوۡلِيَاۤءَ قَلِيلࣰا مَّا تَذَكَّرُونَ"
+                        ],
+                        "latin": [
+                            "ittabi'ụ mā unzila ilaikum mir rabbikum wa lā tattabi'ụ min dụnihī auliyā`, qalīlam mā tażakkarụn"
+                        ],
+                        "translation": [
+                            "Ikutilah apa yang diturunkan kepadamu dari Tuhanmu, dan janganlah kamu ikuti selain Dia sebagai pemimpin. Sedikit sekali kamu mengambil pelajaran."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَكَم مِّن قَرۡيَةٍ أَهۡلَكۡنَٰهَا فَجَاۤءَهَا بَأۡسُنَا بَيَٰتًا أَوۡ هُمۡ قَاۤىِٕلُونَ"
+                        ],
+                        "latin": [
+                            "wa kam ming qaryatin ahlaknāhā fa jā`ahā ba`sunā bayātan au hum qā`ilụn"
+                        ],
+                        "translation": [
+                            "Betapa banyak negeri yang telah Kami binasakan, siksaan Kami datang (menimpa penduduk)nya pada malam hari, atau pada saat mereka beristirahat pada siang hari."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "فَمَا كَـانَ دَعۡوَىٰهُمۡ إِذۡ جَاۤءَهُم بَأۡسُنَآ إِلَّآ أَن قَالُوٓا۟ إِنَّا كُنَّا ظَٰلِمِينَ"
+                        ],
+                        "latin": [
+                            "fa mā kāna da'wāhum iż jā`ahum ba`sunā illā ang qālū innā kunnā ẓālimīn"
+                        ],
+                        "translation": [
+                            "Maka ketika siksaan Kami datang menimpa mereka, keluhan mereka tidak lain, hanya mengucap, “Sesungguhnya kami adalah orang-orang yang zalim.”"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "فَلَنَسۡـَٔلَنَّ ٱلَّذِينَ أُرۡسِلَ إِلَيۡهِمۡ وَلَنَسۡـَٔلَنَّ ٱلۡمُرۡسَلِينَ"
+                        ],
+                        "latin": [
+                            "fa lanas`alannallażīna ursila ilaihim wa lanas`alannal-mursalīn"
+                        ],
+                        "translation": [
+                            "Maka pasti akan Kami tanyakan kepada umat yang telah mendapat seruan (dari rasul-rasul) dan Kami akan tanyai (pula) para rasul,"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "فَلَنَقُصَّنَّ عَلَيۡهِم بِعِلۡمࣲ وَمَا كُنَّا غَاۤىِٕبِينَ"
+                        ],
+                        "latin": [
+                            "fa lanaquṣṣanna 'alaihim bi'ilmiw wa mā kunnā gā`ibīn"
+                        ],
+                        "translation": [
+                            "dan pasti akan Kami beritakan kepada mereka dengan ilmu (Kami) dan Kami tidak jauh (dari mereka)."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَٱلۡوَزۡنُ يَوۡمَىِٕذٍ ٱلۡحَقُّ فَمَن ثَقُلَتۡ مَوَٰزِينُهُۥ فَأُو۟لَٰۤىِٕكَ هُمُ ٱلۡمُفۡلِحُونَ"
+                        ],
+                        "latin": [
+                            "wal-waznu yauma`iżinil-ḥaqq, fa man ṡaqulat mawāzīnuhụ fa ulā`ika humul-mufliḥụn"
+                        ],
+                        "translation": [
+                            "Timbangan pada hari itu (menjadi ukuran) kebenaran. Maka barangsiapa berat timbangan (kebaikan)nya, mereka itulah orang yang beruntung,"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَمَنۡ خَفَّتۡ مَوَٰزِينُهُۥ فَأُو۟لَٰۤىِٕكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَـانُوا۟ بِـَٔايَٰتِنَا يَظۡلِمُونَ"
+                        ],
+                        "latin": [
+                            "wa man khaffat mawāzīnuhụ fa ulā`ikallażīna khasirū anfusahum bimā kānụ bi`āyātinā yaẓlimụn"
+                        ],
+                        "translation": [
+                            "dan barangsiapa ringan timbangan (kebaikan)nya, maka mereka itulah orang yang telah merugikan dirinya sendiri, karena mereka mengingkari ayat-ayat Kami."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَلَقَدۡ مَكَّنَّٰكُمۡ فِى ٱلۡأَرۡضِ وَجَعَلۡنَا لَكُمۡ فِيهَا مَعَٰيِشَ قَلِيلࣰا مَّا تَشۡكُرُونَ"
+                        ],
+                        "latin": [
+                            "wa laqad makkannākum fil-arḍi wa ja'alnā lakum fīhā ma'āyisy, qalīlam mā tasykurụn"
+                        ],
+                        "translation": [
+                            "Dan sungguh, Kami telah menempatkan kamu di bumi dan di sana Kami sediakan (sumber) penghidupan untukmu. (Tetapi) sedikit sekali kamu bersyukur."
+                        ]
+                    }
+                }
+            ]
+        ],
         "_id": "61023ce5bd9691186c109d74",
         "arabic_name": "الأعراف",
         "latin_name": "Al A’rāf",
@@ -1261,7 +1592,139 @@
         "mysterious_letters": [
             ""
         ],
-        "position": [],
+        "position": [
+            [{
+                    "verse": {
+                        "arabic": [
+                            "يَسۡـَٔلُونَكَ عَنِ ٱلۡأَنفَالِ قُلِ ٱلۡأَنفَالُ لِلَّهِ وَٱلرَّسُولِ فَٱتَّقُوا۟ ٱللَّهَ وَأَصۡلِحُوا۟ ذَاتَ بَيۡنِكُمۡ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥٓ إِن كُنتُم مُّؤۡمِنِينَ"
+                        ],
+                        "latin": [
+                            "yas`alụnaka 'anil-anfāl, qulil-anfālu lillāhi war-rasụl, fattaqullāha wa aṣliḥụ żāta bainikum wa aṭī'ullāha wa rasụlahū ing kuntum mu`minīn"
+                        ],
+                        "translation": [
+                            "Mereka menanyakan kepadamu (Muhammad) tentang (pembagian) harta rampasan perang. Katakanlah, “Harta rampasan perang itu milik Allah dan Rasul (menurut ketentuan Allah dan Rasul-Nya), maka bertakwalah kepada Allah dan perbaikilah hubungan di antara sesamamu, dan taatlah kepada Allah dan Rasul-Nya jika kamu orang-orang yang beriman.”"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "إِنَّمَا ٱلۡمُؤۡمِنُونَ ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتۡ قُلُوبُهُمۡ وَإِذَا تُلِيَتۡ عَلَيۡهِمۡ ءَايَٰتُهُۥ زَادَتۡهُمۡ إِيمَٰنࣰا وَعَلَىٰ رَبِّهِمۡ يَتَوَكَّـلُونَ"
+                        ],
+                        "latin": [
+                            "innamal-mu`minụnallażīna iżā żukirallāhu wajilat qulụbuhum wa iżā tuliyat 'alaihim āyātuhụ zādat-hum īmānaw wa 'alā rabbihim yatawakkalụn"
+                        ],
+                        "translation": [
+                            "Sesungguhnya orang-orang yang beriman adalah mereka yang apabila disebut nama Allah gemetar hatinya, dan apabila dibacakan ayat-ayat-Nya kepada mereka, bertambah (kuat) imannya dan hanya kepada Tuhan mereka bertawakal,"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقۡنَٰهُمۡ يُنفِقُونَ"
+                        ],
+                        "latin": [
+                            "allażīna yuqīmụnaṣ-ṣalāta wa mimmā razaqnāhum yunfiqụn"
+                        ],
+                        "translation": [
+                            "(Yaitu) orang-orang yang melaksanakan salat dan yang menginfakkan sebagian dari rezeki yang Kami berikan kepada mereka."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "أُو۟لَٰۤىِٕكَ هُمُ ٱلۡمُؤۡمِنُونَ حَقࣰّا لَّهُمۡ دَرَجَٰتٌ عِندَ رَبِّهِمۡ وَمَغۡفِرَةࣱ وَرِزۡقࣱ كَرِيمࣱ"
+                        ],
+                        "latin": [
+                            "ulā`ika humul-mu`minụna ḥaqqā, lahum darajātun 'inda rabbihim wa magfiratuw wa rizqung karīm"
+                        ],
+                        "translation": [
+                            "Mereka itulah orang-orang yang benar-benar beriman. Mereka akan memperoleh derajat (tinggi) di sisi Tuhannya dan ampunan serta rezeki (nikmat) yang mulia."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "كَمَآ أَخۡرَجَكَ رَبُّكَ مِنۢ بَيۡتِكَ بِٱلۡحَقِّ وَإِنَّ فَرِيقࣰا مِّنَ ٱلۡمُؤۡمِنِينَ لَكَٰرِهُونَ"
+                        ],
+                        "latin": [
+                            "kamā akhrajaka rabbuka mim baitika bil-ḥaqqi wa inna farīqam minal-mu`minīna lakārihụn"
+                        ],
+                        "translation": [
+                            "Sebagaimana Tuhanmu menyuruhmu pergi dari rumahmu dengan kebenaran, meskipun sesungguhnya sebagian dari orang-orang yang beriman itu tidak menyukainya,"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "يُجَٰدِلُونَكَ فِى ٱلۡحَقِّ بَعۡدَمَا تَبَيَّنَ كَـأَنَّمَا يُسَاقُونَ إِلَى ٱلۡمَوۡتِ وَهُمۡ يَنظُرُونَ"
+                        ],
+                        "latin": [
+                            "yujādilụnaka fil-ḥaqqi ba'da mā tabayyana ka`annamā yusāqụna ilal-mauti wa hum yanẓurụn"
+                        ],
+                        "translation": [
+                            "mereka membantahmu (Muhammad) tentang kebenaran setelah nyata (bahwa mereka pasti menang), seakan-akan mereka dihalau kepada kematian, sedang mereka melihat (sebab kematian itu)."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَإِذۡ يَعِدُكُمُ ٱللَّهُ إِحۡدَى ٱلطَّاۤىِٕفَتَيۡنِ أَنَّهَا لَكُمۡ وَتَوَدُّونَ أَنَّ غَيۡرَ ذَاتِ ٱلشَّوۡكَةِ تَكُونُ لَكُمۡ وَيُرِيدُ ٱللَّهُ أَن يُحِقَّ ٱلۡحَقَّ بِكَـلِمَٰتِهِۦ وَيَقۡطَعَ دَابِرَ ٱلۡكَٰفِرِينَ"
+                        ],
+                        "latin": [
+                            "wa iż ya'idukumullāhu iḥdaṭ-ṭā`ifataini annahā lakum wa tawaddụna anna gaira żātisy-syaukati takụnu lakum wa yurīdullāhu ay yuḥiqqal-ḥaqqa bikalimātihī wa yaqṭa'a dābiral-kāfirīn"
+                        ],
+                        "translation": [
+                            "Dan (ingatlah) ketika Allah menjanjikan kepadamu bahwa salah satu dari dua golongan (yang kamu hadapi) adalah untukmu, sedang kamu menginginkan bahwa yang tidak mempunyai kekuatan senjatalah untukmu. Tetapi Allah hendak membenarkan yang benar dengan ayat-ayat-Nya dan memusnahkan orang-orang kafir sampai ke akar-akarnya,"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "لِيُحِقَّ ٱلۡحَقَّ وَيُبۡطِلَ ٱلۡبَٰطِلَ وَلَوۡ كَرِهَ ٱلۡمُجۡرِمُونَ"
+                        ],
+                        "latin": [
+                            "liyuḥiqqal-ḥaqqa wa yubṭilal-bāṭila walau karihal-mujrimụn"
+                        ],
+                        "translation": [
+                            "agar Allah memperkuat yang hak (Islam) dan menghilangkan yang batil (syirik) walaupun orang-orang yang berdosa (musyrik) itu tidak menyukainya."
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "إِذۡ تَسۡتَغِيثُونَ رَبَّكُمۡ فَٱسۡتَجَابَ لَكُمۡ أَنِّى مُمِدُّكُم بِأَلۡفࣲ مِّنَ ٱلۡمَلَٰۤىِٕكَةِ مُرۡدِفِينَ"
+                        ],
+                        "latin": [
+                            "iż tastagīṡụna rabbakum fastajāba lakum annī mumiddukum bi`alfim minal-malā`ikati murdifīn"
+                        ],
+                        "translation": [
+                            "(Ingatlah), ketika kamu memohon pertolongan kepada Tuhanmu, lalu diperkenankan-Nya bagimu, “Sungguh, Aku akan mendatangkan bala bantuan kepadamu dengan seribu malaikat yang datang berturut-turut.”"
+                        ]
+                    }
+                },
+                {
+                    "verse": {
+                        "arabic": [
+                            "وَمَا جَعَلَهُ ٱللَّهُ إِلَّا بُشۡرَىٰ وَلِتَطۡمَىِٕنَّ بِهِۦ قُلُوبُكُمۡ وَمَا ٱلنَّصۡرُ إِلَّا مِنۡ عِندِ ٱللَّهِ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ"
+                        ],
+                        "latin": [
+                            "wa mā ja'alahullāhu illā busyrā wa litaṭma`inna bihī qulụbukum, wa man-naṣru illā min 'indillāh, innallāha 'azīzun ḥakīm"
+                        ],
+                        "translation": [
+                            "Dan tidaklah Allah menjadikannya melainkan sebagai kabar gembira agar hatimu menjadi tenteram karenanya. Dan kemenangan itu hanyalah dari sisi Allah. Sungguh, Allah Mahaperkasa, Mahabijaksana."
+                        ]
+                    }
+                }
+            ]
+        ],
         "_id": "61023d7abd9691186c109d89",
         "arabic_name": "الأنفال",
         "latin_name": "Al Anfāl",
@@ -6637,7 +7100,7 @@
                             "صۤ وَٱلۡقُرۡءَانِ ذِى ٱلذِّكۡرِ"
                         ],
                         "latin": [
-                            "shād, wal-qur`āni żiż-żikr"
+                            "ṣād, wal-qur`āni żiż-żikr"
                         ],
                         "translation": [
                             "Shad, demi Al-Qur'an yang mengandung peringatan."
