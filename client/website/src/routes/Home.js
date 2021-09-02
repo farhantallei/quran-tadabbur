@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useHistory, useLocation } from 'react-router-dom'
 
-import { getChapter, getData, getDataBySearch } from '../actions/quran'
+import { getChapter, getDataBySearch } from '../actions/quran'
 import Form from '../components/Form/Form'
 import Quran from '../components/Quran/Quran'
 
