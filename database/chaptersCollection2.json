@@ -24,6 +24,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": false,
         "position": [
             [{
                     "verse": {
@@ -153,6 +154,7 @@
         "mysterious_letters": [
             "الم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -648,6 +650,7 @@
         "mysterious_letters": [
             "الم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -889,6 +892,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -1201,6 +1205,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -1288,6 +1293,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -1440,6 +1446,7 @@
         "mysterious_letters": [
             "المص"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -1592,6 +1599,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -1747,6 +1755,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": false,
         "position": [
             [{
                     "verse": {
@@ -1847,6 +1856,7 @@
         "mysterious_letters": [
             "الر"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -1999,6 +2009,7 @@
         "mysterious_letters": [
             "الر"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -2125,6 +2136,7 @@
         "mysterious_letters": [
             "الر"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -2225,6 +2237,7 @@
         "mysterious_letters": [
             "المر"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -2338,6 +2351,7 @@
         "mysterious_letters": [
             "الر"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -2438,6 +2452,7 @@
         "mysterious_letters": [
             "الر"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -2655,6 +2670,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -2794,6 +2810,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -2949,6 +2966,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -3580,6 +3598,7 @@
         "mysterious_letters": [
             "كهيعص"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -3797,6 +3816,7 @@
         "mysterious_letters": [
             "طه"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -4131,6 +4151,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -4283,6 +4304,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -4435,6 +4457,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -4743,6 +4766,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -4895,6 +4919,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -5034,6 +5059,7 @@
         "mysterious_letters": [
             "طسم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -5173,6 +5199,7 @@
         "mysterious_letters": [
             "طس"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -5377,6 +5404,7 @@
         "mysterious_letters": [
             "طسم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -5568,6 +5596,7 @@
         "mysterious_letters": [
             "الم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -5759,6 +5788,7 @@
         "mysterious_letters": [
             "الم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -5911,6 +5941,7 @@
         "mysterious_letters": [
             "الم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -6076,6 +6107,7 @@
         "mysterious_letters": [
             "الم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -6241,6 +6273,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -6367,6 +6400,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -6506,6 +6540,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -6620,6 +6655,7 @@
         "mysterious_letters": [
             "يس"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -6798,6 +6834,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -7093,6 +7130,7 @@
         "mysterious_letters": [
             "ص"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -7297,6 +7335,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -7438,6 +7477,7 @@
         "mysterious_letters": [
             "حم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -7577,6 +7617,7 @@
         "mysterious_letters": [
             "حم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -7704,6 +7745,7 @@
             "حم",
             "عسق"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -7843,6 +7885,7 @@
         "mysterious_letters": [
             "حم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -8060,6 +8103,7 @@
         "mysterious_letters": [
             "حم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -8459,6 +8503,7 @@
         "mysterious_letters": [
             "حم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -8624,6 +8669,7 @@
         "mysterious_letters": [
             "حم"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -8776,6 +8822,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -8941,6 +8988,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -9093,6 +9141,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -9245,6 +9294,7 @@
         "mysterious_letters": [
             "ق"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -9462,6 +9512,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -9783,6 +9834,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -10169,6 +10221,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -10516,6 +10569,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -10824,6 +10878,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -11171,6 +11226,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -11687,6 +11743,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -11839,6 +11896,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -11939,6 +11997,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -12091,6 +12150,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -12191,6 +12251,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -12330,6 +12391,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -12456,6 +12518,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -12582,6 +12645,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -12734,6 +12798,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -12847,6 +12912,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -12962,6 +13028,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -13474,6 +13541,7 @@
         "mysterious_letters": [
             "ن"
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -13931,6 +13999,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -14434,6 +14503,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -14911,6 +14981,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -15193,6 +15264,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -15462,6 +15534,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -15744,6 +15817,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -16169,6 +16243,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -16582,6 +16657,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -16890,6 +16966,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -17432,6 +17509,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -17845,6 +17923,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -18205,6 +18284,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -18773,6 +18853,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -19172,6 +19253,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -19441,6 +19523,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -19931,6 +20014,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -20326,6 +20410,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -20634,6 +20719,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -20877,6 +20963,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -21146,6 +21233,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -21506,6 +21594,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -21918,6 +22007,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -22200,6 +22290,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -22417,6 +22508,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -22712,6 +22804,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -22877,6 +22970,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -23003,6 +23097,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -23131,6 +23226,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -23400,6 +23496,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -23490,6 +23587,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -23631,6 +23729,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -23757,6 +23856,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -23922,6 +24022,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -24096,6 +24197,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -24237,6 +24339,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -24310,6 +24413,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -24467,6 +24571,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -24566,6 +24671,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -24655,6 +24761,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -24774,6 +24881,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -24841,6 +24949,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -24959,6 +25068,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -25032,6 +25142,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -25141,6 +25252,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -25224,6 +25336,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
@@ -25338,6 +25451,7 @@
         "mysterious_letters": [
             ""
         ],
+        "opening": true,
         "position": [
             [{
                     "verse": {
