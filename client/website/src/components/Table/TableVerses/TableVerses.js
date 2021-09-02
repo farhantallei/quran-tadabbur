@@ -29,17 +29,20 @@ const TableVerses = ({ isLoading, chapter, setVerseInput, ruku, setRuku, setRuku
             <div className="table-layout">
                 <div className="table-scroll">
                     <div className="table-container">
-                        {isLoading ? 'Tunggu' : !chapter ? 'Error' : !ruku.length ? 'No data' : ruku.map((verses, rukuIndex) => (
-                            <div key={rukuIndex} className="ruku-list">
-                                <div style={{ textAlign: 'center', margin: '0 0 24px' }}>
-                                    <h3>Total: {verses.length} ayat</h3>
+                        {isLoading ? 'Tunggu' : !chapter ? 'Error' : !ruku.length ? 'No data' : (<>
+                            {chapter.opening ? <div style={{ textAlign: 'center', margin: '0 0 24px', fontSize: '36px'}}><h3 className="arabic">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</h3></div> : null}
+                            {ruku.map((verses, rukuIndex) => (
+                                <div key={rukuIndex} className="ruku-list">
+                                    <div style={{ textAlign: 'center', margin: '0 0 24px' }}>
+                                        <h3>Total: {verses.length} ayat</h3>
+                                    </div>
+                                    {verses.map((verseData, verseIndex) => (
+                                        <Verse key={verseIndex} currentVerseIndex={currentVerseIndex} verseData={verseData} rukuIndex={rukuIndex} verseIndex={verseIndex} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} />
+                                    ))}
+                                    <button onClick={() => handleVerse(rukuIndex)}>Tambah Ayat</button>
                                 </div>
-                                {verses.map((verseData, verseIndex) => (
-                                    <Verse key={verseIndex} currentVerseIndex={currentVerseIndex} verseData={verseData} rukuIndex={rukuIndex} verseIndex={verseIndex} setRukuIndex={setRukuIndex} setVerseIndex={setVerseIndex} />
-                                ))}
-                                <button onClick={() => handleVerse(rukuIndex)}>Tambah Ayat</button>
-                            </div>
-                        ))}
+                            ))}</>
+                        )}
                     </div>
                 </div>
             </div>
