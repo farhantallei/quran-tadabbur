@@ -1,11 +1,25 @@
 {
   "expo": {
-    "name": "client",
-    "slug": "client",
+    "name": "Quran Tadabbur",
+    "slug": "quran-tadabbur",
+    "privacy": "public",
+    "sdkVersion": "42.0.0",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "",
+    "ios": {
+      "bundleIdentifier": "com.bekalislam.qurantadabbur",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.bekalislam.qurantadabbur",
+      "permissions": [
+        ""
+      ]
+    },
+    "orientation": "portrait"
   },
-  "name": "client"
+  "name": "Quran Tadabbur"
 }
