@@ -12,7 +12,8 @@ const TableInfo = ({ isLoading, chapter, ruku }) => {
                             <div className="info-alias">{chapter.aliases.map((aliases, i, array) => (array.length - 1 === i) ? aliases : `${aliases} ● `)}</div>
                             <div className="info-arabic arabic">{chapter.arabic_name}</div>
                             <div className="info-literal">{chapter.literal}</div>
-                            <div className="info-verse">{ruku.length} rukuʻ ● {ruku.flat().length} ayat</div>
+                            {/* <div className="info-verse">{ruku.length} rukuʻ ● {ruku.flat().length} ayat</div> */}
+                            <div className="info-verse">{chapter.total_rukus} rukuʻ ● {chapter.total_verses} ayat</div>
                         </div>
                         <div className="table-separator"><svg width="100%" height="6" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" rx="3" fill="#f2f2f7" /></svg></div>
                         <div className="table-col-2-grid">

@@ -5,7 +5,7 @@ import { createData, updateData } from '../../actions/quran'
 
 const Form = ({ currentId, setCurrentId }) => {
     const dispatch = useDispatch()
-    const [quranData, setQuranData] = useState({ chapter_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '' })
+    const [quranData, setQuranData] = useState({ chapter_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '', total_verses: '', total_rukus: '' })
     const quran = useSelector((state) => currentId ? state.quran.chapters.find((chapter) => chapter._id === currentId) : null)
     const formScroll = useRef()
 
@@ -34,7 +34,7 @@ const Form = ({ currentId, setCurrentId }) => {
         for (let i = 0; i < input.length; i++) input[i].checked = false
 
         setCurrentId(0)
-        setQuranData({ chapter_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '' })
+        setQuranData({ chapter_id: '', arabic_name: '', latin_name: '', literal: '', aliases: '', classification: '', mysterious_letters: '', avail: '', total_verses: '', total_rukus: '' })
 
         formScroll.current.scrollTo({ top: 0, behavior: 'smooth'})
     }
@@ -80,6 +80,13 @@ const Form = ({ currentId, setCurrentId }) => {
 
                         <label className='label'>Huruf <span>Muqatta'at</span> <em>(pisahkan dengan tanda</em> &nbsp; <code><b>|</b></code> <em>)</em></label>
                         <input className='arabic field' name='mysterious_letters' type='text' value={quranData.mysterious_letters} onChange={(e) => setQuranData({ ...quranData, mysterious_letters: e.target.value })} />
+                        
+                        <label className='label'>Total <span>Ayat</span></label>
+                        <input className='field' name='total_verses' type='text' required value={quranData.total_verses} onChange={(e) => setQuranData({ ...quranData, total_verses: e.target.value })} />
+                        
+                        <label className='label'>Total <span>Ruku</span></label>
+                        <input className='field' name='total_rukus' type='text' required value={quranData.total_rukus} onChange={(e) => setQuranData({ ...quranData, total_rukus: e.target.value })} />
+
                         <input className={currentId ? 'submit submit-edit' : 'submit'} type='submit' value={currentId ? 'Edit' : 'Tambahkan!'} />
                     </form>
                     <button className='reset' onClick={clear}>Reset</button>
